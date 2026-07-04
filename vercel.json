@@ -1,6 +1,22 @@
 {
+  "buildCommand": "npm run build",
+  "outputDirectory": "public",
   "cleanUrls": true,
   "trailingSlash": false,
+  "redirects": [
+    {
+      "source": "/",
+      "has": [{ "type": "host", "value": "www.ariablackcarservice.com" }],
+      "destination": "https://ariablackcarservice.com/",
+      "permanent": true
+    },
+    {
+      "source": "/:path+",
+      "has": [{ "type": "host", "value": "www.ariablackcarservice.com" }],
+      "destination": "https://ariablackcarservice.com/:path+",
+      "permanent": true
+    }
+  ],
   "headers": [
     {
       "source": "/(.*)",

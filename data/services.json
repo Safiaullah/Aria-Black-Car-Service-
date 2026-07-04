@@ -1,0 +1,271 @@
+[
+  {
+    "slug": "airport-transfer",
+    "title": "Airport Transfer",
+    "h1": "NYC Airport Transfer Service",
+    "desc": "Flat-rate luxury airport transfers to JFK, LaGuardia, Newark, Teterboro and Westchester with flight tracking and meet-and-greet.",
+    "featured": true
+  },
+  {
+    "slug": "hourly",
+    "title": "Hourly Chauffeur",
+    "h1": "NYC Hourly Chauffeur Service",
+    "desc": "Professional chauffeur by the hour for meetings, events, and multi-stop itineraries across NYC and the tri-state area."
+  },
+  {
+    "slug": "corporate-shuttle",
+    "title": "Corporate Shuttle",
+    "h1": "NYC Corporate Shuttle Service",
+    "desc": "Executive shuttle programs with consolidated billing, dedicated account managers, and standing routes for your team."
+  },
+  {
+    "slug": "executive-car-service",
+    "title": "Executive Car Service",
+    "h1": "NYC Executive Car Service",
+    "desc": "Discreet executive transportation with NDA-ready chauffeurs, luxury sedans, and priority dispatch for C-suite travel."
+  },
+  {
+    "slug": "wedding",
+    "title": "Wedding Transportation",
+    "h1": "NYC Wedding Transportation",
+    "desc": "Elegant wedding day logistics with Sprinters, Escalades, and coordinated multi-vehicle timelines."
+  },
+  {
+    "slug": "sporting-events",
+    "title": "Sporting Events",
+    "h1": "NYC Sporting Events Car Service",
+    "desc": "Stress-free transfers to MSG, Yankee Stadium, MetLife, Barclays Center, and US Open."
+  },
+  {
+    "slug": "cruise-terminal",
+    "title": "Cruise Terminal",
+    "h1": "NYC Cruise Terminal Transfers",
+    "desc": "Door-to-pier service for Manhattan and Brooklyn cruise terminals with luggage assistance."
+  },
+  {
+    "slug": "point-to-point",
+    "title": "Point-to-Point",
+    "h1": "NYC Point-to-Point Car Service",
+    "desc": "Flat-rate private car service between any two addresses in NYC and the tri-state area."
+  },
+  {
+    "slug": "sightseeing-tours",
+    "title": "Sightseeing Tours",
+    "h1": "NYC Sightseeing Chauffeur Tours",
+    "desc": "Private NYC tours with a local chauffeur — 4, 6, or 8-hour curated itineraries."
+  },
+  {
+    "slug": "event-transportation",
+    "title": "Event Transportation",
+    "h1": "NYC Event Transportation",
+    "desc": "Galas, premieres, conferences, and private events with luxury fleet coordination."
+  },
+  {
+    "slug": "long-distance",
+    "title": "Long Distance",
+    "h1": "NYC Long-Distance Car Service",
+    "desc": "Comfortable private travel to Boston, Philadelphia, DC, the Hamptons, and the Northeast corridor."
+  },
+  {
+    "slug": "medical-transportation",
+    "title": "Medical Transportation",
+    "h1": "NYC Medical Transportation",
+    "desc": "Reliable non-emergency medical transport to hospitals and clinics with compassionate chauffeurs."
+  },
+  {
+    "slug": "night-out",
+    "title": "Night Out",
+    "h1": "NYC Night Out Car Service",
+    "desc": "Safe luxury transportation for dinners, Broadway, and nightlife across Manhattan."
+  },
+  {
+    "slug": "prom-limo",
+    "title": "Prom Limo",
+    "h1": "NYC Prom Limo & Sprinter",
+    "desc": "Memorable prom night transport with Sprinter vans and professional chauffeurs."
+  },
+  {
+    "slug": "graduation-transportation",
+    "title": "Graduation",
+    "h1": "NYC Graduation Transportation",
+    "desc": "Group graduation transport for families and schools with Sprinter and SUV options."
+  },
+  {
+    "slug": "bachelor-party",
+    "title": "Bachelor Party",
+    "h1": "NYC Bachelor Party Sprinter",
+    "desc": "Sprinter van nights out with your crew — unlimited stops within the metro area."
+  },
+  {
+    "slug": "birthday-limo",
+    "title": "Birthday Limo",
+    "h1": "NYC Birthday Limo & Sprinter",
+    "desc": "Celebrate in style with a dedicated chauffeur and luxury Sprinter or SUV."
+  },
+  {
+    "slug": "wine-tours",
+    "title": "Wine Tours",
+    "h1": "NYC Wine Tour Charter",
+    "desc": "North Fork and Hudson Valley wine tours with full-day chauffeur service."
+  },
+  {
+    "slug": "family",
+    "title": "Family Car Service",
+    "h1": "NYC Family Car Service",
+    "metaTitle": "NYC Family Car Service with Car Seats",
+    "desc": "Family-friendly black car service across NYC with complimentary child seats, extra luggage room, and patient, vetted chauffeurs.",
+    "intro": "<p class=\"lead\">Traveling with kids in New York is its own logistics puzzle — car seats, strollers, extra bags, and the anxiety of a curbside rideshare that shows up with no way to secure a toddler. Aria's family car service solves all of it in one booking: request the child seats you need when you reserve, and your chauffeur arrives with them already installed and inspected.</p>",
+    "sections": [
+      {
+        "h2": "Child Seats, Installed and Inspected",
+        "html": "<p>We provide the correct seat for every age and stage, at no extra charge, installed before pickup so you're never wrestling with LATCH anchors on a sidewalk with a flight to catch:</p><ul class=\"check-list\"><li><strong>Rear-facing infant seats</strong> — for newborns and infants up to ~35 lbs</li><li><strong>Convertible toddler seats</strong> — forward or rear-facing for 1–4 year-olds</li><li><strong>High-back & backless boosters</strong> — for school-age children up to ~4'9\"</li></ul><p>Just tell us your children's ages at booking and we handle the rest. Traveling with two or three? A Premium SUV or Executive Sprinter gives you the room for multiple seats plus a double stroller.</p>"
+      },
+      {
+        "h2": "Airport Travel With Kids, Made Calm",
+        "html": "<p>Family airport trips are where Aria earns its keep. Every transfer includes real-time flight tracking and <strong>60 minutes of complimentary wait time</strong>, so a slow bag carousel or a diaper change in arrivals never costs you the ride. Your chauffeur meets you inside at baggage claim with a name sign, helps load luggage and gear, and gets everyone buckled before you pull away. Flat rates from Manhattan run <strong>$165 to JFK</strong>, <strong>$140 to LaGuardia</strong>, and <strong>$180 to Newark</strong> — the same price at 5 a.m. with a red-eye as at rush hour.</p>"
+      },
+      {
+        "h2": "Chauffeurs Parents Trust",
+        "html": "<p>Every Aria chauffeur is NYC TLC-licensed, background-checked, and trained to drive smoothly and patiently — no sudden stops, no rushing a family that's still getting settled. Vehicles are non-smoking, sanitized between trips, and stocked with bottled water and phone chargers. Over <strong>5,000 completed trips</strong> at a <strong>5.0★ rating</strong> means we've done the school runs, the hospital discharges with a newborn, and the multi-generational airport pickups.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Do you provide car seats for free?",
+        "a": "Yes. Infant, convertible, and booster seats are complimentary — just tell us your children's ages when you book and we install them before pickup."
+      },
+      {
+        "q": "Can you fit two car seats and a stroller?",
+        "a": "Absolutely. A Premium SUV or Executive Sprinter comfortably fits multiple child seats plus strollers and luggage. Let us know your group and gear and we'll assign the right vehicle."
+      },
+      {
+        "q": "Is the child seat installed when you arrive?",
+        "a": "Yes — your chauffeur installs and inspects each seat before arrival so you never have to fit one yourself curbside."
+      },
+      {
+        "q": "How much is a family airport transfer?",
+        "a": "Flat rates from Manhattan are $165 to JFK, $140 to LaGuardia, and $180 to Newark, including tolls, flight tracking, and 60 minutes of wait time — the same price around the clock."
+      }
+    ]
+  },
+  {
+    "slug": "hotel",
+    "title": "Hotel Car Service",
+    "h1": "NYC Hotel Car Service",
+    "metaTitle": "NYC Hotel Car Service & Guest Transfers",
+    "desc": "Luxury car service for NYC hotel guests and concierge desks — airport transfers, event runs, and on-call chauffeurs with consolidated billing.",
+    "intro": "<p class=\"lead\">For a hotel guest, the ride is part of the stay. Aria partners with Manhattan hotels, boutique properties, and concierge teams to provide flat-rate luxury transfers that reflect the standard of the property — from a spotless S-Class at the porte-cochère to a discreet SUV waiting when the red-eye lands.</p>",
+    "sections": [
+      {
+        "h2": "For Concierge & Guest Services Teams",
+        "html": "<p>We make it effortless for your desk to book, track, and settle rides without juggling a rideshare app or a cash drawer:</p><ul class=\"check-list\"><li>One phone number and a dedicated account manager for your property</li><li>Consolidated monthly billing — no per-ride cash or guest reimbursements</li><li>Real-time confirmations and chauffeur ETA you can relay to guests</li><li>Guaranteed vehicle class — never a surprise compact at the curb</li><li>Meet-and-greet at the airport with the guest's name on the sign</li></ul>"
+      },
+      {
+        "h2": "What Guests Get",
+        "html": "<p>Every guest ride is a flat, all-inclusive rate quoted up front — no surge during checkout rush, bad weather, or a citywide event. Airport transfers include FAA flight tracking and 60 minutes of complimentary wait time; evening runs to dinner, Broadway, or a gala come with the same on-time reliability. Manhattan airport flat rates: <strong>JFK $165</strong>, <strong>LaGuardia $140</strong>, <strong>Newark $180</strong> (sedan). SUVs and Sprinters are available for families and groups.</p>"
+      },
+      {
+        "h2": "Discreet, Professional, On-Brand",
+        "html": "<p>Aria chauffeurs are TLC-licensed, uniformed, and trained in the quiet professionalism luxury guests expect — car doors, luggage, local knowledge, and zero small talk unless invited. For VIP and executive guests, NDA-ready chauffeurs and priority dispatch are available on request. The result is a transportation experience your guests associate with <em>your</em> hospitality.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Can our hotel set up an account with Aria?",
+        "a": "Yes. We offer partner accounts with a dedicated manager, consolidated monthly billing, and priority dispatch. Call (888) 503-4449 to set one up."
+      },
+      {
+        "q": "How do guests pay?",
+        "a": "Rides can be billed to the room, to the hotel's corporate account, or directly to the guest — whichever your property prefers. No cash handling required at the desk."
+      },
+      {
+        "q": "Do you offer meet-and-greet for arriving guests?",
+        "a": "Yes — chauffeurs greet guests inside at baggage claim with a name sign, assist with luggage, and track flights so pickup adjusts automatically to delays."
+      },
+      {
+        "q": "What are the airport flat rates for guests?",
+        "a": "From Manhattan hotels: $165 to JFK, $140 to LaGuardia, and $180 to Newark for a sedan, all-inclusive of tolls and wait time. SUVs available at higher flat rates."
+      }
+    ]
+  },
+  {
+    "slug": "private-aviation",
+    "title": "Private Aviation",
+    "h1": "NYC Private Aviation Ground Transportation",
+    "metaTitle": "NYC Private Jet & FBO Ground Transportation",
+    "desc": "Seamless ground transportation for private aviation — planeside and FBO transfers at Teterboro, Westchester, JFK, and the tri-state area.",
+    "intro": "<p class=\"lead\">Private aviation runs on precision, and the ground leg should match the air leg. Aria coordinates directly with FBOs and flight departments to deliver planeside and terminal transfers that are already waiting when your aircraft blocks in — at Teterboro, Westchester, Republic, and every major tri-state airport.</p>",
+    "sections": [
+      {
+        "h2": "FBO & Planeside Coordination",
+        "html": "<p>We work the way flight departments and charter operators do — around the tail number and the ATA, not a rideshare pin:</p><ul class=\"check-list\"><li>Tail-number tracking with automatic adjustment for early or delayed arrivals</li><li>Planeside pickup where the FBO permits ramp access</li><li>Direct coordination with Signature, Meridian, jetAviation, and other FBOs</li><li>Chauffeur staged and waiting before block-in — zero passenger wait</li><li>Discreet handling for principals, crews, and VIP passengers</li></ul>"
+      },
+      {
+        "h2": "Teterboro, Westchester & Beyond",
+        "html": "<p>Teterboro (TEB) is the busiest private-aviation gateway to Manhattan, and it's our home turf — flat sedan transfers to Midtown run <strong>$180</strong>, SUVs <strong>$250</strong>, typically 30–45 minutes depending on traffic. We also cover Westchester County (HPN) at <strong>$200 sedan / $270 SUV</strong>, Republic (FRG) on Long Island, and the private terminals at Newark and JFK. For multi-leg trips, one chauffeur can stay with your principal all day.</p>"
+      },
+      {
+        "h2": "The Right Vehicle for the Mission",
+        "html": "<p>Choose an Executive or First-Class Sedan (S-Class) for principals traveling solo, a Premium SUV for luggage-heavy or small-group trips, or an Executive Sprinter for full flight crews and larger parties. Every vehicle is immaculate, stocked, and staffed by a TLC-licensed chauffeur who understands the confidentiality private travel demands. NDA-ready chauffeurs available on request.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Can you pick up planeside at Teterboro?",
+        "a": "Where the FBO permits ramp access, yes — we coordinate planeside pickup. Otherwise your chauffeur is staged and waiting at the FBO entrance before your aircraft blocks in."
+      },
+      {
+        "q": "How much is a car from Teterboro to Manhattan?",
+        "a": "Flat rates are $180 for a sedan and $250 for an SUV, all-inclusive of tolls, with a typical 30–45 minute drive to Midtown."
+      },
+      {
+        "q": "Do you track private flights?",
+        "a": "Yes. We track by tail number and adjust the pickup automatically for early or delayed arrivals, so the car is always there when you are."
+      },
+      {
+        "q": "Can one chauffeur stay for a full-day multi-leg trip?",
+        "a": "Yes — hourly and as-directed service lets a single chauffeur remain with your principal across meetings and legs. Sedan hourly starts at $95/hr."
+      }
+    ]
+  },
+  {
+    "slug": "pharma-roadshow",
+    "title": "Pharma Roadshow",
+    "h1": "NYC Pharmaceutical Roadshow Transportation",
+    "metaTitle": "NYC Pharma & Investor Roadshow Car Service",
+    "desc": "Precision ground logistics for pharma and investor roadshows — multi-vehicle fleets, dedicated chauffeurs, and tight back-to-back scheduling across NYC.",
+    "intro": "<p class=\"lead\">A roadshow lives and dies by the schedule. Six investor meetings across Manhattan in a day leaves no room for a car that isn't already at the curb. Aria runs dedicated ground logistics for pharmaceutical, biotech, and investor roadshows — the same chauffeur and vehicle with your team all day, choreographed against a minute-by-minute itinerary.</p>",
+    "sections": [
+      {
+        "h2": "Built for Back-to-Back Meetings",
+        "html": "<p>We staff roadshows the way banks and IR firms expect them to run:</p><ul class=\"check-list\"><li>Dedicated as-directed chauffeur and vehicle for the full day or multi-day program</li><li>Pre-loaded itinerary — every address, arrival time, and buffer mapped in advance</li><li>Chauffeur waits at each stop; no re-booking between meetings</li><li>Multi-vehicle fleets for management teams traveling in parallel tracks</li><li>Single point of contact and consolidated billing for the whole program</li></ul>"
+      },
+      {
+        "h2": "Discretion and Reliability",
+        "html": "<p>Roadshow passengers are executives and investors discussing material, non-public information. Aria chauffeurs are TLC-licensed, background-checked, and available NDA-ready on request; vehicles are quiet, immaculate First-Class Sedans and SUVs with privacy and Wi-Fi. With over <strong>5,000 completed trips</strong> at a <strong>5.0★ rating</strong>, we understand that in this context, on-time isn't a nicety — it's the deliverable.</p>"
+      },
+      {
+        "h2": "Beyond Manhattan",
+        "html": "<p>Many programs span the corridor — a morning in Midtown, afternoon in Boston or Connecticut, next day in Philadelphia or DC. We handle the long-distance legs on the same account: flat rates like <strong>NYC → Boston $795</strong>, <strong>NYC → Philadelphia $425</strong>, and <strong>NYC → Washington DC $895</strong> (sedan), with the continuity of a chauffeur who already knows the itinerary.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Do we get the same chauffeur all day?",
+        "a": "Yes — roadshows run on dedicated as-directed service, so the same vetted chauffeur and vehicle stay with your team for the entire program."
+      },
+      {
+        "q": "Can you handle multiple vehicles for parallel meeting tracks?",
+        "a": "Yes. We deploy coordinated multi-vehicle fleets with a single point of contact and consolidated billing when management splits across simultaneous meetings."
+      },
+      {
+        "q": "How is a roadshow priced?",
+        "a": "As-directed hourly service (sedan from $95/hr, SUV from $135/hr, 3–4 hour minimums) with flat rates for any long-distance legs. We'll quote the full program up front."
+      },
+      {
+        "q": "Are chauffeurs discreet with confidential discussions?",
+        "a": "Every chauffeur is TLC-licensed and background-checked, with NDA-ready professionals available on request for sensitive investor and management travel."
+      }
+    ]
+  }
+]

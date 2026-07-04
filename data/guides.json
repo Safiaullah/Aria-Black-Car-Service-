@@ -1,0 +1,225 @@
+[
+  {
+    "slug": "best-way-from-jfk-to-manhattan",
+    "title": "Best Way from JFK to Manhattan (2026 Guide)",
+    "meta": "Compare JFK to Manhattan options: black car, taxi, Uber, AirTrain + subway. Flat rates, times, and which option fits your trip.",
+    "type": "comparison",
+    "updated": "May 2026",
+    "readTime": "8 min",
+    "tldr": ["Fastest with luggage: pre-booked black car with meet-and-greet","Best budget: AirTrain + subway (not ideal with heavy bags)","Avoid surge risk: flat-rate car service locked at booking"],
+    "options": [
+      {"name":"Private Black Car Service","time":"45–75 min door-to-door","cost":"From $165 flat (sedan)","pros":["Meet-and-greet at baggage claim","Flight tracking — no call if delayed","60 min complimentary wait","Fixed price — no surge"],"cons":["Higher than subway"],"bestFor":"Business travelers, families, international arrivals"},
+      {"name":"Yellow/Green Taxi","time":"45–75 min","cost":"$70–90 + tolls + tip","pros":["Curbside at terminal"],"cons":["Variable wait","No flight tracking","Meter + traffic uncertainty"],"bestFor":"Solo travelers with light luggage"},
+      {"name":"Uber / Lyft","time":"45–90 min","cost":"$60–120+ (surges common)","pros":["App convenience"],"cons":["Surge 2–3× at peaks","Curbside pickup confusion","Random vehicle class"],"bestFor":"Off-peak solo trips"},
+      {"name":"AirTrain + Subway","time":"60–90 min","cost":"~$10","pros":["Cheapest"],"cons":["Stairs, transfers, no luggage help"],"bestFor":"Budget solo travelers"}
+    ],
+    "faqs": [
+      {"q":"How much is a car from JFK to Manhattan?","a":"Aria Black Car Service charges a $165 flat rate for a sedan from JFK to Manhattan, including tolls, flight tracking, and 60 minutes wait time."},
+      {"q":"Is black car faster than Uber from JFK?","a":"Drive time is similar, but black car saves curbside confusion and includes terminal meet-and-greet — especially valuable after international flights."},
+      {"q":"How early should I book JFK car service?","a":"Book 24 hours ahead when possible. Same-day is often available — call (888) 503-4449."}
+    ]
+  },
+  {
+    "slug": "best-way-from-laguardia-to-manhattan",
+    "title": "Best Way from LaGuardia to Manhattan (2026 Guide)",
+    "meta": "LGA to Manhattan compared: black car, taxi, Uber, bus. LGA is NYC's closest airport — here's the smartest way in.",
+    "type": "comparison",
+    "updated": "May 2026",
+    "readTime": "7 min",
+    "tldr": ["Closest airport to Midtown — 25–40 min by car","Flat-rate black car from $140 — no surge","Q70 bus + subway is cheapest but slow with luggage"],
+    "options": [
+      {"name":"Aria Black Car Service","time":"25–40 min","cost":"From $140 flat","pros":["Closest airport — fastest door-to-door","Terminal meet-and-greet available","All tolls included"],"cons":[],"bestFor":"Executives and families"},
+      {"name":"Taxi","time":"25–45 min","cost":"$45–60 + tolls","pros":["Available at terminal"],"cons":["No guaranteed vehicle","Peak wait times"],"bestFor":"Quick solo trips"},
+      {"name":"Uber / Lyft","time":"30–50 min","cost":"$40–90","pros":["App booking"],"cons":["Surge during rush hour","LGA construction delays"],"bestFor":"Off-peak travel"},
+      {"name":"NYC Bus + Subway","time":"50–70 min","cost":"$2.90","pros":["Lowest cost"],"cons":["Not ideal with luggage"],"bestFor":"Budget travelers"}
+    ],
+    "faqs": [
+      {"q":"How much is LaGuardia to Manhattan?","a":"Flat rate from $140 for a sedan with Aria Black Car Service. SUVs from $200."},
+      {"q":"Which terminal does Aria serve at LGA?","a":"All LaGuardia terminals (A, B, C, D) with meet-and-greet inside arrivals."}
+    ]
+  },
+  {
+    "slug": "black-car-vs-uber-nyc",
+    "title": "Black Car vs Uber in NYC: Which Is Better?",
+    "meta": "Black car service vs Uber in NYC — compare pricing, reliability, airport pickup, surge, and vehicle quality for business and airport travel.",
+    "type": "comparison",
+    "updated": "May 2026",
+    "readTime": "10 min",
+    "comparison": [
+      {"factor":"Pricing","blackCar":"Flat rate locked at booking","uber":"Surge 2–3× at rush hour, rain, events"},
+      {"factor":"Airport pickup","blackCar":"Meet-and-greet inside terminal","uber":"Curbside — often confusing at JFK"},
+      {"factor":"Flight delays","blackCar":"Real-time tracking, auto-adjust","uber":"You must update pickup time"},
+      {"factor":"Vehicle","blackCar":"Guaranteed class (S-Class, Escalade)","uber":"Random — UberX vs Black inconsistent"},
+      {"factor":"Wait time","blackCar":"60 min free at airports","uber":"Short grace period, then fees"},
+      {"factor":"Chauffeur","blackCar":"TLC-licensed, uniformed, vetted","uber":"Gig drivers — variable experience"}
+    ],
+    "faqs": [
+      {"q":"Is black car more expensive than Uber?","a":"Off-peak Uber can be cheaper. During surge periods, black car flat rates are often comparable or less — with far better service."},
+      {"q":"When should I choose black car over Uber?","a":"Airport transfers, client meetings, events, and any trip where reliability and presentation matter."}
+    ]
+  },
+  {
+    "slug": "black-car-pricing-guide",
+    "title": "NYC Black Car Pricing Guide 2026",
+    "meta": "Complete NYC black car pricing: hourly rates, airport flat rates, long-distance routes. What's included and how to avoid hidden fees.",
+    "type": "pricing",
+    "updated": "May 2026",
+    "readTime": "12 min",
+    "faqs": [
+      {"q":"How much does black car service cost per hour in NYC?","a":"Executive sedans from $95/hour (3-hour minimum), first class sedans $175/hour, SUVs $135/hour, Sprinters $200/hour."},
+      {"q":"Are tolls included?","a":"Yes — Aria flat rates include standard tolls. No fuel surcharges or holiday premiums."},
+      {"q":"Is gratuity included?","a":"Gratuity is not included. 18–20% is customary for excellent service."}
+    ]
+  },
+  {
+    "slug": "what-is-black-car-service",
+    "title": "What Is Black Car Service? (Complete Guide)",
+    "meta": "What black car service means in NYC, how it differs from taxis and rideshare, and when to book a professional chauffeur.",
+    "type": "education",
+    "updated": "May 2026",
+    "readTime": "6 min",
+    "faqs": [
+      {"q":"Why is it called black car service?","a":"Traditionally, executive sedans and SUVs are black. Today it means pre-booked, professional chauffeur-driven luxury transport."},
+      {"q":"Do I need an account to book?","a":"No — book online or by phone. Corporate accounts are available for frequent travelers."}
+    ]
+  },
+  {
+    "slug": "how-to-book-black-car-service",
+    "title": "How to Book Black Car Service in NYC (Step-by-Step)",
+    "meta": "How to book NYC black car service: choose vehicle, flat vs hourly, airport details, and mistakes to avoid.",
+    "type": "howto",
+    "updated": "May 2026",
+    "readTime": "7 min",
+    "steps": [
+      "Choose flat-rate (airport/point-to-point) or hourly (multi-stop, events)",
+      "Select vehicle: sedan for 1–3 passengers, SUV for groups/luggage, Sprinter for 6+",
+      "Provide flight number for airport pickups — we track delays automatically",
+      "Request meet-and-greet inside the terminal for international arrivals",
+      "Book 24+ hours ahead; call for same-day availability"
+    ],
+    "mistakes": ["Not providing flight number","Booking Uber during known surge windows","Choosing sedan when you need SUV luggage capacity","Waiting until landing to book — availability tight at peak hours"],
+    "faqs": [
+      {"q":"Can I book same-day?","a":"Yes — call (888) 503-4449. 24-hour advance booking recommended for guaranteed vehicle class."}
+    ]
+  },
+  {
+    "slug": "jfk-terminal-guide",
+    "title": "JFK Terminal Guide 2026: Airlines, Tips & Car Service",
+    "meta": "JFK terminal guide — which airlines use each terminal, connections, and the best way to get to Manhattan by private car.",
+    "type": "airport-guide",
+    "updated": "May 2026",
+    "readTime": "9 min",
+    "terminals": [
+      {"name":"Terminal 1","airlines":"Air France, Lufthansa, Korean Air, and international carriers"},
+      {"name":"Terminal 4","airlines":"Delta, Emirates, Virgin Atlantic — busiest international terminal"},
+      {"name":"Terminal 5","airlines":"JetBlue"},
+      {"name":"Terminal 7","airlines":"British Airways, Cathay Pacific"},
+      {"name":"Terminal 8","airlines":"American Airlines"}
+    ],
+    "faqs": [
+      {"q":"How do I get from JFK to Manhattan?","a":"Pre-booked black car ($165 flat sedan) is the most reliable with luggage. AirTrain + subway is cheapest."},
+      {"q":"Does Aria pick up at all JFK terminals?","a":"Yes — all terminals with meet-and-greet inside arrivals available."}
+    ]
+  },
+  {
+    "slug": "manhattan-to-jfk-routes",
+    "title": "Manhattan to JFK: Best Routes & Drive Times",
+    "meta": "Van Wyck vs Belt Parkway vs Midtown Tunnel — which route is fastest from Manhattan to JFK by private car.",
+    "type": "route-guide",
+    "updated": "May 2026",
+    "readTime": "6 min",
+    "routes": [
+      {"name":"Midtown Tunnel → LIE → Van Wyck","time":"45–60 min","best":"East Side Manhattan, Queens approach"},
+      {"name":"Holland/Brooklyn → Belt Parkway","time":"50–75 min","best":"Downtown, Brooklyn connections"},
+      {"name":"RFK Bridge → Grand Central → Van Wyck","time":"50–70 min","best":"Upper East Side, Bronx"}
+    ],
+    "faqs": [
+      {"q":"How early should I leave Manhattan for JFK?","a":"Allow 60–90 minutes before international departure, 45–60 for domestic — plus airline check-in time."}
+    ]
+  },
+  {
+    "slug": "hamptons-transportation-guide",
+    "title": "NYC to Hamptons Transportation Guide 2026",
+    "meta": "How to get from NYC to the Hamptons: private car vs Jitney vs train. Summer Friday traffic tips and flat-rate pricing.",
+    "type": "route-guide",
+    "updated": "May 2026",
+    "readTime": "8 min",
+    "faqs": [
+      {"q":"How much is a car from Manhattan to the Hamptons?","a":"Flat rate from $595 sedan, $795 SUV. Summer Fridays book early — Route 27 traffic heavy."},
+      {"q":"How long is the drive?","a":"Typically 2–3 hours depending on destination (Southampton, East Hampton, Montauk) and traffic."}
+    ]
+  },
+  {
+    "slug": "corporate-car-service-guide",
+    "title": "Corporate Car Service NYC: Complete Guide",
+    "meta": "How to set up corporate car service in NYC — billing, TLC compliance, Uber for Business alternatives, and executive travel policies.",
+    "type": "corporate",
+    "updated": "May 2026",
+    "readTime": "11 min",
+    "faqs": [
+      {"q":"How do corporate accounts work?","a":"Monthly net-30 billing, dedicated account manager, trip reporting, and volume discounts."},
+      {"q":"Can chauffeurs sign NDAs?","a":"Yes — NDA-compliant chauffeurs available for sensitive executive travel."}
+    ]
+  },
+  {
+    "slug": "chauffeur-tipping-guide",
+    "title": "How Much to Tip Your Chauffeur in NYC",
+    "meta": "NYC chauffeur tipping guide — airport transfers, hourly service, and corporate travel gratuity standards.",
+    "type": "education",
+    "updated": "May 2026",
+    "readTime": "4 min",
+    "faqs": [
+      {"q":"Standard gratuity for black car?","a":"18–20% for excellent service. Airport flat rates from Aria do not include gratuity."}
+    ]
+  },
+  {
+    "slug": "tlc-license-explained",
+    "title": "TLC License Explained: Why It Matters for NYC Car Service",
+    "meta": "What NYC TLC licensing means for your safety — and why you should only book TLC-licensed black car services.",
+    "type": "education",
+    "updated": "May 2026",
+    "readTime": "5 min",
+    "faqs": [
+      {"q":"Are Aria chauffeurs TLC licensed?","a":"Yes — all chauffeurs hold valid NYC TLC For-Hire Vehicle licenses, background checks, and drug screening."}
+    ]
+  },
+  {
+    "slug": "airport-pickup-tips",
+    "title": "NYC Airport Pickup Tips: JFK, LGA & Newark",
+    "meta": "How airport pickups work at NYC airports — meet-and-greet, flight tracking, and what to do if your flight is delayed.",
+    "type": "howto",
+    "updated": "May 2026",
+    "readTime": "6 min",
+    "faqs": [
+      {"q":"Where does the chauffeur meet me?","a":"Inside the terminal at baggage claim with a name sign — not curbside."},
+      {"q":"What if my flight is delayed?","a":"We track your flight and adjust pickup automatically. No need to call."}
+    ]
+  },
+  {
+    "slug": "black-car-vs-taxi",
+    "title": "Black Car vs Taxi in NYC",
+    "meta": "Black car service vs NYC yellow taxi — pricing, comfort, airport pickup, and when each makes sense.",
+    "type": "comparison",
+    "updated": "May 2026",
+    "readTime": "7 min",
+    "comparison": [
+      {"factor":"Reservation","blackCar":"Pre-booked — guaranteed","taxi":"Street hail or stand — variable wait"},
+      {"factor":"Price","blackCar":"Flat rate known upfront","taxi":"Meter + tolls + traffic"},
+      {"factor":"Vehicle","blackCar":"Luxury sedan or SUV","taxi":"Standard sedan"},
+      {"factor":"Payment","blackCar":"Card on file, corporate billing","taxi":"Cash or card"}
+    ],
+    "faqs": []
+  },
+  {
+    "slug": "hourly-vs-point-to-point",
+    "title": "Hourly vs Point-to-Point Car Service",
+    "meta": "When to book hourly chauffeur service vs flat point-to-point rates in NYC.",
+    "type": "education",
+    "updated": "May 2026",
+    "readTime": "5 min",
+    "faqs": [
+      {"q":"When is hourly better?","a":"Multi-stop days, roadshows, weddings, wine tours — 3-hour minimum."},
+      {"q":"When is point-to-point better?","a":"Airport transfers and single A-to-B trips with known destinations."}
+    ]
+  }
+]

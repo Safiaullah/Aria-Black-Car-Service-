@@ -1,0 +1,9 @@
+[
+  {"slug":"jfk","code":"JFK","name":"JFK International Airport","full":"John F. Kennedy International Airport","sedan":165,"suv":230,"time":"45–75 min","route":"Van Wyck or Belt Parkway","img":"https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=1200&q=80"},
+  {"slug":"laguardia","code":"LGA","name":"LaGuardia Airport","full":"LaGuardia Airport","sedan":140,"suv":200,"time":"25–40 min","route":"Grand Central Pkwy / FDR","img":"https://images.unsplash.com/photo-1583608205776-bfd35f0d9df6?w=1200&q=80"},
+  {"slug":"newark","code":"EWR","name":"Newark Liberty Airport","full":"Newark Liberty International Airport","sedan":180,"suv":250,"time":"35–55 min","route":"Lincoln Tunnel or Holland","img":"https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=1200&q=80"},
+  {"slug":"teterboro","code":"TEB","name":"Teterboro Airport","full":"Teterboro Airport — Private Aviation","sedan":180,"suv":250,"time":"30–45 min","route":"George Washington Bridge","img":"https://images.unsplash.com/photo-1540962351504-03099e0a754b?w=1200&q=80"},
+  {"slug":"westchester","code":"HPN","name":"Westchester County Airport","full":"Westchester County Airport (HPN)","sedan":200,"suv":270,"time":"40–60 min","route":"Hutchinson River Pkwy","img":"https://images.unsplash.com/photo-1540962351504-03099e0a754b?w=1200&q=80"},
+  {"slug":"islip","code":"ISP","name":"Long Island MacArthur","full":"Long Island MacArthur Airport (ISP)","sedan":275,"suv":345,"time":"60–90 min","route":"LIE","img":"https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=1200&q=80"},
+  {"slug":"stewart","code":"SWF","name":"Stewart International","full":"Stewart International Airport (SWF)","sedan":350,"suv":420,"time":"75–100 min","route":"NYS Thruway","img":"https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=1200&q=80"}
+]
