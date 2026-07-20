@@ -2,9 +2,11 @@
   {
     "slug": "airport-transfer",
     "title": "Airport Transfer",
-    "h1": "NYC Airport Transfer Service",
-    "desc": "Flat-rate luxury airport transfers to JFK, LaGuardia, Newark, Teterboro and Westchester with flight tracking and meet-and-greet.",
-    "featured": true
+    "h1": "NYC Airport Car Service",
+    "desc": "NYC airport car service to JFK, LaGuardia, Newark, Teterboro & Westchester. Flat rates, flight tracking, meet-and-greet, airport chauffeur service 24/7.",
+    "featured": true,
+    "metaTitle": "NYC Airport Car Service | JFK, LGA & Newark Transfers",
+    "intro": "<p class=\"lead\">Aria's <strong>NYC airport car service</strong> delivers flat-rate transfers to and from JFK, LaGuardia, Newark, Teterboro, and Westchester — every trip flight-tracked, with meet-and-greet and 60 minutes of complimentary wait time. Book professional <strong>airport chauffeur service</strong> with a TLC-licensed driver and no surge pricing, 24/7.</p>"
   },
   {
     "slug": "hourly",
@@ -15,14 +17,18 @@
   {
     "slug": "corporate-shuttle",
     "title": "Corporate Shuttle",
-    "h1": "NYC Corporate Shuttle Service",
-    "desc": "Executive shuttle programs with consolidated billing, dedicated account managers, and standing routes for your team."
+    "h1": "NYC Corporate Car Service",
+    "desc": "NYC corporate car service with consolidated billing, dedicated account managers, and executive shuttle routes for your team and clients. Flat-rate, 24/7.",
+    "metaTitle": "NYC Corporate Car Service | Executive Accounts & Shuttle",
+    "intro": "<p class=\"lead\">Aria's <strong>corporate car service</strong> keeps your team and clients moving with executive sedans, SUVs, and Sprinter shuttles — backed by consolidated monthly billing, a dedicated account manager, and priority dispatch. From daily executive travel to standing shuttle routes and client transportation, every ride is flat-rate and reliable.</p>"
   },
   {
     "slug": "executive-car-service",
     "title": "Executive Car Service",
-    "h1": "NYC Executive Car Service",
-    "desc": "Discreet executive transportation with NDA-ready chauffeurs, luxury sedans, and priority dispatch for C-suite travel."
+    "h1": "NYC Executive Chauffeur Service",
+    "desc": "NYC chauffeur service with dedicated TLC-licensed drivers and first-class vehicles — private, executive, and luxury chauffeur transport, flat-rate and 24/7.",
+    "metaTitle": "NYC Chauffeur Service | Private & Executive Car Service",
+    "intro": "<p class=\"lead\">Aria's <strong>NYC chauffeur service</strong> pairs a dedicated, TLC-licensed professional driver with a first-class sedan or SUV for executives, VIPs, and discerning travelers. Whether you need a <strong>private chauffeur service</strong> for the day, discreet executive transport, or a <strong>luxury chauffeur</strong> for airport and corporate travel, every ride is flat-rate, on time, and NDA-ready on request — 24 hours a day.</p>"
   },
   {
     "slug": "wedding",

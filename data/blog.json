@@ -144,47 +144,6 @@
     "readTime": "6 min"
   },
   {
-    "slug": "tlc-license-explained",
-    "title": "What Is a TLC License? NYC For-Hire Vehicle Rules Explained (2026)",
-    "meta": "What a NYC TLC license is, why it matters for black car service, and how to verify your chauffeur is properly licensed and insured.",
-    "category": "Education",
-    "updated": "July 2026",
-    "readTime": "8 min",
-    "intro": "<p class=\"lead\">If you've booked a black car in New York City, the single most important thing separating a legitimate, insured ride from a liability is two words: <strong>TLC license</strong>. Here's exactly what that means, why it matters, and how to make sure the car pulling up for you is legal.</p>",
-    "sections": [
-      {
-        "h2": "What the TLC Actually Is",
-        "html": "<p>The <strong>New York City Taxi &amp; Limousine Commission (TLC)</strong> is the agency that licenses and regulates every for-hire vehicle in the five boroughs — yellow cabs, green cabs, black cars, limousines, and app-based rideshare. If a vehicle is being paid to carry passengers in NYC, both the <em>driver</em> and the <em>vehicle</em> must carry a valid TLC license. There are no exceptions, and the fines for operating without one are steep.</p>"
-      },
-      {
-        "h2": "Why a TLC License Protects You",
-        "html": "<p>A TLC license isn't bureaucratic box-ticking — it's your safety net:</p><ul class=\"check-list\"><li>The driver has passed a fingerprint-based background check</li><li>The driver has completed TLC-approved defensive driving and passenger-safety training</li><li>The vehicle carries commercial insurance at far higher limits than a personal auto policy</li><li>The vehicle passes mandatory multi-point safety inspections several times a year</li><li>There is a regulated complaint and accountability process behind every ride</li></ul><p>Book an unlicensed \"gypsy\" car and none of that applies — if something goes wrong, you may have no coverage at all.</p>"
-      },
-      {
-        "h2": "TLC Driver License vs. Vehicle License",
-        "html": "<p>Two separate credentials are required. The <strong>driver</strong> holds a TLC Driver License (a paid, background-checked, medically-cleared for-hire operator permit). The <strong>vehicle</strong> holds a TLC vehicle license, shown by the official TLC diamond plate and a rate card. A legitimate operator has both; a rideshare acquaintance in a personal car has neither.</p>"
-      },
-      {
-        "h2": "How to Verify Your Chauffeur",
-        "html": "<p>Every Aria chauffeur is TLC-licensed, and you can confirm any NYC for-hire driver yourself:</p><ul class=\"check-list\"><li>Look for the TLC diamond license plate on the vehicle</li><li>Check for the TLC driver ID displayed in the car</li><li>Use the TLC's public 'Look Up a License' tool on nyc.gov with the license number</li><li>Book only with an established company that hires exclusively TLC-licensed chauffeurs</li></ul>"
-      }
-    ],
-    "faqs": [
-      {
-        "q": "Do black car services need a TLC license in NYC?",
-        "a": "Yes. Every for-hire vehicle and driver operating in NYC's five boroughs must hold a valid TLC license. Aria uses exclusively TLC-licensed, background-checked chauffeurs."
-      },
-      {
-        "q": "How do I check if a driver is TLC licensed?",
-        "a": "Look for the TLC diamond plate and the driver ID in the vehicle, and verify the number using the TLC's public 'Look Up a License' tool at nyc.gov."
-      },
-      {
-        "q": "Is Uber TLC licensed?",
-        "a": "App-based rideshare drivers in NYC are required to hold TLC licenses too — but vehicle class, insurance, and driver vetting still vary widely versus a dedicated black car service with a professional, uniformed chauffeur."
-      }
-    ]
-  },
-  {
     "slug": "what-is-black-car-service",
     "title": "What Is a Black Car Service? A Complete Guide (2026)",
     "meta": "Black car service explained — how it differs from taxis, limos, and rideshare, what it costs, and when it's worth booking.",

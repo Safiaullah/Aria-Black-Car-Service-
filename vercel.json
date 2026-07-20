@@ -5,14 +5,34 @@
   "trailingSlash": false,
   "redirects": [
     {
+      "source": "/blog/tlc-license-explained",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/guides/tlc-license-explained",
+      "destination": "/guides",
+      "permanent": true
+    },
+    {
       "source": "/",
-      "has": [{ "type": "host", "value": "www.ariablackcarservice.com" }],
+      "has": [
+        {
+          "type": "host",
+          "value": "www.ariablackcarservice.com"
+        }
+      ],
       "destination": "https://ariablackcarservice.com/",
       "permanent": true
     },
     {
       "source": "/:path+",
-      "has": [{ "type": "host", "value": "www.ariablackcarservice.com" }],
+      "has": [
+        {
+          "type": "host",
+          "value": "www.ariablackcarservice.com"
+        }
+      ],
       "destination": "https://ariablackcarservice.com/:path+",
       "permanent": true
     }
@@ -21,8 +41,14 @@
     {
       "source": "/(.*)",
       "headers": [
-        { "key": "X-Content-Type-Options", "value": "nosniff" },
-        { "key": "X-Frame-Options", "value": "DENY" }
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "X-Frame-Options",
+          "value": "DENY"
+        }
       ]
     }
   ]

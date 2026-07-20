@@ -380,11 +380,13 @@ function servicePage(s) {
 }
 
 function airportPage(a) {
+  const h1 = a.h1 || `${a.name} Car Service`;
+  const lead = a.intro || `<p class="lead">Aria provides reliable luxury transfers to and from ${esc(a.full)}. Typical drive time from Manhattan: <strong>${esc(a.time)}</strong> via ${esc(a.route)}.</p>`;
   const body = `
-    ${pageHero(a.h1, `Flat-rate ${a.full} car service with flight tracking and meet-and-greet.`, a.code)}
+    ${pageHero(h1, `Flat-rate ${a.full} car service with flight tracking and meet-and-greet.`, a.code)}
     <section class="page-section"><div class="container prose-grid">
       <div class="prose">
-        <p class="lead">Aria provides reliable luxury transfers to and from ${esc(a.full)}. Typical drive time from Manhattan: <strong>${esc(a.time)}</strong> via ${esc(a.route)}.</p>
+        ${lead}
         <h2>Flat Rates from Manhattan</h2>
         <table class="pricing-table"><tbody>
           <tr><td>Executive Sedan</td><td><strong>$${a.sedan}</strong> all-inclusive</td></tr>
@@ -420,8 +422,8 @@ function airportPage(a) {
     ${ctaBlock()}`;
 
   return layout({
-    title: `${a.h1} | ${site.name}`,
-    description: `Flat-rate ${a.name} car service. Sedan $${a.sedan}, SUV $${a.suv}. Meet-and-greet, flight tracking, 24/7.`,
+    title: `${a.metaTitle || h1} | ${site.name}`,
+    description: a.metaDesc || `Flat-rate ${a.name} car service. Sedan $${a.sedan}, SUV $${a.suv}. Meet-and-greet, flight tracking, 24/7.`,
     canonical: `/airports/${a.slug}`,
     bc: breadcrumbs([
       { label: "Home", href: "/" },
