@@ -2,7 +2,10 @@
  * Aria Black Car Service — Interactive experience
  */
 
+const BOOKING_URL = "https://book.mylimobiz.com/v4/nobleblackcar";
+
 document.addEventListener("DOMContentLoaded", () => {
+  initHeroVideo();
   initNavbar();
   initMobileMenu();
   initFleetTabs();
@@ -10,7 +13,34 @@ document.addEventListener("DOMContentLoaded", () => {
   initReveal();
   initBookingForm();
   initCounters();
+  initBookingModal();
 });
+
+/** Hero background: smooth ping-pong via forward + pre-rendered reverse clips. */
+function initHeroVideo() {
+  const forward = document.querySelector('.hero-bg video[data-hero="forward"]');
+  const reverse = document.querySelector('.hero-bg video[data-hero="reverse"]');
+  if (!forward || !reverse) return;
+
+  let active = forward;
+  let idle = reverse;
+
+  const swap = () => {
+    idle.currentTime = 0;
+    idle.classList.add("is-active");
+    active.classList.remove("is-active");
+    active.pause();
+    idle.play().catch(() => {});
+    [active, idle] = [idle, active];
+  };
+
+  forward.addEventListener("ended", swap);
+  reverse.addEventListener("ended", swap);
+
+  const start = () => forward.play().catch(() => {});
+  if (forward.readyState >= 1) start();
+  else forward.addEventListener("loadedmetadata", start, { once: true });
+}
 
 function initNavbar() {
   const navbar = document.querySelector(".navbar");
@@ -135,6 +165,60 @@ function initCounters() {
   );
 
   counters.forEach((c) => observer.observe(c));
+}
+
+function initBookingModal() {
+  const links = document.querySelectorAll(".js-open-booking");
+  if (!links.length) return;
+
+  const modal = document.createElement("div");
+  modal.className = "booking-modal";
+  modal.setAttribute("role", "dialog");
+  modal.setAttribute("aria-modal", "true");
+  modal.setAttribute("aria-label", "Online reservations");
+  modal.hidden = true;
+  modal.innerHTML = `
+    <div class="booking-modal-backdrop" data-close-booking></div>
+    <div class="booking-modal-panel">
+      <header class="booking-modal-header">
+        <span class="booking-modal-title">Book Your Ride</span>
+        <button type="button" class="booking-modal-close" aria-label="Close booking">&times;</button>
+      </header>
+      <iframe class="booking-modal-iframe" title="Aria Black Car — online reservations" src="about:blank" loading="lazy"></iframe>
+    </div>
+  `;
+  document.body.appendChild(modal);
+
+  const iframe = modal.querySelector(".booking-modal-iframe");
+  let loaded = false;
+
+  const open = () => {
+    if (!loaded) {
+      iframe.src = BOOKING_URL;
+      loaded = true;
+    }
+    modal.hidden = false;
+    document.body.classList.add("booking-modal-open");
+  };
+
+  const close = () => {
+    modal.hidden = true;
+    document.body.classList.remove("booking-modal-open");
+  };
+
+  links.forEach((link) => {
+    link.addEventListener("click", (e) => {
+      e.preventDefault();
+      open();
+    });
+  });
+
+  modal.querySelector("[data-close-booking]")?.addEventListener("click", close);
+  modal.querySelector(".booking-modal-close")?.addEventListener("click", close);
+
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "Escape" && !modal.hidden) close();
+  });
 }
 
 function initBookingForm() {

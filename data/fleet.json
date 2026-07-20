@@ -1,0 +1,70 @@
+[
+  {
+    "slug": "business-sedan",
+    "tier": "Executive Sedan",
+    "h1": "Executive Sedan Fleet",
+    "pax": "3",
+    "bags": "3",
+    "hourly": 95,
+    "jfk": 165,
+    "vehicles": [
+      { "name": "Mercedes-Benz E-Class", "image": "mercedes-e-class.png", "pax": "3" },
+      { "name": "Cadillac CT6", "image": "cadillac-ct6.png", "pax": "3" },
+      { "name": "Cadillac Lyriq", "image": "cadillac-lyriq.png", "pax": "5" },
+      { "name": "Cadillac XT6", "image": "cadillac-xt6.png", "pax": "6" }
+    ]
+  },
+  {
+    "slug": "first-class-sedan",
+    "tier": "First Class Sedan",
+    "h1": "First Class Sedan Fleet",
+    "pax": "3",
+    "bags": "3",
+    "hourly": 175,
+    "jfk": 250,
+    "vehicles": [
+      { "name": "Mercedes-Benz S-Class", "image": "mercedes-s-class.png", "pax": "3" },
+      { "name": "BMW 7 Series", "image": "bmw-7-series.png", "pax": "3" }
+    ]
+  },
+  {
+    "slug": "business-suv",
+    "tier": "Premium SUV",
+    "h1": "Premium SUV Fleet",
+    "pax": "6",
+    "bags": "6",
+    "hourly": 135,
+    "jfk": 230,
+    "vehicles": [
+      { "name": "Chevrolet Suburban", "image": "chevrolet-suburban.png", "pax": "6" },
+      { "name": "GMC Yukon XL", "image": "gmc-yukon.png", "pax": "6" }
+    ]
+  },
+  {
+    "slug": "first-class-suv",
+    "tier": "First Class SUV",
+    "h1": "First Class SUV Fleet",
+    "pax": "6",
+    "bags": "6",
+    "hourly": 150,
+    "jfk": 250,
+    "vehicles": [
+      { "name": "Cadillac Escalade ESV", "image": "cadillac-escalade.png", "pax": "6" }
+    ]
+  },
+  {
+    "slug": "sprinter",
+    "tier": "Sprinters",
+    "h1": "Mercedes-Benz Sprinter Fleet",
+    "pax": "14",
+    "bags": "14",
+    "hourly": 200,
+    "jfk": 350,
+    "vehicles": [
+      { "name": "Executive Sprinter", "image": "executive-sprinter.png", "pax": "14" },
+      { "name": "Limo Sprinter", "image": "limo-sprinter.png", "pax": "18" },
+      { "name": "Jet Sprinter", "image": "jet-sprinter.png", "pax": "13" },
+      { "name": "ADA Sprinter", "image": "ada-sprinter.png", "pax": "11" }
+    ]
+  }
+]

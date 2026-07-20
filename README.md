@@ -6,10 +6,28 @@ Premium luxury black car website for **ariablackcarservice.com**.
 
 ```bash
 cd "/Users/samiramohammad/Aria Black Car Service"
-python3 -m http.server 8080
+npm run build
+npm run dev
 ```
 
 Open [http://localhost:8080](http://localhost:8080)
+
+## Site structure (118 pages)
+
+| Section | Pages |
+|---------|-------|
+| Services | 18 (`/services/*`) |
+| Airports | 7 (`/airports/*`) |
+| Routes | 23 (`/routes/*`) |
+| Locations | 10 (`/locations/*`) |
+| Fleet | 5 (`/fleet/*`) |
+| Corporate | 3 (`/corporate/*`) |
+| Events | 4 (`/events/*`) |
+| Guides (SEO listicles) | 15 (`/guides/*`) |
+| Blog | 18 (`/blog/*`) |
+| Core | home, book, pricing, faq, about, contact, terms, privacy |
+
+Edit content in `data/*.json`, then run `npm run build`. Output goes to `public/` for Vercel.
 
 ## Deploy
 

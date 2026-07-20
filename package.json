@@ -1,0 +1,15 @@
+{
+  "name": "aria-black-car-service",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "node scripts/build.js",
+    "dev": "npm run build && npx serve public -p 8080",
+    "indexnow": "node scripts/submit-indexnow.js",
+    "indexchex": "node scripts/indexchex.js submit",
+    "indexchex:balance": "node scripts/indexchex.js balance",
+    "indexchex:check": "node scripts/indexchex.js check",
+    "indexchex:submit": "node scripts/indexchex.js submit",
+    "indexchex:submit:instant": "node scripts/indexchex.js submit:instant"
+  }
+}

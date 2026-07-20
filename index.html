@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="theme-color" content="#c9a962" />
+  <meta name="theme-color" content="#050505" />
   <title>Aria Black Car Service NYC | Luxury Airport & Chauffeur Transport</title>
   <meta name="description" content="Aria Black Car Service — premium NYC black car & chauffeur service. Flat-rate airport transfers to JFK, LaGuardia & Newark. Corporate travel, hourly hire & events. TLC licensed, 24/7. Book at ariablackcarservice.com" />
   <meta name="keywords" content="aria black car service, black car service nyc, luxury car service manhattan, airport car service nyc, jfk black car, corporate car service nyc, chauffeur service manhattan" />
@@ -17,9 +17,10 @@
   <meta name="twitter:card" content="summary_large_image" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="dns-prefetch" href="https://book.mylimobiz.com" />
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Outfit:wght@300;400;500;600;700&family=Pinyon+Script&display=swap" rel="stylesheet" />
   <link rel="icon" href="favicon.svg" type="image/svg+xml" />
-  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="stylesheet" href="css/styles.css?v=31" />
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -28,7 +29,7 @@
     "image": "https://ariablackcarservice.com/assets/og-image.jpg",
     "@id": "https://ariablackcarservice.com",
     "url": "https://ariablackcarservice.com",
-    "telephone": "+1-888-900-2742",
+    "telephone": "+1-888-503-4449",
     "priceRange": "$$$",
     "description": "Premium black car and chauffeur service in New York City and the tri-state area. Airport transfers, corporate travel, hourly hire, and special events.",
     "address": {
@@ -57,6 +58,7 @@
     "slogan": "Where Every Mile Feels First Class"
   }
   </script>
+  <script src="https://analytics.ahrefs.com/analytics.js" data-key="rUk2ZX0/7ijvQFYN+Kteaw" async></script>
 </head>
 <body>
 
@@ -78,16 +80,16 @@
       </nav>
 
       <div class="nav-actions">
-        <a href="tel:+18889002742" class="nav-phone" aria-label="Call Aria Black Car Service 24/7">
+        <a href="tel:+18885034449" class="nav-phone" aria-label="Call Aria Black Car Service 24/7">
           <span class="nav-phone-icon" aria-hidden="true">
             <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z"/></svg>
           </span>
           <span class="nav-phone-text">
             <span>24/7 Dispatch</span>
-            <strong>(888) 900-2742</strong>
+            <strong>(888) 503-4449</strong>
           </span>
         </a>
-        <a href="#book" class="btn btn-gold nav-cta">Book Now</a>
+        <a href="https://book.mylimobiz.com/v4/nobleblackcar" class="btn btn-gold nav-cta js-open-booking">Book Now</a>
         <button class="menu-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu">
           <svg width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"/></svg>
         </button>
@@ -101,16 +103,19 @@
     <a href="#routes">Airports</a>
     <a href="#pricing">Rates</a>
     <a href="#faq">FAQ</a>
-    <a href="#book">Book a Ride</a>
-    <a href="tel:+18889002742" style="color: var(--gold); margin-top: 1rem;">(888) 900-2742</a>
+    <a href="https://book.mylimobiz.com/v4/nobleblackcar" class="js-open-booking">Book a Ride</a>
+    <a href="tel:+18885034449" style="color: var(--gold); margin-top: 1rem;">(888) 503-4449</a>
   </nav>
 
   <main>
     <!-- Hero -->
     <section class="hero" aria-label="Welcome">
       <div class="hero-bg">
-        <video autoplay muted loop playsinline poster="https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?w=1920&q=80" aria-hidden="true">
-          <source src="https://cdn.coverr.co/videos/coverr-driving-through-new-york-city-at-night-5658/1080p.mp4" type="video/mp4" />
+        <video class="hero-video is-active" data-hero="forward" autoplay muted playsinline preload="auto" aria-hidden="true">
+          <source src="/videos/272513.mp4" type="video/mp4" />
+        </video>
+        <video class="hero-video" data-hero="reverse" muted playsinline preload="auto" aria-hidden="true">
+          <source src="/videos/272513-rev.mp4" type="video/mp4" />
         </video>
       </div>
       <div class="hero-overlay"></div>
@@ -125,11 +130,11 @@
               <span>Service NYC</span>
             </h1>
             <p class="hero-desc">
-              Premium chauffeured transportation across Manhattan and the tri-state. Airport transfers, corporate travel, hourly hire — flat rates, no surge, always immaculate.
+              Premium NYC car service and chauffeured transportation across Manhattan and the tri-state. Airport transfers, corporate travel, hourly hire — flat rates, no surge, always immaculate.
             </p>
             <div class="hero-ctas">
-              <a href="#book" class="btn btn-gold">Reserve Now</a>
-              <a href="tel:+18889002742" class="btn btn-outline">
+              <a href="https://book.mylimobiz.com/v4/nobleblackcar" class="btn btn-gold js-open-booking">Reserve Now</a>
+              <a href="tel:+18885034449" class="btn btn-outline">
                 <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z"/></svg>
                 Call Now
               </a>
@@ -151,86 +156,58 @@
           </div>
 
           <aside id="book" class="booking-card" aria-label="Quick booking">
-            <h2>Request Your Ride</h2>
-            <p>Flat-rate pricing · No surge · No hidden fees</p>
+            <div class="booking-card-header">
+              <h2>Book Your Ride</h2>
+              <p>Flat rate pricing. No surge. No hidden fees.</p>
+            </div>
 
             <div class="booking-features">
               <div class="booking-feature">
-                <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"/><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z"/></svg>
+                <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"/><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z"/></svg>
                 <div>
                   <strong>All NYC Airports</strong>
                   <span>JFK · LaGuardia · Newark · Teterboro</span>
                 </div>
               </div>
               <div class="booking-feature">
-                <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"/></svg>
+                <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"/></svg>
                 <div>
-                  <strong>Real-Time Flight Tracking</strong>
-                  <span>60 min complimentary airport wait</span>
+                  <strong>Available 24/7</strong>
+                  <span>Early morning · Late night · Holidays</span>
                 </div>
               </div>
               <div class="booking-feature">
-                <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75 11.25 15 15 9.75m-3-7.036A11.959 11.959 0 0 1 3.598 6 11.99 11.99 0 0 0 3 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285Z"/></svg>
+                <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75 11.25 15 15 9.75m-3-7.036A11.959 11.959 0 0 1 3.598 6 11.99 11.99 0 0 0 3 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285Z"/></svg>
                 <div>
-                  <strong>TLC-Licensed Chauffeurs</strong>
-                  <span>Background-checked · Uniformed · Insured</span>
+                  <strong>Professional Chauffeurs</strong>
+                  <span>TLC licensed · Insured · Background checked</span>
                 </div>
               </div>
             </div>
 
-            <form id="booking-form" class="booking-form">
-              <div class="form-row two-col">
-                <div class="form-group">
-                  <label for="name">Full Name</label>
-                  <input type="text" id="name" name="name" required placeholder="Your name" />
-                </div>
-                <div class="form-group">
-                  <label for="phone">Phone</label>
-                  <input type="tel" id="phone" name="phone" required placeholder="(555) 000-0000" />
-                </div>
-              </div>
-              <div class="form-group">
-                <label for="service">Service Type</label>
-                <select id="service" name="service" required>
-                  <option value="">Select service</option>
-                  <option>Airport Transfer</option>
-                  <option>Hourly Chauffeur</option>
-                  <option>Corporate Travel</option>
-                  <option>Point-to-Point</option>
-                  <option>Wedding / Event</option>
-                  <option>Long Distance</option>
-                </select>
-              </div>
-              <div class="form-row two-col">
-                <div class="form-group">
-                  <label for="pickup">Pickup Location</label>
-                  <input type="text" id="pickup" name="pickup" required placeholder="Address or airport" />
-                </div>
-                <div class="form-group">
-                  <label for="dropoff">Drop-off</label>
-                  <input type="text" id="dropoff" name="dropoff" placeholder="Destination" />
-                </div>
-              </div>
-              <div class="form-group">
-                <label for="date">Date & Time</label>
-                <input type="datetime-local" id="date" name="date" required />
-              </div>
-              <button type="submit" class="btn btn-gold btn-block">Get Instant Quote</button>
-              <a href="tel:+18889002742" class="btn btn-outline btn-block">Or Call (888) 900-2742</a>
-            </form>
+            <div class="booking-actions">
+              <a href="https://book.mylimobiz.com/v4/nobleblackcar" class="booking-btn-primary js-open-booking">
+                <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5m-9-6h.008v.008H12v-.008ZM12 15h.008v.008H12V15Zm0 2.25h.008v.008H12v-.008ZM9.75 15h.008v.008H9.75V15Zm0 2.25h.008v.008H9.75v-.008ZM7.5 15h.008v.008H7.5V15Zm0 2.25h.008v.008H7.5v-.008Z"/></svg>
+                Book Online
+              </a>
+              <a href="tel:+18885034449" class="booking-btn-call">
+                <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z"/></svg>
+                (888) 503-4449
+              </a>
+            </div>
 
             <div class="booking-trust">
-              <div>
-                <strong>Flat</strong>
-                <span>Rates</span>
+              <div class="booking-trust-item">
+                <strong>5k+</strong>
+                <span>Rides</span>
               </div>
-              <div>
-                <strong>No</strong>
-                <span>Surge</span>
+              <div class="booking-trust-item">
+                <strong>5★</strong>
+                <span>Rated</span>
               </div>
-              <div>
-                <strong>TLC</strong>
-                <span>Licensed</span>
+              <div class="booking-trust-item">
+                <strong>24/7</strong>
+                <span>Service</span>
               </div>
             </div>
           </aside>
@@ -269,6 +246,43 @@
       </div>
     </div>
 
+    <!-- Brand trust -->
+    <section class="brand-trust" aria-label="Trusted by leading brands">
+      <div class="container">
+        <p class="section-label brand-trust-label">Backed by world class brands</p>
+        <h2 class="brand-trust-title">Preferred choice for assistants, planners, and travel managers who need it done right.</h2>
+        <div class="divider brand-trust-divider"></div>
+        <ul class="brand-trust-logos">
+          <li class="brand-logo brand-logo--mastercard">
+            <div class="mastercard-mark" role="img" aria-label="Mastercard">
+              <div class="mastercard-symbol">
+                <img src="images/brands/mastercard.png" alt="" loading="lazy" decoding="async" aria-hidden="true" />
+              </div>
+              <span class="mastercard-word">mastercard</span>
+            </div>
+          </li>
+          <li class="brand-logo brand-logo--peloton"><img src="images/brands/peloton.png" alt="Peloton" loading="lazy" decoding="async" /></li>
+          <li class="brand-logo brand-logo--cocacola"><img src="images/brands/coca-cola.png" alt="Coca-Cola" loading="lazy" decoding="async" /></li>
+          <li class="brand-logo brand-logo--comcast">
+            <div class="comcast-mark" role="img" aria-label="Comcast">
+              <img src="images/brands/comcast.png" alt="" width="40" height="28" loading="lazy" decoding="async" aria-hidden="true" />
+              <span class="comcast-word">COMCAST</span>
+            </div>
+          </li>
+          <li class="brand-logo"><img src="images/brands/homedepot.png" alt="The Home Depot" loading="lazy" decoding="async" /></li>
+          <li class="brand-logo"><img src="images/brands/ups.png" alt="UPS" loading="lazy" decoding="async" /></li>
+          <li class="brand-logo brand-logo--adidas">
+            <div class="adidas-mark" role="img" aria-label="Adidas">
+              <img src="images/brands/adidas.svg" alt="" loading="lazy" decoding="async" aria-hidden="true" />
+              <span class="adidas-word">adidas</span>
+            </div>
+          </li>
+          <li class="brand-logo"><img src="images/brands/pga-tour.png" alt="PGA Tour" loading="lazy" decoding="async" /></li>
+          <li class="brand-logo"><img src="images/brands/fifa-2026.png" alt="FIFA World Cup 2026" loading="lazy" decoding="async" /></li>
+        </ul>
+      </div>
+    </section>
+
     <!-- Services -->
     <section id="services" class="services">
       <div class="container">
@@ -279,7 +293,7 @@
           <div class="divider"></div>
         </header>
 
-        <a href="#book" class="services-featured reveal">
+        <a href="/services/airport-transfer" class="services-featured reveal">
           <span class="services-featured-label">Most Popular</span>
           <h3>Private Airport Car Service</h3>
           <p>Door-to-door transfers to JFK, LaGuardia, Newark, Teterboro & Westchester. Real-time flight tracking, terminal meet-and-greet, 60 minutes complimentary wait, and luggage assistance — all at a flat rate locked at booking.</p>
@@ -287,167 +301,172 @@
         </a>
 
         <div class="services-grid">
-          <article class="service-card reveal">
+          <a href="/services/corporate-shuttle" class="service-card reveal">
             <span class="service-card-num">01</span>
             <h3>Corporate Travel</h3>
             <p>Executive accounts, monthly billing & dedicated account managers</p>
-          </article>
-          <article class="service-card reveal">
+          </a>
+          <a href="/services/hourly" class="service-card reveal">
             <span class="service-card-num">02</span>
             <h3>Hourly Chauffeur</h3>
             <p>Multi-stop itineraries, roadshows & full-day executive hire</p>
-          </article>
-          <article class="service-card reveal">
+          </a>
+          <a href="/services/point-to-point" class="service-card reveal">
             <span class="service-card-num">03</span>
             <h3>Point-to-Point</h3>
             <p>Reliable luxury transport anywhere in the tri-state area</p>
-          </article>
-          <article class="service-card reveal">
+          </a>
+          <a href="/services/wedding" class="service-card reveal">
             <span class="service-card-num">04</span>
             <h3>Weddings & Events</h3>
             <p>Gala, prom, concert & stadium transportation</p>
-          </article>
-          <article class="service-card reveal">
+          </a>
+          <a href="/services/long-distance" class="service-card reveal">
             <span class="service-card-num">05</span>
             <h3>Long-Distance</h3>
             <p>NYC to Boston, Philadelphia, DC, Hamptons & beyond</p>
-          </article>
-          <article class="service-card reveal">
+          </a>
+          <a href="/fleet/sprinter" class="service-card reveal">
             <span class="service-card-num">06</span>
             <h3>Sprinter Van Groups</h3>
             <p>Up to 14 passengers for corporate shuttles & parties</p>
-          </article>
-          <article class="service-card reveal">
+          </a>
+          <a href="/services/cruise-terminal" class="service-card reveal">
             <span class="service-card-num">07</span>
             <h3>Cruise Terminal</h3>
             <p>Manhattan & Brooklyn cruise port transfers</p>
-          </article>
-          <article class="service-card reveal">
+          </a>
+          <a href="/services/sightseeing-tours" class="service-card reveal">
             <span class="service-card-num">08</span>
             <h3>Sightseeing Tours</h3>
             <p>Private NYC tours with a professional local chauffeur</p>
-          </article>
+          </a>
         </div>
       </div>
     </section>
 
     <!-- Fleet -->
-    <section id="fleet" class="fleet">
+    <section id="fleet" class="fleet fleet-showcase" aria-labelledby="fleet-heading">
       <div class="container">
-        <header class="fleet-header reveal">
-          <div>
-            <p class="section-label">The Collection</p>
-            <h2 class="section-title">Our <em>Premium Fleet</em></h2>
-          </div>
-          <p class="section-subtitle">Late-model luxury sedans, SUVs & Sprinter vans — meticulously maintained and detailed before every ride.</p>
+        <header class="fleet-showcase-header reveal">
+          <p class="section-label">The Collection</p>
+          <h2 id="fleet-heading" class="fleet-showcase-title">Luxury Black Cars, SUVs &amp; <em>Sprinter Vans</em></h2>
+          <p class="fleet-showcase-subtitle">Executive sedans, luxury SUVs, and Sprinter vans — meticulously maintained for every occasion.</p>
         </header>
 
-        <div class="fleet-tabs reveal" role="tablist">
-          <button class="fleet-tab active" data-fleet="sedan" role="tab" aria-selected="true">Executive Sedan <span class="fleet-tab-count">3</span></button>
-          <button class="fleet-tab" data-fleet="luxury" role="tab">First Class Sedan <span class="fleet-tab-count">2</span></button>
-          <button class="fleet-tab" data-fleet="suv" role="tab">Premium SUV <span class="fleet-tab-count">3</span></button>
-          <button class="fleet-tab" data-fleet="sprinter" role="tab">Sprinter Van <span class="fleet-tab-count">2</span></button>
+        <div class="fleet-showcase-grid reveal">
+          <article class="fleet-showcase-card">
+            <a href="/fleet/business-sedan" class="fleet-showcase-card-link">
+              <div class="fleet-showcase-visual fleet-showcase-visual--sedan">
+                <img src="images/fleet/mercedes-e-class.png" alt="Mercedes-Benz E-Class executive sedan" loading="lazy" decoding="async" />
+              </div>
+              <div class="fleet-showcase-body">
+              <p class="fleet-showcase-label">Executive Sedan</p>
+              <h3 class="fleet-showcase-name">Mercedes-Benz E-Class</h3>
+              <ul class="fleet-showcase-capacity" aria-label="Capacity">
+                <li>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                  3 passengers
+                </li>
+                <li>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z"/><path d="M3 6h18M16 10a4 4 0 0 1-8 0"/></svg>
+                  3 bags
+                </li>
+              </ul>
+              <ul class="fleet-showcase-features">
+                <li>Leather interior</li>
+                <li>Climate control</li>
+                <li>WiFi available</li>
+              </ul>
+              </div>
+            </a>
+          </article>
+
+          <article class="fleet-showcase-card">
+            <a href="/fleet/business-suv" class="fleet-showcase-card-link">
+              <div class="fleet-showcase-visual fleet-showcase-visual--suv">
+                <img src="images/fleet/cadillac-escalade.png" alt="Cadillac Escalade luxury SUV" width="640" height="205" loading="lazy" decoding="async" />
+              </div>
+              <div class="fleet-showcase-body">
+              <p class="fleet-showcase-label">Luxury SUV</p>
+              <h3 class="fleet-showcase-name">Cadillac Escalade</h3>
+              <ul class="fleet-showcase-capacity" aria-label="Capacity">
+                <li>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                  6 passengers
+                </li>
+                <li>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z"/><path d="M3 6h18M16 10a4 4 0 0 1-8 0"/></svg>
+                  6 bags
+                </li>
+              </ul>
+              <ul class="fleet-showcase-features">
+                <li>Premium sound</li>
+                <li>Spacious cabin</li>
+                <li>Executive seating</li>
+              </ul>
+              </div>
+            </a>
+          </article>
+
+          <article class="fleet-showcase-card">
+            <a href="/fleet/first-class-sedan" class="fleet-showcase-card-link">
+              <div class="fleet-showcase-visual fleet-showcase-visual--sedan">
+                <img src="images/fleet/mercedes-s-class.png" alt="Mercedes-Benz S-Class flagship sedan" width="640" height="205" loading="lazy" decoding="async" />
+              </div>
+              <div class="fleet-showcase-body">
+              <p class="fleet-showcase-label">Flagship Sedan</p>
+              <h3 class="fleet-showcase-name">Mercedes-Benz S-Class</h3>
+              <ul class="fleet-showcase-capacity" aria-label="Capacity">
+                <li>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                  3 passengers
+                </li>
+                <li>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z"/><path d="M3 6h18M16 10a4 4 0 0 1-8 0"/></svg>
+                  3 bags
+                </li>
+              </ul>
+              <ul class="fleet-showcase-features">
+                <li>Massage seats</li>
+                <li>Ambient lighting</li>
+                <li>Privacy partition</li>
+              </ul>
+              </div>
+            </a>
+          </article>
+
+          <article class="fleet-showcase-card">
+            <a href="/fleet/sprinter" class="fleet-showcase-card-link">
+              <div class="fleet-showcase-visual fleet-showcase-visual--van">
+                <img src="images/fleet/executive-sprinter-showcase.png" alt="Mercedes Sprinter executive van" width="1428" height="537" loading="lazy" decoding="async" />
+              </div>
+              <div class="fleet-showcase-body">
+              <p class="fleet-showcase-label">Sprinters</p>
+              <h3 class="fleet-showcase-name">Executive Sprinter</h3>
+              <ul class="fleet-showcase-capacity" aria-label="Capacity">
+                <li>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                  14 passengers
+                </li>
+                <li>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z"/><path d="M3 6h18M16 10a4 4 0 0 1-8 0"/></svg>
+                  14 bags
+                </li>
+              </ul>
+              <ul class="fleet-showcase-features">
+                <li>Conference seating</li>
+                <li>Standing room</li>
+                <li>Entertainment system</li>
+              </ul>
+              </div>
+            </a>
+          </article>
         </div>
 
-        <div id="fleet-sedan" class="fleet-panel active reveal">
-          <div class="fleet-grid">
-            <div class="fleet-card">
-              <div class="fleet-card-visual">
-                <img class="exterior" src="https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?w=600&q=80" alt="Mercedes-Benz E-Class executive sedan" loading="lazy" />
-                <img class="interior" src="https://images.unsplash.com/photo-1621135802928-f176a6e1e1f2?w=600&q=80" alt="Mercedes E-Class luxury interior" loading="lazy" />
-              </div>
-              <h4>Mercedes-Benz E-Class</h4>
-              <span>Up to 3 passengers · 3 bags</span>
-            </div>
-            <div class="fleet-card">
-              <div class="fleet-card-visual">
-                <img class="exterior" src="https://images.unsplash.com/photo-1555215695-3004980adade?w=600&q=80" alt="BMW 5 Series executive sedan" loading="lazy" />
-                <img class="interior" src="https://images.unsplash.com/photo-1605559424843-9e4c228bf1c2?w=600&q=80" alt="BMW 5 Series interior" loading="lazy" />
-              </div>
-              <h4>BMW 5 Series</h4>
-              <span>Up to 3 passengers · 3 bags</span>
-            </div>
-            <div class="fleet-card">
-              <div class="fleet-card-visual">
-                <img class="exterior" src="https://images.unsplash.com/photo-1583121274602-3e2820c50d88?w=600&q=80" alt="Cadillac CT6 luxury sedan" loading="lazy" />
-                <img class="interior" src="https://images.unsplash.com/photo-1542362567-b07e54358753?w=600&q=80" alt="Cadillac interior" loading="lazy" />
-              </div>
-              <h4>Cadillac CT6</h4>
-              <span>Up to 3 passengers · 3 bags</span>
-            </div>
-          </div>
-        </div>
-
-        <div id="fleet-luxury" class="fleet-panel reveal">
-          <div class="fleet-grid">
-            <div class="fleet-card">
-              <div class="fleet-card-visual">
-                <img class="exterior" src="https://images.unsplash.com/photo-1617531653332-bd46c24f2068?w=600&q=80" alt="Mercedes-Benz S-Class" loading="lazy" />
-                <img class="interior" src="https://images.unsplash.com/photo-1619767886558-efdc259cde1a?w=600&q=80" alt="S-Class interior" loading="lazy" />
-              </div>
-              <h4>Mercedes-Benz S-Class</h4>
-              <span>Flagship luxury · 3 passengers</span>
-            </div>
-            <div class="fleet-card">
-              <div class="fleet-card-visual">
-                <img class="exterior" src="https://images.unsplash.com/photo-1555215695-3004980adade?w=600&q=80" alt="BMW 7 Series" loading="lazy" />
-                <img class="interior" src="https://images.unsplash.com/photo-1605559424843-9e4c228bf1c2?w=600&q=80" alt="BMW 7 Series interior" loading="lazy" />
-              </div>
-              <h4>BMW 7 Series</h4>
-              <span>Executive flagship · 3 passengers</span>
-            </div>
-          </div>
-        </div>
-
-        <div id="fleet-suv" class="fleet-panel reveal">
-          <div class="fleet-grid">
-            <div class="fleet-card">
-              <div class="fleet-card-visual">
-                <img class="exterior" src="https://images.unsplash.com/photo-1519641471654-76ce0107a198?w=600&q=80" alt="Cadillac Escalade ESV" loading="lazy" />
-                <img class="interior" src="https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?w=600&q=80" alt="Escalade interior" loading="lazy" />
-              </div>
-              <h4>Cadillac Escalade ESV</h4>
-              <span>Up to 6 passengers · 6 bags</span>
-            </div>
-            <div class="fleet-card">
-              <div class="fleet-card-visual">
-                <img class="exterior" src="https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=600&q=80" alt="Lincoln Navigator" loading="lazy" />
-                <img class="interior" src="https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?w=600&q=80" alt="Navigator interior" loading="lazy" />
-              </div>
-              <h4>Lincoln Navigator L</h4>
-              <span>Up to 6 passengers · 6 bags</span>
-            </div>
-            <div class="fleet-card">
-              <div class="fleet-card-visual">
-                <img class="exterior" src="https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=600&q=80" alt="Chevrolet Suburban" loading="lazy" />
-                <img class="interior" src="https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?w=600&q=80" alt="Suburban interior" loading="lazy" />
-              </div>
-              <h4>Chevrolet Suburban</h4>
-              <span>Up to 6 passengers · 6 bags</span>
-            </div>
-          </div>
-        </div>
-
-        <div id="fleet-sprinter" class="fleet-panel reveal">
-          <div class="fleet-grid">
-            <div class="fleet-card">
-              <div class="fleet-card-visual">
-                <img class="exterior" src="https://images.unsplash.com/photo-1544622358-5344a2b25c93?w=600&q=80" alt="Mercedes Sprinter executive van" loading="lazy" />
-                <img class="interior" src="https://images.unsplash.com/photo-1570125909232-eb763c2fe4d0?w=600&q=80" alt="Sprinter van interior" loading="lazy" />
-              </div>
-              <h4>Executive Sprinter</h4>
-              <span>Up to 14 passengers</span>
-            </div>
-            <div class="fleet-card">
-              <div class="fleet-card-visual">
-                <img class="exterior" src="https://images.unsplash.com/photo-1544622358-5344a2b25c93?w=600&q=80" alt="Mercedes Jet Sprinter" loading="lazy" />
-                <img class="interior" src="https://images.unsplash.com/photo-1570125909232-eb763c2fe4d0?w=600&q=80" alt="Jet Sprinter interior" loading="lazy" />
-              </div>
-              <h4>Jet Sprinter</h4>
-              <span>Luxury group transport · 14 seats</span>
-            </div>
-          </div>
-        </div>
+        <p class="fleet-showcase-cta reveal">
+          <a href="/fleet" class="btn-fleet-outline">View Full Fleet</a>
+        </p>
       </div>
     </section>
 
@@ -462,40 +481,40 @@
         </header>
 
         <div class="airport-grid reveal">
-          <a href="#book" class="airport-card">
+          <a href="/airports/jfk" class="airport-card">
             <img src="https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=1200&q=80" alt="JFK International Airport car service" loading="lazy" />
             <div class="airport-card-overlay">
               <span class="airport-code">JFK</span>
               <h4>JFK International</h4>
               <p>John F. Kennedy International Airport</p>
-              <span class="airport-price">Manhattan from $150 sedan · $200 SUV</span>
+              <span class="airport-price">Manhattan from $165 sedan · $230 SUV</span>
             </div>
           </a>
-          <a href="#book" class="airport-card">
+          <a href="/airports/laguardia" class="airport-card">
             <img src="https://images.unsplash.com/photo-1583608205776-bfd35f0d9df6?w=1200&q=80" alt="LaGuardia Airport car service" loading="lazy" />
             <div class="airport-card-overlay">
               <span class="airport-code">LGA</span>
               <h4>LaGuardia Airport</h4>
               <p>Closest airport to Midtown Manhattan</p>
-              <span class="airport-price">Manhattan from $130 sedan · $175 SUV</span>
+              <span class="airport-price">Manhattan from $140 sedan · $200 SUV</span>
             </div>
           </a>
-          <a href="#book" class="airport-card">
+          <a href="/airports/newark" class="airport-card">
             <img src="https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=1200&q=80" alt="Newark Liberty Airport car service" loading="lazy" />
             <div class="airport-card-overlay">
               <span class="airport-code">EWR</span>
               <h4>Newark Liberty</h4>
               <p>Newark International Airport — all terminals</p>
-              <span class="airport-price">Manhattan from $165 sedan · $200 SUV</span>
+              <span class="airport-price">Manhattan from $180 sedan · $250 SUV</span>
             </div>
           </a>
-          <a href="#book" class="airport-card">
+          <a href="/airports/teterboro" class="airport-card">
             <img src="https://images.unsplash.com/photo-1540962351504-03099e0a754b?w=1200&q=80" alt="Private aviation Teterboro car service" loading="lazy" />
             <div class="airport-card-overlay">
               <span class="airport-code">TEB</span>
               <h4>Teterboro & Westchester</h4>
               <p>Private jets & HPN executive aviation</p>
-              <span class="airport-price">Custom flat rates — request a quote</span>
+              <span class="airport-price">TEB from $180 sedan · HPN from $200 sedan</span>
             </div>
           </a>
         </div>
@@ -548,12 +567,12 @@
                 </tr>
               </thead>
               <tbody>
-                <tr><td>Manhattan ↔ JFK</td><td>$150</td><td>$200</td></tr>
-                <tr><td>Manhattan ↔ LaGuardia</td><td>$130</td><td>$175</td></tr>
-                <tr><td>Manhattan ↔ Newark</td><td>$165</td><td>$200</td></tr>
-                <tr><td>Manhattan ↔ Teterboro</td><td>$195</td><td>$250</td></tr>
-                <tr><td>Brooklyn ↔ JFK</td><td>$140</td><td>$175</td></tr>
-                <tr><td>Manhattan → Hamptons</td><td>from $400</td><td>from $500</td></tr>
+                <tr><td>Manhattan ↔ JFK</td><td>$165</td><td>$230</td></tr>
+                <tr><td>Manhattan ↔ LaGuardia</td><td>$140</td><td>$200</td></tr>
+                <tr><td>Manhattan ↔ Newark</td><td>$180</td><td>$250</td></tr>
+                <tr><td>Manhattan ↔ Teterboro</td><td>$180</td><td>$250</td></tr>
+                <tr><td>Brooklyn ↔ JFK</td><td>$165</td><td>$230</td></tr>
+                <tr><td>Manhattan → Hamptons</td><td>$595</td><td>$795</td></tr>
               </tbody>
             </table>
           </div>
@@ -570,8 +589,8 @@
               </thead>
               <tbody>
                 <tr><td>Executive Sedan</td><td>$95/hr</td><td>3 hours</td></tr>
-                <tr><td>Luxury Sedan (S-Class)</td><td>$150/hr</td><td>3 hours</td></tr>
-                <tr><td>Premium SUV</td><td>$130/hr</td><td>3 hours</td></tr>
+                <tr><td>First Class Sedan (S-Class)</td><td>$175/hr</td><td>3 hours</td></tr>
+                <tr><td>Premium SUV</td><td>$135/hr</td><td>3 hours</td></tr>
                 <tr><td>Executive Sprinter</td><td>$200/hr</td><td>4 hours</td></tr>
               </tbody>
             </table>
@@ -579,7 +598,7 @@
         </div>
 
         <p class="pricing-note reveal">
-          All rates include professional chauffeur, fuel, standard tolls, flight tracking, bottled water & Wi-Fi. Gratuity suggested 18–20%. <a href="#book" style="color: var(--gold);">Request a custom quote →</a>
+          All rates include professional chauffeur, fuel, standard tolls, flight tracking, bottled water & Wi-Fi. Gratuity suggested 18–20%. <a href="https://book.mylimobiz.com/v4/nobleblackcar" class="js-open-booking" style="color: var(--gold);">Request a custom quote →</a>
         </p>
       </div>
     </section>
@@ -665,6 +684,55 @@
       </div>
     </section>
 
+    <!-- Guides & SEO Resources -->
+    <section id="guides-preview" class="why" style="padding-top:4rem">
+      <div class="container">
+        <header class="reveal" style="text-align:center;margin-bottom:2.5rem">
+          <p class="section-label">Resources</p>
+          <h2 class="section-title">Guides & <em>Insights</em></h2>
+          <p class="section-subtitle" style="margin-inline:auto">Expert transportation guides for NYC travelers — airports, pricing, and booking tips.</p>
+        </header>
+        <div class="card-grid" style="display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:1rem">
+          <a href="/guides/best-way-from-jfk-to-manhattan" class="link-card reveal" style="display:block;padding:1.5rem;background:rgba(255,255,255,0.02);border:1px solid rgba(255,255,255,0.06);border-radius:1rem">
+            <h3 style="font-family:var(--font-serif);font-size:1.1rem;margin-bottom:0.5rem">JFK to Manhattan Guide</h3>
+            <p style="font-size:0.85rem;color:var(--gray-500)">Compare black car, taxi, Uber & subway</p>
+          </a>
+          <a href="/guides/black-car-vs-uber-nyc" class="link-card reveal" style="display:block;padding:1.5rem;background:rgba(255,255,255,0.02);border:1px solid rgba(255,255,255,0.06);border-radius:1rem">
+            <h3 style="font-family:var(--font-serif);font-size:1.1rem;margin-bottom:0.5rem">Black Car vs Uber</h3>
+            <p style="font-size:0.85rem;color:var(--gray-500)">Which is better for NYC airport trips?</p>
+          </a>
+          <a href="/guides/black-car-pricing-guide" class="link-card reveal" style="display:block;padding:1.5rem;background:rgba(255,255,255,0.02);border:1px solid rgba(255,255,255,0.06);border-radius:1rem">
+            <h3 style="font-family:var(--font-serif);font-size:1.1rem;margin-bottom:0.5rem">NYC Pricing Guide 2026</h3>
+            <p style="font-size:0.85rem;color:var(--gray-500)">Hourly rates, airport flats & long-distance</p>
+          </a>
+          <a href="/guides" class="link-card reveal" style="display:block;padding:1.5rem;background:rgba(201,169,98,0.08);border:1px solid var(--gold-dim);border-radius:1rem;text-align:center">
+            <h3 style="font-family:var(--font-serif);font-size:1.1rem;color:var(--gold)">View All Guides →</h3>
+          </a>
+        </div>
+        <header class="reveal" style="text-align:center;margin:3rem 0 2rem">
+          <p class="section-label">Blog</p>
+          <h2 class="section-title" style="font-size:clamp(1.75rem,3vw,2.25rem)">Latest <em>Articles</em></h2>
+        </header>
+        <div class="card-grid" style="display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:1rem">
+          <a href="/blog/best-jfk-airport-car-service" class="link-card reveal" style="display:block;padding:1.5rem;background:rgba(255,255,255,0.02);border:1px solid rgba(255,255,255,0.06);border-radius:1rem">
+            <h3 style="font-family:var(--font-serif);font-size:1.1rem;margin-bottom:0.5rem">Best JFK Airport Car Service</h3>
+            <p style="font-size:0.85rem;color:var(--gray-500)">Flat rates, meet-and-greet &amp; flight tracking</p>
+          </a>
+          <a href="/blog/best-black-car-services-nyc" class="link-card reveal" style="display:block;padding:1.5rem;background:rgba(255,255,255,0.02);border:1px solid rgba(255,255,255,0.06);border-radius:1rem">
+            <h3 style="font-family:var(--font-serif);font-size:1.1rem;margin-bottom:0.5rem">Best Black Car Services NYC</h3>
+            <p style="font-size:0.85rem;color:var(--gray-500)">How to choose a TLC-licensed chauffeur</p>
+          </a>
+          <a href="/blog/uber-black-vs-black-car" class="link-card reveal" style="display:block;padding:1.5rem;background:rgba(255,255,255,0.02);border:1px solid rgba(255,255,255,0.06);border-radius:1rem">
+            <h3 style="font-family:var(--font-serif);font-size:1.1rem;margin-bottom:0.5rem">Uber Black vs Black Car</h3>
+            <p style="font-size:0.85rem;color:var(--gray-500)">Airport reliability &amp; pricing compared</p>
+          </a>
+          <a href="/blog" class="link-card reveal" style="display:block;padding:1.5rem;background:rgba(201,169,98,0.08);border:1px solid var(--gold-dim);border-radius:1rem;text-align:center">
+            <h3 style="font-family:var(--font-serif);font-size:1.1rem;color:var(--gold)">View All Articles →</h3>
+          </a>
+        </div>
+      </div>
+    </section>
+
     <!-- FAQ -->
     <section id="faq" class="faq">
       <div class="container">
@@ -681,7 +749,7 @@
               <span class="faq-icon" aria-hidden="true">+</span>
             </button>
             <div class="faq-answer">
-              <p>Aria charges a $150 flat rate for a sedan from JFK to Manhattan, or $200 for an SUV. This includes tolls, flight tracking, terminal meet-and-greet, and 60 minutes free wait time. No surge pricing — ever.</p>
+              <p>Aria charges a $165 flat rate for a sedan from JFK to Manhattan, or $230 for an SUV. This includes tolls, flight tracking, terminal meet-and-greet, and 60 minutes free wait time. No surge pricing — ever.</p>
             </div>
           </div>
           <div class="faq-item">
@@ -708,7 +776,7 @@
               <span class="faq-icon" aria-hidden="true">+</span>
             </button>
             <div class="faq-answer">
-              <p>We recommend booking 24 hours in advance for airport transfers and 1–2 weeks for weddings and special events. Same-day service is often available — call (888) 900-2742 to confirm.</p>
+              <p>We recommend booking 24 hours in advance for airport transfers and 1–2 weeks for weddings and special events. Same-day service is often available — call (888) 503-4449 to confirm.</p>
             </div>
           </div>
           <div class="faq-item">
@@ -740,8 +808,8 @@
           <h2>Ready to Experience Aria?</h2>
           <p>Book your next airport transfer, corporate ride, or special event. Our dispatch team is available 24 hours a day, 365 days a year.</p>
           <div class="cta-buttons">
-            <a href="#book" class="btn btn-gold">Book Online</a>
-            <a href="tel:+18889002742" class="btn btn-outline">Call (888) 900-2742</a>
+            <a href="https://book.mylimobiz.com/v4/nobleblackcar" class="btn btn-gold js-open-booking">Book Online</a>
+            <a href="tel:+18885034449" class="btn btn-outline">Call (888) 503-4449</a>
             <a href="mailto:bookings@ariablackcarservice.com" class="btn btn-outline">Email Us</a>
           </div>
         </div>
@@ -777,7 +845,7 @@
         </div>
         <div class="footer-col">
           <h4>Contact</h4>
-          <a href="tel:+18889002742">(888) 900-2742</a>
+          <a href="tel:+18885034449">(888) 503-4449</a>
           <a href="mailto:bookings@ariablackcarservice.com">bookings@ariablackcarservice.com</a>
           <a href="mailto:info@ariablackcarservice.com">info@ariablackcarservice.com</a>
           <a href="https://ariablackcarservice.com">ariablackcarservice.com</a>
@@ -792,14 +860,14 @@
 
   <!-- Mobile floating CTAs -->
   <div class="floating-cta" aria-label="Quick actions">
-    <a href="tel:+18889002742" class="call-btn" aria-label="Call now">
+    <a href="tel:+18885034449" class="call-btn" aria-label="Call now">
       <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z"/></svg>
     </a>
-    <a href="#book" class="book-btn" aria-label="Book now">
+    <a href="https://book.mylimobiz.com/v4/nobleblackcar" class="book-btn js-open-booking" aria-label="Book now">
       <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5"/></svg>
     </a>
   </div>
 
-  <script src="js/main.js"></script>
+  <script src="js/main.js?v=4"></script>
 </body>
 </html>

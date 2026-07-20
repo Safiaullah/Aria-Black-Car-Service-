@@ -1,0 +1,574 @@
+[
+  {
+    "slug": "manhattan",
+    "h1": "Manhattan Black Car Service",
+    "area": "Manhattan",
+    "desc": "Premium black car service across all Manhattan neighborhoods — Midtown, Downtown, UES, UWS, Chelsea, and SoHo."
+  },
+  {
+    "slug": "midtown",
+    "h1": "Midtown Manhattan Black Car Service",
+    "area": "Midtown",
+    "desc": "Executive transport for Times Square, Penn Station, Hudson Yards, and corporate towers."
+  },
+  {
+    "slug": "chelsea",
+    "h1": "Chelsea Black Car Service",
+    "area": "Chelsea",
+    "desc": "Luxury car service for Chelsea, Hudson Yards, and the High Line corridor."
+  },
+  {
+    "slug": "upper-east-side",
+    "h1": "Upper East Side Black Car Service",
+    "area": "Upper East Side",
+    "desc": "Discreet UES chauffeur service near Lenox Hill, Memorial Sloan Kettering, and Museum Mile."
+  },
+  {
+    "slug": "upper-west-side",
+    "h1": "Upper West Side Black Car Service",
+    "area": "Upper West Side",
+    "desc": "Reliable UWS airport transfers and Lincoln Center event transportation."
+  },
+  {
+    "slug": "financial-district",
+    "h1": "Financial District Black Car Service",
+    "area": "Financial District",
+    "desc": "Wall Street executive car service and Battery Park cruise terminal transfers."
+  },
+  {
+    "slug": "harlem",
+    "h1": "Harlem Black Car Service",
+    "area": "Harlem",
+    "desc": "Flat-rate Harlem car service to all NYC airports and corporate destinations."
+  },
+  {
+    "slug": "west-village",
+    "h1": "West Village Black Car Service",
+    "area": "West Village",
+    "desc": "Private car service for West Village, Meatpacking, and downtown Manhattan."
+  },
+  {
+    "slug": "soho",
+    "h1": "SoHo Black Car Service",
+    "area": "SoHo",
+    "desc": "Luxury SoHo transportation for shopping, dining, and airport connections."
+  },
+  {
+    "slug": "tribeca",
+    "h1": "Tribeca Black Car Service",
+    "area": "Tribeca",
+    "desc": "Tribeca black car service for families, executives, and film industry clients."
+  },
+  {
+    "slug": "astoria",
+    "area": "Astoria",
+    "h1": "Astoria Black Car Service",
+    "hideAirportRates": true,
+    "desc": "Black car service for Astoria and Long Island City — minutes from LaGuardia, flat rates to every NYC airport.",
+    "intro": "<p class=\"lead\">Astoria is arguably the best-positioned neighborhood in New York for air travel: LaGuardia is barely ten minutes up the Grand Central, and JFK is a clean run down the Van Wyck. Aria gives Astoria, Ditmars, and Long Island City residents flat-rate luxury car service to every airport and across the city — no surge, no metering, no curbside roulette.</p>",
+    "sections": [
+      {
+        "h2": "Airports From Astoria",
+        "html": "<table class=\"pricing-table\"><thead><tr><th>Airport</th><th>Distance</th><th>Off-Peak</th><th>Peak</th></tr></thead><tbody><tr><td>LaGuardia (LGA)</td><td>5–7 mi</td><td>10–15 min</td><td>20–35 min</td></tr><tr><td>JFK (JFK)</td><td>10–14 mi</td><td>20–30 min</td><td>30–50 min</td></tr><tr><td>Newark (EWR)</td><td>16–20 mi</td><td>35–45 min</td><td>45–70 min</td></tr></tbody></table><p>LaGuardia flat from $95, JFK from $135, Newark from $195 — all-inclusive of tolls and 60 minutes of complimentary airport wait time.</p>"
+      },
+      {
+        "h2": "Neighborhoods We Cover",
+        "html": "<ul class=\"check-list\"><li>Ditmars-Steinway</li><li>Astoria Heights</li><li>Long Island City</li><li>Hunters Point</li><li>Sunnyside</li><li>Woodside</li><li>Dutch Kills</li><li>Ravenswood</li></ul>"
+      },
+      {
+        "h2": "Events & Everyday",
+        "html": "<p>Whether it's a night out to a Broadway show, an early flight from LGA, a Kaufman Astoria Studios call time, or a corporate run into Midtown, the rate is flat and the chauffeur is on time. Sprinters available for group nights and airport runs with the whole family.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "How much is a car from Astoria to LaGuardia?",
+        "a": "A flat $95 for a sedan and $150 for an SUV — often a ten-minute trip, with tolls and wait time included and no surge pricing."
+      },
+      {
+        "q": "Which airport is closest to Astoria?",
+        "a": "LaGuardia, frequently under ten minutes off-peak. JFK is 20–30 minutes via the Van Wyck and Newark 35–45 via the tunnels."
+      }
+    ]
+  },
+  {
+    "slug": "brooklyn",
+    "area": "Brooklyn",
+    "h1": "Brooklyn Black Car Service",
+    "hideAirportRates": true,
+    "desc": "Luxury black car service across Brooklyn — Williamsburg, DUMBO, Park Slope, Brooklyn Heights — with flat airport rates and 24/7 dispatch.",
+    "intro": "<p class=\"lead\">From a DUMBO loft to a Park Slope brownstone, Brooklyn deserves car service that matches the borough's rise — not a rideshare that can't find your block. Aria covers all of Brooklyn with flat-rate luxury transfers to JFK, LaGuardia, and Newark, plus Manhattan crossings and event transport, in immaculate sedans, SUVs, and Sprinters.</p>",
+    "sections": [
+      {
+        "h2": "Airports From Brooklyn",
+        "html": "<table class=\"pricing-table\"><thead><tr><th>Airport</th><th>Distance</th><th>Off-Peak</th><th>Peak</th></tr></thead><tbody><tr><td>JFK (JFK)</td><td>12–18 mi</td><td>30–45 min</td><td>45–65 min</td></tr><tr><td>LaGuardia (LGA)</td><td>10–15 mi</td><td>25–40 min</td><td>40–60 min</td></tr><tr><td>Newark (EWR)</td><td>14–20 mi</td><td>35–50 min</td><td>50–75 min</td></tr></tbody></table><p>JFK flat from $165, LGA from $165, Newark from $195. Brooklyn-close neighborhoods like Canarsie and East New York price lower to JFK — we quote your exact address.</p>"
+      },
+      {
+        "h2": "Neighborhoods We Cover",
+        "html": "<ul class=\"check-list\"><li>Williamsburg</li><li>DUMBO</li><li>Brooklyn Heights</li><li>Park Slope</li><li>Cobble Hill & Carroll Gardens</li><li>Fort Greene</li><li>Bushwick</li><li>Bay Ridge</li><li>Prospect Heights</li><li>Greenpoint</li></ul>"
+      },
+      {
+        "h2": "Events & Venues",
+        "html": "<p>Barclays Center concerts and Nets games, weddings at the Brooklyn Botanic Garden or the Wythe, film shoots across the borough, and Brooklyn Bridge Park galas — Aria coordinates arrivals and departures with valet-level polish. Corporate accounts available for the Navy Yard and Downtown Brooklyn tech offices.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "How much is a car from Brooklyn to JFK?",
+        "a": "A flat $165 for a sedan and $230 for an SUV from most of Brooklyn, tolls included. Neighborhoods closer to JFK price lower — we confirm at booking."
+      },
+      {
+        "q": "Do you serve all Brooklyn neighborhoods?",
+        "a": "Yes — from Greenpoint to Bay Ridge and everywhere between, with 24/7 dispatch and flat-rate pricing to all airports and Manhattan."
+      }
+    ]
+  },
+  {
+    "slug": "queens",
+    "area": "Queens",
+    "h1": "Queens Black Car Service",
+    "hideAirportRates": true,
+    "desc": "Flat-rate black car service across Queens — home to both LaGuardia and JFK — for LIC, Astoria, Flushing, Forest Hills, and Jamaica.",
+    "intro": "<p class=\"lead\">Queens is the only borough with two major airports inside its borders, which makes it both the easiest place to fly from and the trickiest to time — the Van Wyck and the Grand Central don't forgive a late start. Aria serves all of Queens with flat-rate luxury transfers and chauffeurs who know every shortcut from Long Island City to Jamaica.</p>",
+    "sections": [
+      {
+        "h2": "Airports From Queens",
+        "html": "<table class=\"pricing-table\"><thead><tr><th>Airport</th><th>Distance</th><th>Off-Peak</th><th>Peak</th></tr></thead><tbody><tr><td>LaGuardia (LGA)</td><td>2–8 mi</td><td>10–20 min</td><td>20–40 min</td></tr><tr><td>JFK (JFK)</td><td>5–15 mi</td><td>15–30 min</td><td>25–50 min</td></tr><tr><td>Newark (EWR)</td><td>18–24 mi</td><td>40–55 min</td><td>55–80 min</td></tr></tbody></table><p>Because both LGA and JFK sit in Queens, local flat rates run lower than Manhattan's — LGA from $75, JFK from $95 depending on neighborhood.</p>"
+      },
+      {
+        "h2": "Neighborhoods We Cover",
+        "html": "<ul class=\"check-list\"><li>Long Island City</li><li>Astoria</li><li>Flushing</li><li>Forest Hills</li><li>Jackson Heights</li><li>Sunnyside</li><li>Bayside</li><li>Jamaica & Jamaica Estates</li><li>Rego Park</li><li>Kew Gardens</li></ul>"
+      },
+      {
+        "h2": "Events & Venues",
+        "html": "<p>USTA Billie Jean King Center for the US Open, Citi Field for Mets games and stadium concerts, Flushing Meadows events, and film work at Silvercup and Kaufman Astoria — Aria handles the crowds and the parking so you arrive at the gate, not the lot.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "How much is a car from Queens to the airport?",
+        "a": "Local flat rates start around $75 to LaGuardia and $95 to JFK, since both airports are within the borough. Newark runs $195 and up. We quote your exact neighborhood."
+      },
+      {
+        "q": "Do you serve the US Open at Flushing Meadows?",
+        "a": "Yes — we run dedicated service to the USTA Billie Jean King National Tennis Center throughout the Open, with drop-and-return and as-directed options to beat the crowds."
+      }
+    ]
+  },
+  {
+    "slug": "boston",
+    "area": "Boston",
+    "h1": "Boston Black Car Service",
+    "hideAirportRates": true,
+    "desc": "Boston black car service — Logan (BOS), Back Bay, Seaport, Cambridge, and the suburbs. 24/7 chauffeured ground transportation.",
+    "intro": "<p class=\"lead\">Aria arranges chauffeured ground transportation across Greater Boston — Logan transfers, Back Bay hotel runs, Seaport conferences, and Cambridge biotech travel — with the same flat-rate, flight-tracked reliability we're known for in New York. One call covers the airport, the meeting, and the ride home.</p>",
+    "sections": [
+      {
+        "h2": "Boston Airports",
+        "html": "<table class=\"pricing-table\"><thead><tr><th>Airport</th><th>Distance</th><th>Off-Peak</th><th>Peak</th></tr></thead><tbody><tr><td>Logan International (BOS)</td><td>3–5 mi</td><td>10–20 min</td><td>25–45 min</td></tr><tr><td>Manchester, NH (MHT)</td><td>55 mi</td><td>60–75 min</td><td>75–100 min</td></tr><tr><td>T.F. Green, RI (PVD)</td><td>60 mi</td><td>65–80 min</td><td>80–110 min</td></tr></tbody></table><p>Logan is minutes from downtown via the Ted Williams Tunnel — but the tunnel and the Seaport clog fast, so we build cushion into every departure.</p>"
+      },
+      {
+        "h2": "Neighborhoods & Suburbs",
+        "html": "<ul class=\"check-list\"><li>Back Bay & Beacon Hill</li><li>South End</li><li>Seaport / Innovation District</li><li>Financial District</li><li>Cambridge & Kendall Square</li><li>Somerville</li><li>Brookline</li><li>Newton & Wellesley</li><li>Waltham (128 corridor)</li></ul>"
+      },
+      {
+        "h2": "Events & Corporate",
+        "html": "<p>Boston Marathon Monday, Red Sox at Fenway, Celtics and Bruins at TD Garden, and college commencements each turn the city inside out — Aria plans around every one. Corporate accounts serve the Kendall Square biotech cluster, Seaport finance and consulting firms, and the Route 128 tech belt with monthly invoicing.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Does Aria serve Boston Logan Airport?",
+        "a": "Yes — we provide chauffeured transfers to and from Logan International (BOS) across Greater Boston, with flight tracking, meet-and-greet, and flat-rate pricing. Call (888) 503-4449 to reserve."
+      },
+      {
+        "q": "How far is Logan from downtown Boston?",
+        "a": "About 3–5 miles via the Ted Williams Tunnel — 10–20 minutes off-peak, but 25–45 during rush hour or a Sox game. We time departures to absorb it."
+      }
+    ]
+  },
+  {
+    "slug": "washington-dc",
+    "area": "Washington, DC",
+    "h1": "Washington DC Black Car Service",
+    "hideAirportRates": true,
+    "desc": "Washington DC black car service — Reagan (DCA), Dulles (IAD), BWI, plus Capitol Hill, Georgetown, and the government corridor.",
+    "intro": "<p class=\"lead\">Aria provides chauffeured ground transportation throughout the DC metro — three major airports, Capitol Hill and K Street meetings, embassy and diplomatic travel, and the Northern Virginia and Maryland suburbs — with discreet, NDA-ready chauffeurs and flat-rate reliability.</p>",
+    "sections": [
+      {
+        "h2": "Washington Airports",
+        "html": "<table class=\"pricing-table\"><thead><tr><th>Airport</th><th>Distance</th><th>Off-Peak</th><th>Peak</th></tr></thead><tbody><tr><td>Reagan National (DCA)</td><td>4–6 mi</td><td>10–20 min</td><td>20–40 min</td></tr><tr><td>Dulles (IAD)</td><td>26 mi</td><td>35–50 min</td><td>50–80 min</td></tr><tr><td>Baltimore/Washington (BWI)</td><td>32 mi</td><td>40–55 min</td><td>55–90 min</td></tr></tbody></table><p>DCA is closest to downtown and the Hill; Dulles serves most international and Northern Virginia tech travel; BWI is the Maryland and budget-carrier gateway.</p>"
+      },
+      {
+        "h2": "Neighborhoods & Suburbs",
+        "html": "<ul class=\"check-list\"><li>Capitol Hill</li><li>Georgetown</li><li>Dupont Circle & Logan Circle</li><li>Foggy Bottom</li><li>Downtown / Penn Quarter</li><li>Arlington & Rosslyn, VA</li><li>Tysons & McLean, VA</li><li>Bethesda & Chevy Chase, MD</li></ul>"
+      },
+      {
+        "h2": "Events & Corporate",
+        "html": "<p>Inaugurations, State of the Union, the Cherry Blossom Festival, and White House Correspondents' weekend all demand precise, credentialed logistics — our specialty. Corporate and government-contractor accounts cover K Street law and lobbying firms, Tysons and Reston tech, and the defense corridor, with NDA-compliant chauffeurs and consolidated billing.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Which DC airport should I use?",
+        "a": "Reagan National (DCA) is closest to downtown and Capitol Hill (4–6 miles). Dulles (IAD) handles most international and Northern Virginia trips; BWI serves Maryland and budget carriers. We cover all three."
+      },
+      {
+        "q": "Do you offer discreet service for government and executive travel?",
+        "a": "Yes — NDA-ready chauffeurs, priority dispatch, and unmarked luxury vehicles are available for government, diplomatic, and C-suite travel throughout the DC metro."
+      }
+    ]
+  },
+  {
+    "slug": "chicago",
+    "area": "Chicago",
+    "h1": "Chicago Black Car Service",
+    "hideAirportRates": true,
+    "desc": "Chicago black car service — O'Hare (ORD), Midway (MDW), the Loop, River North, Gold Coast, and the suburbs. 24/7 chauffeurs.",
+    "intro": "<p class=\"lead\">Aria arranges chauffeured ground transportation across Chicagoland — O'Hare and Midway transfers, Loop and River North corporate travel, Magnificent Mile hotels, and the North Shore suburbs — with flat rates, flight tracking, and chauffeurs who know the Kennedy from the Eisenhower.</p>",
+    "sections": [
+      {
+        "h2": "Chicago Airports",
+        "html": "<table class=\"pricing-table\"><thead><tr><th>Airport</th><th>Distance</th><th>Off-Peak</th><th>Peak</th></tr></thead><tbody><tr><td>O'Hare (ORD)</td><td>17–19 mi</td><td>30–45 min</td><td>50–80 min</td></tr><tr><td>Midway (MDW)</td><td>10–12 mi</td><td>20–35 min</td><td>35–55 min</td></tr></tbody></table><p>O'Hare is the global hub via the Kennedy Expressway; Midway is the closer, quicker South Side option. We route by live traffic — the Kennedy can double your time at peak.</p>"
+      },
+      {
+        "h2": "Neighborhoods & Suburbs",
+        "html": "<ul class=\"check-list\"><li>The Loop</li><li>River North</li><li>Gold Coast & Streeterville</li><li>Lincoln Park & Old Town</li><li>West Loop / Fulton Market</li><li>Magnificent Mile</li><li>Evanston & the North Shore</li><li>Oak Brook & Naperville</li><li>Schaumburg</li></ul>"
+      },
+      {
+        "h2": "Events & Corporate",
+        "html": "<p>Lollapalooza, the Chicago Marathon, Cubs and White Sox home stands, McCormick Place conventions, and the Auto Show each reshape downtown traffic — Aria plans around them. Corporate accounts serve Loop finance and law firms, Fulton Market tech, and O'Hare-corridor headquarters with monthly invoicing.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Does Aria serve O'Hare and Midway?",
+        "a": "Yes — chauffeured transfers to and from both O'Hare (ORD) and Midway (MDW) across Chicagoland, with flight tracking, meet-and-greet, and flat-rate pricing."
+      },
+      {
+        "q": "How long from O'Hare to downtown Chicago?",
+        "a": "About 17–19 miles via the Kennedy Expressway — 30–45 minutes off-peak, but 50–80 during rush hour. Midway is quicker at 20–35 minutes."
+      }
+    ]
+  },
+  {
+    "slug": "los-angeles",
+    "area": "Los Angeles",
+    "h1": "Los Angeles Black Car Service",
+    "hideAirportRates": true,
+    "desc": "Los Angeles black car service — LAX, Burbank (BUR), Beverly Hills, Santa Monica, Hollywood, and DTLA. 24/7 chauffeured transport.",
+    "intro": "<p class=\"lead\">Aria arranges chauffeured ground transportation across Los Angeles — LAX and Burbank transfers, Beverly Hills and Bel Air residences, studio call times, and premiere red carpets — with immaculate vehicles, discreet chauffeurs, and flat rates that ignore LA's brutal surge pricing.</p>",
+    "sections": [
+      {
+        "h2": "Los Angeles Airports",
+        "html": "<table class=\"pricing-table\"><thead><tr><th>Airport</th><th>Distance</th><th>Off-Peak</th><th>Peak</th></tr></thead><tbody><tr><td>LAX</td><td>10–18 mi</td><td>25–45 min</td><td>50–90 min</td></tr><tr><td>Hollywood Burbank (BUR)</td><td>varies</td><td>20–40 min</td><td>40–70 min</td></tr><tr><td>Long Beach (LGB)</td><td>varies</td><td>30–50 min</td><td>50–80 min</td></tr></tbody></table><p>LAX traffic is legendary; for Westside and Valley travelers, Burbank is often the smarter, faster choice. Your chauffeur advises on the best airport for your schedule.</p>"
+      },
+      {
+        "h2": "Neighborhoods We Cover",
+        "html": "<ul class=\"check-list\"><li>Beverly Hills & Bel Air</li><li>Santa Monica & Venice</li><li>West Hollywood</li><li>Hollywood & Los Feliz</li><li>Downtown LA (DTLA)</li><li>Brentwood & Pacific Palisades</li><li>Culver City</li><li>Pasadena</li><li>Malibu</li></ul>"
+      },
+      {
+        "h2": "Events & Studio Travel",
+        "html": "<p>The Oscars, Grammys, and awards season, Lakers and Dodgers home games, and studio and premiere logistics all run on precise, discreet transportation — with NDA-ready chauffeurs available for talent and executive travel. Corporate accounts serve Century City, Culver City studios, and Silicon Beach.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Does Aria serve LAX?",
+        "a": "Yes — chauffeured transfers to and from LAX, Burbank (BUR), and Long Beach (LGB) across Los Angeles, with flight tracking, meet-and-greet, and flat rates that never surge."
+      },
+      {
+        "q": "Should I fly into LAX or Burbank?",
+        "a": "For the Westside, Beverly Hills, and Downtown, LAX is standard but traffic-heavy. For the Valley, Pasadena, or a faster experience, Burbank (BUR) is often quicker. We'll advise for your itinerary."
+      }
+    ]
+  },
+  {
+    "slug": "miami",
+    "area": "Miami",
+    "h1": "Miami Black Car Service",
+    "hideAirportRates": true,
+    "desc": "Miami black car service — MIA, Fort Lauderdale (FLL), South Beach, Brickell, Wynwood, and Coral Gables. 24/7 luxury chauffeurs.",
+    "intro": "<p class=\"lead\">Aria arranges chauffeured ground transportation across South Florida — MIA and Fort Lauderdale transfers, South Beach hotels, Brickell finance meetings, and PortMiami cruise embarkations — with flat rates, flight tracking, and the polished service Miami's clientele expects.</p>",
+    "sections": [
+      {
+        "h2": "Miami Airports & Port",
+        "html": "<table class=\"pricing-table\"><thead><tr><th>Airport</th><th>Distance</th><th>Off-Peak</th><th>Peak</th></tr></thead><tbody><tr><td>Miami International (MIA)</td><td>8–10 mi</td><td>20–35 min</td><td>35–55 min</td></tr><tr><td>Fort Lauderdale (FLL)</td><td>28 mi</td><td>35–50 min</td><td>50–80 min</td></tr><tr><td>PortMiami (cruise)</td><td>7 mi</td><td>15–25 min</td><td>25–40 min</td></tr></tbody></table><p>MIA is closest to Brickell and the Beach; FLL serves the north and budget carriers; PortMiami is the world's busiest cruise port — we handle embarkation and disembarkation with luggage service.</p>"
+      },
+      {
+        "h2": "Neighborhoods We Cover",
+        "html": "<ul class=\"check-list\"><li>South Beach & Miami Beach</li><li>Brickell</li><li>Downtown Miami</li><li>Wynwood & the Design District</li><li>Coral Gables</li><li>Coconut Grove</li><li>Key Biscayne</li><li>Aventura & Sunny Isles</li></ul>"
+      },
+      {
+        "h2": "Events & Corporate",
+        "html": "<p>Art Basel, the Miami Grand Prix at Hard Rock Stadium, Ultra Music Festival, and Miami Swim Week each pack the city — Aria plans routes and staging around them. Corporate accounts serve Brickell's banking and crypto firms with discreet, flat-rate executive transport.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Does Aria serve Miami International and PortMiami?",
+        "a": "Yes — chauffeured transfers to and from MIA, Fort Lauderdale (FLL), and PortMiami cruise terminals, with flight tracking, luggage assistance, and flat-rate pricing."
+      },
+      {
+        "q": "Can you handle cruise transfers at PortMiami?",
+        "a": "Yes — door-to-pier service with luggage handling for embarkation and disembarkation at PortMiami, about 7 miles and 15–25 minutes from MIA."
+      }
+    ]
+  },
+  {
+    "slug": "las-vegas",
+    "area": "Las Vegas",
+    "h1": "Las Vegas Black Car Service",
+    "hideAirportRates": true,
+    "desc": "Las Vegas black car service — Harry Reid (LAS), the Strip, Summerlin, Henderson, and convention transfers. 24/7 luxury chauffeurs.",
+    "intro": "<p class=\"lead\">Aria arranges chauffeured ground transportation across Las Vegas — Harry Reid airport transfers, Strip and Summerlin residences, convention and trade-show logistics, and late-night reliability — with flat rates and immaculate vehicles for a city that never closes.</p>",
+    "sections": [
+      {
+        "h2": "Las Vegas Airport",
+        "html": "<table class=\"pricing-table\"><thead><tr><th>Airport</th><th>Distance</th><th>Off-Peak</th><th>Peak</th></tr></thead><tbody><tr><td>Harry Reid Intl (LAS)</td><td>2–5 mi to Strip</td><td>10–20 min</td><td>20–40 min</td></tr><tr><td>Henderson Executive (HND)</td><td>varies</td><td>15–30 min</td><td>30–45 min</td></tr></tbody></table><p>Harry Reid sits right beside the Strip — often a ten-minute transfer — but CES and major fight weekends can gridlock the whole valley. We stage chauffeurs to keep you moving.</p>"
+      },
+      {
+        "h2": "Areas We Cover",
+        "html": "<ul class=\"check-list\"><li>The Strip (all resorts)</li><li>Downtown & Fremont</li><li>Summerlin</li><li>Henderson & Green Valley</li><li>Lake Las Vegas</li><li>Spring Valley</li><li>North Las Vegas</li></ul>"
+      },
+      {
+        "h2": "Conventions & Events",
+        "html": "<p>CES, the Las Vegas Grand Prix, championship fights, and the year-round convention calendar at the LVCC and Mandalay Bay make ground transport a logistics challenge — Aria runs dedicated fleets with staging and dispatch for corporate groups, plus discreet VIP service for entertainers and executives.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "How far is Harry Reid Airport from the Strip?",
+        "a": "Just 2–5 miles — often a ten-minute transfer off-peak. Big convention and event weekends can extend that, so we stage vehicles and track your flight."
+      },
+      {
+        "q": "Do you handle convention and group transportation?",
+        "a": "Yes — dedicated multi-vehicle fleets with staging and dispatch for CES, trade shows, and corporate groups, plus VIP service throughout the valley."
+      }
+    ]
+  },
+  {
+    "slug": "san-francisco",
+    "area": "San Francisco",
+    "h1": "San Francisco Black Car Service",
+    "hideAirportRates": true,
+    "desc": "San Francisco black car service — SFO, Oakland (OAK), San Jose (SJC), the Financial District, and Silicon Valley. 24/7 chauffeurs.",
+    "intro": "<p class=\"lead\">Aria arranges chauffeured ground transportation across the Bay Area — SFO, Oakland, and San Jose transfers, Financial District and SoMa meetings, and Silicon Valley corporate travel from the city to Palo Alto and Mountain View — with flat rates and flight tracking.</p>",
+    "sections": [
+      {
+        "h2": "Bay Area Airports",
+        "html": "<table class=\"pricing-table\"><thead><tr><th>Airport</th><th>Distance</th><th>Off-Peak</th><th>Peak</th></tr></thead><tbody><tr><td>San Francisco (SFO)</td><td>13 mi</td><td>20–35 min</td><td>35–60 min</td></tr><tr><td>Oakland (OAK)</td><td>varies</td><td>25–45 min</td><td>45–70 min</td></tr><tr><td>San Jose (SJC)</td><td>varies</td><td>45–60 min</td><td>60–90 min</td></tr></tbody></table><p>SFO is the primary gateway via the 101; SJC is closest for Silicon Valley trips; OAK serves the East Bay. We advise the best airport for your destination.</p>"
+      },
+      {
+        "h2": "Neighborhoods & Peninsula",
+        "html": "<ul class=\"check-list\"><li>Financial District & SoMa</li><li>Nob Hill & Russian Hill</li><li>Marina & Pacific Heights</li><li>Mission & Hayes Valley</li><li>Palo Alto & Menlo Park</li><li>Mountain View & Sunnyvale</li><li>San Jose</li><li>Berkeley & Oakland</li></ul>"
+      },
+      {
+        "h2": "Events & Corporate",
+        "html": "<p>Dreamforce takes over the whole city each fall; Giants and Warriors home games, JPMorgan Healthcare Conference week, and tech IPO road-show season all spike demand. Aria's corporate accounts serve SoMa startups and the Sand Hill Road and Silicon Valley campuses with discreet, flat-rate executive transport.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Does Aria serve SFO and Silicon Valley?",
+        "a": "Yes — chauffeured transfers to and from SFO, Oakland (OAK), and San Jose (SJC), plus corporate travel between San Francisco and the Peninsula tech campuses, with flat-rate pricing."
+      },
+      {
+        "q": "Which airport is best for Silicon Valley?",
+        "a": "San Jose (SJC) is closest to Palo Alto, Mountain View, and Sunnyvale. SFO is standard for the city and works well for the Peninsula; we advise per itinerary."
+      }
+    ]
+  },
+  {
+    "slug": "seattle",
+    "area": "Seattle",
+    "h1": "Seattle Black Car Service",
+    "hideAirportRates": true,
+    "desc": "Seattle black car service — Sea-Tac (SEA), Downtown, Bellevue, Redmond, and the Eastside tech corridor. 24/7 chauffeured transport.",
+    "intro": "<p class=\"lead\">Aria arranges chauffeured ground transportation across the Puget Sound region — Sea-Tac transfers, Downtown and Belltown hotels, and the Eastside tech corridor from Bellevue to Redmond — with flat rates, flight tracking, and chauffeurs who plan around the I-5 and 520 bridge tolls.</p>",
+    "sections": [
+      {
+        "h2": "Seattle Airport",
+        "html": "<table class=\"pricing-table\"><thead><tr><th>Airport</th><th>Distance</th><th>Off-Peak</th><th>Peak</th></tr></thead><tbody><tr><td>Seattle-Tacoma (SEA)</td><td>14 mi</td><td>25–40 min</td><td>40–65 min</td></tr><tr><td>Boeing Field (BFI)</td><td>6 mi</td><td>15–25 min</td><td>25–40 min</td></tr><tr><td>Paine Field (PAE)</td><td>30 mi</td><td>35–50 min</td><td>50–80 min</td></tr></tbody></table><p>Sea-Tac is the primary gateway via I-5; Paine Field (Everett) serves the north end; Boeing Field handles private and charter traffic. We route around I-5 and the 520 toll bridge.</p>"
+      },
+      {
+        "h2": "Neighborhoods & Eastside",
+        "html": "<ul class=\"check-list\"><li>Downtown & Belltown</li><li>South Lake Union</li><li>Capitol Hill</li><li>Queen Anne</li><li>Bellevue</li><li>Redmond</li><li>Kirkland</li><li>Mercer Island</li></ul>"
+      },
+      {
+        "h2": "Events & Corporate",
+        "html": "<p>Seahawks and Kraken home games, Bumbershoot, and the summer cruise season at Pier 91 shape downtown traffic. Aria's corporate accounts serve Amazon and the South Lake Union campus, Microsoft in Redmond, and the Bellevue tech cluster with monthly invoicing and NDA-ready chauffeurs.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Does Aria serve Sea-Tac Airport?",
+        "a": "Yes — chauffeured transfers to and from Seattle-Tacoma (SEA), Boeing Field (BFI), and Paine Field (PAE), with flight tracking, meet-and-greet, and flat-rate pricing across the region."
+      },
+      {
+        "q": "Do you cover the Eastside tech campuses?",
+        "a": "Yes — corporate accounts and daily transfers to Microsoft (Redmond), Amazon (South Lake Union), and the Bellevue and Kirkland tech corridor, planned around bridge tolls and I-5."
+      }
+    ]
+  },
+  {
+    "slug": "dallas",
+    "area": "Dallas",
+    "h1": "Dallas Black Car Service",
+    "hideAirportRates": true,
+    "desc": "Dallas black car service — DFW, Love Field (DAL), Uptown, Downtown, Plano, and Frisco. 24/7 chauffeured ground transportation.",
+    "intro": "<p class=\"lead\">Aria arranges chauffeured ground transportation across the Dallas-Fort Worth Metroplex — DFW and Love Field transfers, Uptown and Downtown business travel, and the booming Plano and Frisco corporate corridor — with flat rates, flight tracking, and reliable 24/7 dispatch.</p>",
+    "sections": [
+      {
+        "h2": "Dallas Airports",
+        "html": "<table class=\"pricing-table\"><thead><tr><th>Airport</th><th>Distance</th><th>Off-Peak</th><th>Peak</th></tr></thead><tbody><tr><td>DFW International</td><td>18–22 mi</td><td>25–40 min</td><td>40–60 min</td></tr><tr><td>Love Field (DAL)</td><td>7 mi</td><td>15–25 min</td><td>25–40 min</td></tr></tbody></table><p>DFW is the global hub between Dallas and Fort Worth; Love Field is the closer, quicker in-town option for Southwest and short-haul travel. We route by live traffic on the Tollway and 635.</p>"
+      },
+      {
+        "h2": "Neighborhoods & Suburbs",
+        "html": "<ul class=\"check-list\"><li>Uptown & Downtown Dallas</li><li>Highland Park & University Park</li><li>Deep Ellum & Design District</li><li>Las Colinas & Irving</li><li>Plano & Legacy West</li><li>Frisco</li><li>Addison</li><li>Fort Worth</li></ul>"
+      },
+      {
+        "h2": "Events & Corporate",
+        "html": "<p>Cowboys games at AT&T Stadium, the State Fair of Texas, and the Byron Nelson each move huge crowds. Aria's corporate accounts serve the Legacy West headquarters cluster (Toyota, JPMorgan, Liberty Mutual), Downtown finance, and the Las Colinas corporate campuses with monthly invoicing.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Does Aria serve DFW and Love Field?",
+        "a": "Yes — chauffeured transfers to and from DFW International and Dallas Love Field (DAL) across the Metroplex, with flight tracking, meet-and-greet, and flat-rate pricing."
+      },
+      {
+        "q": "Which Dallas airport is closer to downtown?",
+        "a": "Love Field (DAL) at about 7 miles, 15–25 minutes. DFW is 18–22 miles but serves far more destinations, including international."
+      }
+    ]
+  },
+  {
+    "slug": "houston",
+    "area": "Houston",
+    "h1": "Houston Black Car Service",
+    "hideAirportRates": true,
+    "desc": "Houston black car service — Bush (IAH), Hobby (HOU), Downtown, Galleria, Energy Corridor, and The Woodlands. 24/7 chauffeurs.",
+    "intro": "<p class=\"lead\">Aria arranges chauffeured ground transportation across Greater Houston — Bush and Hobby transfers, Downtown and Galleria business travel, Texas Medical Center trips, and the Energy Corridor and Woodlands corporate corridor — with flat rates and dependable 24/7 dispatch.</p>",
+    "sections": [
+      {
+        "h2": "Houston Airports",
+        "html": "<table class=\"pricing-table\"><thead><tr><th>Airport</th><th>Distance</th><th>Off-Peak</th><th>Peak</th></tr></thead><tbody><tr><td>Bush Intercontinental (IAH)</td><td>22–24 mi</td><td>30–45 min</td><td>45–70 min</td></tr><tr><td>Hobby (HOU)</td><td>10–12 mi</td><td>20–30 min</td><td>30–50 min</td></tr></tbody></table><p>Bush (IAH) is the international and long-haul hub to the north; Hobby (HOU) is the closer, quicker southern gateway for Southwest and domestic travel. We route by live traffic on 45 and the Beltway.</p>"
+      },
+      {
+        "h2": "Neighborhoods & Suburbs",
+        "html": "<ul class=\"check-list\"><li>Downtown & Midtown</li><li>River Oaks & Uptown</li><li>The Galleria</li><li>Texas Medical Center</li><li>Energy Corridor</li><li>The Woodlands</li><li>Sugar Land</li><li>Katy</li><li>Memorial</li></ul>"
+      },
+      {
+        "h2": "Events & Corporate",
+        "html": "<p>Texans games at NRG Stadium, the Houston Livestock Show and Rodeo, and the offshore energy conferences each spike demand. Aria's corporate accounts serve the Energy Corridor (oil & gas majors), the Texas Medical Center, and Downtown finance with discreet executive transport and monthly billing.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Does Aria serve Bush and Hobby airports?",
+        "a": "Yes — chauffeured transfers to and from Bush Intercontinental (IAH) and Hobby (HOU) across Greater Houston, with flight tracking, meet-and-greet, and flat-rate pricing."
+      },
+      {
+        "q": "Do you serve the Texas Medical Center?",
+        "a": "Yes — reliable, patient transport to and from the Texas Medical Center and area hospitals, plus corporate accounts for the Energy Corridor and Downtown."
+      }
+    ]
+  },
+  {
+    "slug": "austin",
+    "area": "Austin",
+    "h1": "Austin Black Car Service",
+    "hideAirportRates": true,
+    "desc": "Austin black car service — Austin-Bergstrom (AUS), Downtown, South Congress, The Domain, and the tech corridor. 24/7 chauffeurs.",
+    "intro": "<p class=\"lead\">Aria arranges chauffeured ground transportation across Austin — Austin-Bergstrom transfers, Downtown and South Congress hotels, and the tech corridor from The Domain to the eastern Travis County campuses — with flat rates, flight tracking, and chauffeurs who plan around SXSW and race weekends.</p>",
+    "sections": [
+      {
+        "h2": "Austin Airport",
+        "html": "<table class=\"pricing-table\"><thead><tr><th>Airport</th><th>Distance</th><th>Off-Peak</th><th>Peak</th></tr></thead><tbody><tr><td>Austin-Bergstrom (AUS)</td><td>8 mi</td><td>15–20 min</td><td>30–50 min</td></tr></tbody></table><p>AUS sits about 8 miles southeast of downtown via SR-71 and US-183 — quick most days, but SXSW, ACL, and the F1 Grand Prix at COTA can stretch it well past an hour. We build in cushion and track your flight.</p>"
+      },
+      {
+        "h2": "Neighborhoods & Suburbs",
+        "html": "<ul class=\"check-list\"><li>Downtown & Rainey Street</li><li>South Congress (SoCo)</li><li>East Austin</li><li>West Lake Hills & Westlake</li><li>The Domain</li><li>Mueller</li><li>Round Rock & Cedar Park</li><li>Bee Cave & Lakeway</li></ul>"
+      },
+      {
+        "h2": "Events & Corporate",
+        "html": "<p>SXSW, Austin City Limits, the Formula 1 United States Grand Prix at Circuit of the Americas, and UT football weekends each reshape the city — Aria plans staging and departures around every one. Corporate accounts serve the Austin tech cluster: Tesla, Apple's Austin campus, Dell, Oracle, and the Domain headquarters, with NDA-ready chauffeurs.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Does Aria serve Austin-Bergstrom Airport?",
+        "a": "Yes — chauffeured transfers to and from Austin-Bergstrom International (AUS), about 8 miles from downtown, with flight tracking, meet-and-greet, and flat-rate pricing."
+      },
+      {
+        "q": "How far ahead should I book during SXSW or F1?",
+        "a": "For SXSW (March), ACL (October), and the F1 US Grand Prix at COTA, book at least a week ahead — these weekends sell out fleets citywide. Routine trips need only 24 hours."
+      }
+    ]
+  },
+  {
+    "slug": "denver",
+    "area": "Denver",
+    "h1": "Denver Black Car Service",
+    "hideAirportRates": true,
+    "desc": "Denver black car service — Denver International (DEN), Downtown, Cherry Creek, the Tech Center, and mountain transfers to Vail and Aspen.",
+    "intro": "<p class=\"lead\">Aria arranges chauffeured ground transportation across metro Denver and the Front Range — Denver International transfers, Downtown and Cherry Creek travel, Tech Center corporate runs, and long-distance mountain trips to Vail, Beaver Creek, and Aspen — with flat rates and all-weather-ready chauffeurs.</p>",
+    "sections": [
+      {
+        "h2": "Denver Airport & Mountains",
+        "html": "<table class=\"pricing-table\"><thead><tr><th>Airport</th><th>Distance</th><th>Off-Peak</th><th>Peak</th></tr></thead><tbody><tr><td>Denver Intl (DEN)</td><td>25 mi</td><td>35–50 min</td><td>50–75 min</td></tr><tr><td>Vail / Beaver Creek</td><td>120 mi</td><td>2–2.5 hrs</td><td>3+ hrs (snow)</td></tr><tr><td>Aspen</td><td>160 mi</td><td>3.5–4 hrs</td><td>4.5+ hrs (snow)</td></tr></tbody></table><p>DEN is a sprawling 25 miles northeast of downtown via Peña Boulevard. Mountain transfers up I-70 are a Denver specialty — and a weather challenge we're equipped for with the right vehicles.</p>"
+      },
+      {
+        "h2": "Neighborhoods & Suburbs",
+        "html": "<ul class=\"check-list\"><li>Downtown & LoDo</li><li>Cherry Creek</li><li>RiNo (River North Art District)</li><li>Denver Tech Center (DTC)</li><li>Highlands</li><li>Boulder</li><li>Greenwood Village</li><li>Littleton</li></ul>"
+      },
+      {
+        "h2": "Events & Mountain Travel",
+        "html": "<p>Broncos and Nuggets home games, Red Rocks concerts, and ski season all drive demand. Aria's specialty is the I-70 mountain corridor — reliable SUV transfers to Vail, Beaver Creek, Breckenridge, and Aspen in winter, with chauffeurs experienced in Rocky Mountain conditions.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Does Aria do mountain transfers from Denver?",
+        "a": "Yes — long-distance SUV transfers up I-70 to Vail, Beaver Creek, Breckenridge, and Aspen, with chauffeurs experienced in winter mountain driving. We quote each route flat."
+      },
+      {
+        "q": "How far is Denver Airport from downtown?",
+        "a": "About 25 miles northeast via Peña Boulevard — 35–50 minutes off-peak, longer in snow or rush hour. We track your flight and plan accordingly."
+      }
+    ]
+  },
+  {
+    "slug": "indianapolis",
+    "area": "Indianapolis",
+    "h1": "Indianapolis Black Car Service",
+    "hideAirportRates": true,
+    "desc": "Indianapolis black car service — Indianapolis International (IND), Downtown, Carmel, Fishers, and event transfers. 24/7 chauffeurs.",
+    "intro": "<p class=\"lead\">Aria arranges chauffeured ground transportation across Indianapolis — Indianapolis International transfers, Downtown convention and sports travel, and the Carmel and Fishers corporate suburbs — with flat rates, flight tracking, and reliable service around the city's marquee events.</p>",
+    "sections": [
+      {
+        "h2": "Indianapolis Airport",
+        "html": "<table class=\"pricing-table\"><thead><tr><th>Airport</th><th>Distance</th><th>Off-Peak</th><th>Peak</th></tr></thead><tbody><tr><td>Indianapolis Intl (IND)</td><td>8 mi</td><td>15–20 min</td><td>25–40 min</td></tr></tbody></table><p>IND is a compact, easy 8 miles southwest of downtown via I-70 — one of the smoother major-city airport runs, except during Indy 500 and Final Four weekends when the whole city fills up.</p>"
+      },
+      {
+        "h2": "Neighborhoods & Suburbs",
+        "html": "<ul class=\"check-list\"><li>Downtown & Mass Ave</li><li>Broad Ripple</li><li>Meridian-Kessler</li><li>Carmel</li><li>Fishers</li><li>Zionsville</li><li>Greenwood</li><li>Fountain Square</li></ul>"
+      },
+      {
+        "h2": "Events & Corporate",
+        "html": "<p>The Indianapolis 500 and the Brickyard at the Motor Speedway, the NCAA Final Four, Gen Con, and Colts and Pacers home games each pack downtown — Aria plans staging and departures around them. Corporate accounts serve the Downtown business district and the Carmel corporate campuses with monthly invoicing.</p>"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Does Aria serve Indianapolis International Airport?",
+        "a": "Yes — chauffeured transfers to and from Indianapolis International (IND), about 8 miles from downtown, with flight tracking, meet-and-greet, and flat-rate pricing."
+      },
+      {
+        "q": "Do you handle Indy 500 and Final Four transportation?",
+        "a": "Yes — dedicated service to the Motor Speedway and downtown venues during the Indy 500, Final Four, and Gen Con, with staging to work around road closures. Book at least a week ahead."
+      }
+    ]
+  }
+]
