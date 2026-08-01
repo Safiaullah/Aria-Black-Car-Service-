@@ -3,6 +3,9 @@
   "outputDirectory": "public",
   "cleanUrls": true,
   "trailingSlash": false,
+  "github": {
+    "silent": true
+  },
   "redirects": [
     {
       "source": "/blog/tlc-license-explained",
