@@ -204,9 +204,12 @@ ${footer()}
 </html>`;
 }
 
-function pageHero(h1, subtitle, label = "") {
+function pageHero(h1, subtitle, label = "", bgImg = "") {
+  const attrs = bgImg
+    ? ` class="page-hero page-hero--image" style="background-image:linear-gradient(rgba(5,5,5,.45),rgba(5,5,5,.82)),url('${esc(bgImg)}');background-size:cover;background-position:center;min-height:clamp(300px,42vh,440px);display:flex;align-items:center;"`
+    : ` class="page-hero"`;
   return `
-  <section class="page-hero">
+  <section${attrs}>
     <div class="container">
       ${label ? `<p class="section-label">${esc(label)}</p>` : ""}
       <h1 class="page-hero-title">${h1}</h1>
@@ -381,9 +384,11 @@ function servicePage(s) {
 
 function airportPage(a) {
   const h1 = a.h1 || `${a.name} Car Service`;
+  // Use a local hero image only if it actually exists on disk (keeps deploys safe until files are added)
+  const heroImg = (a.img && a.img.startsWith("/images/") && fs.existsSync(path.join(ROOT, a.img.replace(/^\//, "")))) ? a.img : "";
   const lead = a.intro || `<p class="lead">Aria provides reliable luxury transfers to and from ${esc(a.full)}. Typical drive time from Manhattan: <strong>${esc(a.time)}</strong> via ${esc(a.route)}.</p>`;
   const body = `
-    ${pageHero(h1, `Flat-rate ${a.full} car service with flight tracking and meet-and-greet.`, a.code)}
+    ${pageHero(h1, `Flat-rate ${a.full} car service with flight tracking and meet-and-greet.`, a.code, heroImg)}
     <section class="page-section"><div class="container prose-grid">
       <div class="prose">
         ${lead}
