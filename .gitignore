@@ -6,3 +6,4 @@ public/
 .env
 .env.local
 videos/
+keyword-map.csv
