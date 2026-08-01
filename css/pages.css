@@ -179,6 +179,12 @@ body.inner-page .menu-toggle {
   text-underline-offset: 3px;
 }
 
+/* Cards rendered inside prose containers are tiles, not inline links */
+.prose a.link-card,
+.prose .card-grid a {
+  text-decoration: none;
+}
+
 .prose-grid {
   display: grid;
   gap: 2.5rem;
