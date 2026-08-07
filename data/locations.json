@@ -69,7 +69,7 @@
     "sections": [
       {
         "h2": "Airports From Astoria",
-        "html": "<table class=\"pricing-table\"><thead><tr><th>Airport</th><th>Distance</th><th>Off-Peak</th><th>Peak</th></tr></thead><tbody><tr><td>LaGuardia (LGA)</td><td>5–7 mi</td><td>10–15 min</td><td>20–35 min</td></tr><tr><td>JFK (JFK)</td><td>10–14 mi</td><td>20–30 min</td><td>30–50 min</td></tr><tr><td>Newark (EWR)</td><td>16–20 mi</td><td>35–45 min</td><td>45–70 min</td></tr></tbody></table><p>LaGuardia flat from $95, JFK from $135, Newark from $195 — all-inclusive of tolls and 60 minutes of complimentary airport wait time.</p>"
+        "html": "<table class=\"pricing-table\"><thead><tr><th>Airport</th><th>Distance</th><th>Off-Peak</th><th>Peak</th></tr></thead><tbody><tr><td>LaGuardia (LGA)</td><td>5–7 mi</td><td>10–15 min</td><td>20–35 min</td></tr><tr><td>JFK (JFK)</td><td>10–14 mi</td><td>20–30 min</td><td>30–50 min</td></tr><tr><td>Newark (EWR)</td><td>16–20 mi</td><td>35–45 min</td><td>45–70 min</td></tr></tbody></table><p>LaGuardia flat $140, JFK $165, Newark $180 (sedan) — base rates include tolls and 60 minutes of complimentary airport wait time; gratuity, tax, and card processing are itemized at checkout.</p>"
       },
       {
         "h2": "Neighborhoods We Cover",
@@ -83,7 +83,7 @@
     "faqs": [
       {
         "q": "How much is a car from Astoria to LaGuardia?",
-        "a": "A flat $95 for a sedan and $150 for an SUV — often a ten-minute trip, with tolls and wait time included and no surge pricing."
+        "a": "A flat $140 for a sedan and $220 for an SUV — often a ten-minute trip, with tolls and wait time included in the base fare and no surge pricing."
       },
       {
         "q": "Which airport is closest to Astoria?",
@@ -101,7 +101,7 @@
     "sections": [
       {
         "h2": "Airports From Brooklyn",
-        "html": "<table class=\"pricing-table\"><thead><tr><th>Airport</th><th>Distance</th><th>Off-Peak</th><th>Peak</th></tr></thead><tbody><tr><td>JFK (JFK)</td><td>12–18 mi</td><td>30–45 min</td><td>45–65 min</td></tr><tr><td>LaGuardia (LGA)</td><td>10–15 mi</td><td>25–40 min</td><td>40–60 min</td></tr><tr><td>Newark (EWR)</td><td>14–20 mi</td><td>35–50 min</td><td>50–75 min</td></tr></tbody></table><p>JFK flat from $165, LGA from $165, Newark from $195. Brooklyn-close neighborhoods like Canarsie and East New York price lower to JFK — we quote your exact address.</p>"
+        "html": "<table class=\"pricing-table\"><thead><tr><th>Airport</th><th>Distance</th><th>Off-Peak</th><th>Peak</th></tr></thead><tbody><tr><td>JFK (JFK)</td><td>12–18 mi</td><td>30–45 min</td><td>45–65 min</td></tr><tr><td>LaGuardia (LGA)</td><td>10–15 mi</td><td>25–40 min</td><td>40–60 min</td></tr><tr><td>Newark (EWR)</td><td>14–20 mi</td><td>35–50 min</td><td>50–75 min</td></tr></tbody></table><p>JFK flat $165, LGA $140, Newark $180 (sedan) — one flat rate anywhere in the five boroughs, with tolls included in the base fare.</p>"
       },
       {
         "h2": "Neighborhoods We Cover",
@@ -115,7 +115,7 @@
     "faqs": [
       {
         "q": "How much is a car from Brooklyn to JFK?",
-        "a": "A flat $165 for a sedan and $230 for an SUV from most of Brooklyn, tolls included. Neighborhoods closer to JFK price lower — we confirm at booking."
+        "a": "A flat $165 for a sedan and $250 for an SUV from anywhere in Brooklyn, tolls included in the base fare. Gratuity, tax, and card processing are itemized at checkout."
       },
       {
         "q": "Do you serve all Brooklyn neighborhoods?",
@@ -133,7 +133,7 @@
     "sections": [
       {
         "h2": "Airports From Queens",
-        "html": "<table class=\"pricing-table\"><thead><tr><th>Airport</th><th>Distance</th><th>Off-Peak</th><th>Peak</th></tr></thead><tbody><tr><td>LaGuardia (LGA)</td><td>2–8 mi</td><td>10–20 min</td><td>20–40 min</td></tr><tr><td>JFK (JFK)</td><td>5–15 mi</td><td>15–30 min</td><td>25–50 min</td></tr><tr><td>Newark (EWR)</td><td>18–24 mi</td><td>40–55 min</td><td>55–80 min</td></tr></tbody></table><p>Because both LGA and JFK sit in Queens, local flat rates run lower than Manhattan's — LGA from $75, JFK from $95 depending on neighborhood.</p>"
+        "html": "<table class=\"pricing-table\"><thead><tr><th>Airport</th><th>Distance</th><th>Off-Peak</th><th>Peak</th></tr></thead><tbody><tr><td>LaGuardia (LGA)</td><td>2–8 mi</td><td>10–20 min</td><td>20–40 min</td></tr><tr><td>JFK (JFK)</td><td>5–15 mi</td><td>15–30 min</td><td>25–50 min</td></tr><tr><td>Newark (EWR)</td><td>18–24 mi</td><td>40–55 min</td><td>55–80 min</td></tr></tbody></table><p>Both LGA and JFK sit in Queens, and the flat rate holds anywhere in the five boroughs — LGA $140, JFK $165 for a sedan, tolls included in the base fare.</p>"
       },
       {
         "h2": "Neighborhoods We Cover",
@@ -147,7 +147,7 @@
     "faqs": [
       {
         "q": "How much is a car from Queens to the airport?",
-        "a": "Local flat rates start around $75 to LaGuardia and $95 to JFK, since both airports are within the borough. Newark runs $195 and up. We quote your exact neighborhood."
+        "a": "Flat rates are $140 to LaGuardia, $165 to JFK, and $180 to Newark for a sedan — the same flat anywhere in the five boroughs, with tolls included in the base fare."
       },
       {
         "q": "Do you serve the US Open at Flushing Meadows?",
@@ -179,7 +179,7 @@
     "faqs": [
       {
         "q": "Does Aria serve Boston Logan Airport?",
-        "a": "Yes — we provide chauffeured transfers to and from Logan International (BOS) across Greater Boston, with flight tracking, meet-and-greet, and flat-rate pricing. Call (888) 503-4449 to reserve."
+        "a": "Yes — we provide chauffeured transfers to and from Logan International (BOS) across Greater Boston, with flight tracking, meet-and-greet, and flat-rate pricing. Call (888) 313-2455 to reserve."
       },
       {
         "q": "How far is Logan from downtown Boston?",

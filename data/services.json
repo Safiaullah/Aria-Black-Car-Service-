@@ -52,7 +52,7 @@
     "slug": "point-to-point",
     "title": "Point-to-Point",
     "h1": "NYC Point-to-Point Car Service",
-    "desc": "Flat-rate private car service between any two addresses in NYC and the tri-state area."
+    "desc": "Private car service between any two addresses in NYC and the tri-state area — distance-based fares with an instant quote online."
   },
   {
     "slug": "sightseeing-tours",
@@ -168,7 +168,7 @@
       },
       {
         "h2": "What Guests Get",
-        "html": "<p>Every guest ride is a flat, all-inclusive rate quoted up front — no surge during checkout rush, bad weather, or a citywide event. Airport transfers include FAA flight tracking and 60 minutes of complimentary wait time; evening runs to dinner, Broadway, or a gala come with the same on-time reliability. Manhattan airport flat rates: <strong>JFK $165</strong>, <strong>LaGuardia $140</strong>, <strong>Newark $180</strong> (sedan). SUVs and Sprinters are available for families and groups.</p>"
+        "html": "<p>Every guest ride is a flat base rate quoted up front — tolls and fuel included, with gratuity, tax, and card processing itemized at checkout, and no surge during checkout rush, bad weather, or a citywide event. Airport transfers include FAA flight tracking and 60 minutes of complimentary wait time; evening runs to dinner, Broadway, or a gala come with the same on-time reliability. Manhattan airport flat rates: <strong>JFK $165</strong>, <strong>LaGuardia $140</strong>, <strong>Newark $180</strong> (sedan). SUVs and Sprinters are available for families and groups.</p>"
       },
       {
         "h2": "Discreet, Professional, On-Brand",
@@ -178,7 +178,7 @@
     "faqs": [
       {
         "q": "Can our hotel set up an account with Aria?",
-        "a": "Yes. We offer partner accounts with a dedicated manager, consolidated monthly billing, and priority dispatch. Call (888) 503-4449 to set one up."
+        "a": "Yes. We offer partner accounts with a dedicated manager, consolidated monthly billing, and priority dispatch. Call (888) 313-2455 to set one up."
       },
       {
         "q": "How do guests pay?",
@@ -190,7 +190,7 @@
       },
       {
         "q": "What are the airport flat rates for guests?",
-        "a": "From Manhattan hotels: $165 to JFK, $140 to LaGuardia, and $180 to Newark for a sedan, all-inclusive of tolls and wait time. SUVs available at higher flat rates."
+        "a": "From Manhattan hotels: $165 to JFK, $140 to LaGuardia, and $180 to Newark for a sedan — base rates include tolls and wait time; gratuity, tax, and card processing are itemized at checkout. SUVs available at higher flat rates."
       }
     ]
   },
@@ -208,7 +208,7 @@
       },
       {
         "h2": "Teterboro, Westchester & Beyond",
-        "html": "<p>Teterboro (TEB) is the busiest private-aviation gateway to Manhattan, and it's our home turf — flat sedan transfers to Midtown run <strong>$180</strong>, SUVs <strong>$250</strong>, typically 30–45 minutes depending on traffic. We also cover Westchester County (HPN) at <strong>$200 sedan / $270 SUV</strong>, Republic (FRG) on Long Island, and the private terminals at Newark and JFK. For multi-leg trips, one chauffeur can stay with your principal all day.</p>"
+        "html": "<p>Teterboro (TEB) is the busiest private-aviation gateway to Manhattan, and it's our home turf — flat sedan transfers to Midtown run <strong>$180</strong>, SUVs <strong>$275</strong>, typically 30–45 minutes depending on traffic. We also cover Westchester County (HPN) at <strong>$200 sedan / $295 SUV</strong>, Republic (FRG) on Long Island, and the private terminals at Newark and JFK. For multi-leg trips, one chauffeur can stay with your principal all day.</p>"
       },
       {
         "h2": "The Right Vehicle for the Mission",
@@ -222,7 +222,7 @@
       },
       {
         "q": "How much is a car from Teterboro to Manhattan?",
-        "a": "Flat rates are $180 for a sedan and $250 for an SUV, all-inclusive of tolls, with a typical 30–45 minute drive to Midtown."
+        "a": "Flat base rates are $180 for a sedan and $275 for an SUV, tolls included (gratuity, tax, and card processing itemized at checkout), with a typical 30–45 minute drive to Midtown."
       },
       {
         "q": "Do you track private flights?",
@@ -230,7 +230,7 @@
       },
       {
         "q": "Can one chauffeur stay for a full-day multi-leg trip?",
-        "a": "Yes — hourly and as-directed service lets a single chauffeur remain with your principal across meetings and legs. Sedan hourly starts at $95/hr."
+        "a": "Yes — hourly and as-directed service lets a single chauffeur remain with your principal across meetings and legs. Sedan hourly starts at $90/hr."
       }
     ]
   },
@@ -252,7 +252,7 @@
       },
       {
         "h2": "Beyond Manhattan",
-        "html": "<p>Many programs span the corridor — a morning in Midtown, afternoon in Boston or Connecticut, next day in Philadelphia or DC. We handle the long-distance legs on the same account: flat rates like <strong>NYC → Boston $795</strong>, <strong>NYC → Philadelphia $425</strong>, and <strong>NYC → Washington DC $895</strong> (sedan), with the continuity of a chauffeur who already knows the itinerary.</p>"
+        "html": "<p>Many programs span the corridor — a morning in Midtown, afternoon in Boston or Connecticut, next day in Philadelphia or DC. We handle the long-distance legs on the same account with distance-based fares — <strong>NYC → Boston from ~$955</strong>, <strong>NYC → Philadelphia from ~$475</strong>, and <strong>NYC → Washington DC from ~$1,015</strong> (sedan) — with the continuity of a chauffeur who already knows the itinerary.</p>"
       }
     ],
     "faqs": [
@@ -266,7 +266,7 @@
       },
       {
         "q": "How is a roadshow priced?",
-        "a": "As-directed hourly service (sedan from $95/hr, SUV from $135/hr, 3–4 hour minimums) with flat rates for any long-distance legs. We'll quote the full program up front."
+        "a": "As-directed hourly service (sedan from $90/hr, SUV from $125/hr, 3-hour minimums; Sprinter 5-hour minimum) with distance-based fares for any long-distance legs. We'll quote the full program up front."
       },
       {
         "q": "Are chauffeurs discreet with confidential discussions?",

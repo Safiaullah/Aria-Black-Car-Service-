@@ -42,7 +42,7 @@
   {
     "slug": "best-hamptons-car-service",
     "title": "Best Hamptons Car Service from NYC (2026)",
-    "meta": "NYC to Hamptons private car service — summer traffic, flat rates, and why beat the Jitney.",
+    "meta": "NYC to Hamptons private car service — summer traffic, transparent rates, and why beat the Jitney.",
     "category": "Routes",
     "updated": "May 2026",
     "readTime": "8 min"
@@ -150,7 +150,7 @@
     "category": "Education",
     "updated": "July 2026",
     "readTime": "7 min",
-    "intro": "<p class=\"lead\">\"Black car service\" gets used loosely, but it means something specific: a pre-booked, professionally chauffeured private car with a fixed, all-inclusive rate. Here's how it actually works and how it differs from every other way of getting around.</p>",
+    "intro": "<p class=\"lead\">\"Black car service\" gets used loosely, but it means something specific: a pre-booked, professionally chauffeured private car with a fixed, transparent rate quoted up front. Here's how it actually works and how it differs from every other way of getting around.</p>",
     "sections": [
       {
         "h2": "The Defining Features",
@@ -166,7 +166,7 @@
       },
       {
         "h2": "What It Costs",
-        "html": "<p>Black car pricing is flat and transparent. In New York, Aria's airport transfers run $140–$200 from Manhattan depending on the airport, hourly service starts at $95/hr, and point-to-point trips are quoted up front. You pay the same rate at 3 a.m. in a snowstorm as at noon on a clear day — the opposite of surge pricing.</p>"
+        "html": "<p>Black car pricing is flat and transparent. In New York, Aria's airport transfers run $140–$200 from Manhattan depending on the airport, hourly service starts at $90/hr, and point-to-point trips are quoted up front. You pay the same rate at 3 a.m. in a snowstorm as at noon on a clear day — the opposite of surge pricing.</p>"
       }
     ],
     "faqs": [
@@ -191,7 +191,7 @@
     "sections": [
       {
         "h2": "Price: Metered vs. Flat",
-        "html": "<p>A taxi runs a meter — you don't know the final fare until you arrive, and traffic, tolls, and detours all push it up. A black car is a <strong>flat rate locked at booking</strong>. For a JFK-to-Manhattan trip, the yellow cab flat fare plus tolls, tip, and surcharges lands close to a black car's all-inclusive rate — but only the black car guarantees the number in advance.</p>"
+        "html": "<p>A taxi runs a meter — you don't know the final fare until you arrive, and traffic, tolls, and detours all push it up. A black car is a <strong>flat rate locked at booking</strong>. For a JFK-to-Manhattan trip, the yellow cab flat fare plus tolls, tip, and surcharges lands close to a black car's transparent, quoted rate — but only the black car guarantees the number in advance.</p>"
       },
       {
         "h2": "Reliability: Hailed vs. Reserved",
@@ -232,7 +232,7 @@
       },
       {
         "h2": "Check Whether It's Already Included",
-        "html": "<p>Many corporate accounts, event contracts, and pre-paid bookings <strong>include gratuity automatically</strong>. Always check your confirmation or receipt before adding a tip on top — reputable operators state clearly whether gratuity is included. When in doubt, ask; a good company will tell you straight.</p>"
+        "html": "<p>Many corporate accounts, event contracts, and pre-paid bookings <strong>include gratuity automatically</strong>. With Aria, a <strong>20% standard gratuity is added at checkout</strong> and itemized transparently alongside NYS sales tax and card processing — so there's no need to tip on top unless you'd like to recognize exceptional service. Elsewhere, always check your confirmation or receipt before adding a tip on top — reputable operators state clearly whether gratuity is included. When in doubt, ask; a good company will tell you straight.</p>"
       },
       {
         "h2": "Quick Reference",
@@ -246,11 +246,11 @@
     "faqs": [
       {
         "q": "How much should I tip a black car chauffeur?",
-        "a": "The standard is 18–20% of the fare, unless gratuity is already included in your rate. For a $165 airport transfer, that's roughly $30–$35."
+        "a": "The standard is 18–20% of the fare when gratuity isn't already included. Aria adds a 20% standard gratuity at checkout, itemized transparently, so there's no need to tip on top. For a $165 airport transfer, 20% comes to $33."
       },
       {
         "q": "Is gratuity included in black car service?",
-        "a": "Sometimes — corporate accounts and pre-paid bookings often include it. Check your confirmation or receipt, and when unsure, ask the operator directly."
+        "a": "With Aria, yes — a 20% standard gratuity is added and itemized at checkout, so there's no need to tip again. With other operators, check your confirmation or receipt, and when unsure, ask directly."
       }
     ]
   },
@@ -265,11 +265,11 @@
     "sections": [
       {
         "h2": "Airport Flat Rates (from Manhattan)",
-        "html": "<table class=\"pricing-table\"><thead><tr><th>Airport</th><th>Sedan</th><th>SUV</th></tr></thead><tbody><tr><td>LaGuardia (LGA)</td><td>$140</td><td>$200</td></tr><tr><td>JFK</td><td>$165</td><td>$230</td></tr><tr><td>Newark (EWR)</td><td>$180</td><td>$250</td></tr><tr><td>Teterboro (TEB)</td><td>$180</td><td>$250</td></tr><tr><td>Westchester (HPN)</td><td>$200</td><td>$270</td></tr></tbody></table><p>Rates are all-inclusive of tolls, flight tracking, meet-and-greet, and 60 minutes of complimentary wait time.</p>"
+        "html": "<table class=\"pricing-table\"><thead><tr><th>Airport</th><th>Sedan</th><th>SUV</th></tr></thead><tbody><tr><td>LaGuardia (LGA)</td><td>$140</td><td>$220</td></tr><tr><td>JFK</td><td>$165</td><td>$250</td></tr><tr><td>Newark (EWR)</td><td>$180</td><td>$275</td></tr><tr><td>Teterboro (TEB)</td><td>$180</td><td>$275</td></tr><tr><td>Westchester (HPN)</td><td>$200</td><td>$295</td></tr></tbody></table><p>These are base fares that include tolls, fuel, flight tracking, meet-and-greet, and 60 minutes of complimentary wait time. A 20% standard gratuity, NYS sales tax, and a card processing fee are added and itemized transparently at checkout. Airport flat rates apply to pickups and drop-offs within NYC's five boroughs; airport trips beyond the city are priced by distance.</p>"
       },
       {
         "h2": "Hourly Chauffeur Rates",
-        "html": "<table class=\"pricing-table\"><thead><tr><th>Vehicle</th><th>Rate</th><th>Minimum</th></tr></thead><tbody><tr><td>Executive Sedan</td><td>$95/hr</td><td>3 hours</td></tr><tr><td>Premium SUV</td><td>$135/hr</td><td>3 hours</td></tr><tr><td>First-Class Sedan (S-Class)</td><td>$175/hr</td><td>3 hours</td></tr><tr><td>Executive Sprinter</td><td>$200/hr</td><td>4 hours</td></tr></tbody></table><p>Hourly (as-directed) service is ideal for meetings, events, and multi-stop days.</p>"
+        "html": "<table class=\"pricing-table\"><thead><tr><th>Vehicle</th><th>Rate</th><th>Minimum</th></tr></thead><tbody><tr><td>Executive Sedan</td><td>$90/hr</td><td>3 hours</td></tr><tr><td>Premium SUV</td><td>$125/hr</td><td>3 hours</td></tr><tr><td>First-Class Sedan (S-Class)</td><td>$175/hr</td><td>3 hours</td></tr><tr><td>Executive Sprinter</td><td>$200/hr</td><td>5 hours</td></tr></tbody></table><p>Hourly (as-directed) service is ideal for meetings, events, and multi-stop days.</p>"
       },
       {
         "h2": "What Drives the Price",
@@ -283,11 +283,11 @@
     "faqs": [
       {
         "q": "How much is black car service from Manhattan to JFK?",
-        "a": "A flat $165 for a sedan and $230 for an SUV, all-inclusive of tolls, flight tracking, and 60 minutes of wait time — the same price 24/7 with no surge."
+        "a": "A flat base rate of $165 for a sedan and $250 for an SUV from Manhattan, with tolls, fuel, flight tracking, and 60 minutes of wait time included — the same base price 24/7 with no surge. A 20% gratuity, NYS sales tax, and card processing are added and itemized at checkout."
       },
       {
         "q": "Do black car rates include tolls and tip?",
-        "a": "Tolls are included in the flat rate. Gratuity is customary at 18–20% unless your booking states it's already included."
+        "a": "Tolls and fuel are included in the base rate. A 20% standard gratuity, NYS sales tax, and a card processing fee are added and itemized transparently at checkout — nothing hidden."
       }
     ]
   },
@@ -306,11 +306,11 @@
       },
       {
         "h2": "The Four Steps",
-        "html": "<ol class=\"steps-list\"><li><strong>Request a quote</strong> — book online or call (888) 503-4449; you'll get a flat rate</li><li><strong>Choose your vehicle</strong> — sedan, SUV, or Sprinter based on your group and luggage</li><li><strong>Confirm</strong> — the rate is locked and a chauffeur is assigned</li><li><strong>Ride</strong> — your chauffeur arrives early; for airports, they track your flight and meet you inside</li></ol>"
+        "html": "<ol class=\"steps-list\"><li><strong>Request a quote</strong> — book online or call (888) 313-2455; you'll get a flat rate</li><li><strong>Choose your vehicle</strong> — sedan, SUV, or Sprinter based on your group and luggage</li><li><strong>Confirm</strong> — the rate is locked and a chauffeur is assigned</li><li><strong>Ride</strong> — your chauffeur arrives early; for airports, they track your flight and meet you inside</li></ol>"
       },
       {
         "h2": "How Far Ahead to Book",
-        "html": "<ul class=\"check-list\"><li><strong>Airport transfers:</strong> 24 hours is ideal; same-day often available</li><li><strong>Weddings and events:</strong> book weeks ahead to lock the fleet</li><li><strong>Peak dates</strong> (holidays, marquee events): a week or more</li><li><strong>Last minute:</strong> call — we accept same-day bookings 24/7 subject to availability</li></ul>"
+        "html": "<ul class=\"check-list\"><li><strong>Airport transfers:</strong> 24 hours is ideal; online booking requires 12 hours’ notice</li><li><strong>Weddings and events:</strong> book weeks ahead to lock the fleet</li><li><strong>Peak dates</strong> (holidays, marquee events): a week or more</li><li><strong>Last minute:</strong> pickups within 12 hours are arranged by phone — call (888) 313-2455, 24/7, subject to availability</li></ul>"
       },
       {
         "h2": "Pro Tips",
@@ -320,11 +320,11 @@
     "faqs": [
       {
         "q": "How far in advance should I book a black car?",
-        "a": "24 hours is ideal for airport transfers, though same-day is often available. Book weddings, events, and peak dates a week or more ahead."
+        "a": "24 hours is ideal for airport transfers; online reservations require at least 12 hours’ notice, and pickups inside 12 hours are handled by phone 24/7. Book weddings, events, and peak dates a week or more ahead."
       },
       {
         "q": "Can I book a black car last minute?",
-        "a": "Yes — Aria accepts same-day reservations 24/7, subject to vehicle availability. Call (888) 503-4449 for the fastest turnaround."
+        "a": "Yes — call (888) 313-2455, any hour. Online booking requires 12 hours’ notice, so same-day and last-minute pickups are arranged by phone, subject to vehicle availability."
       }
     ]
   },
@@ -398,7 +398,7 @@
       },
       {
         "q": "What's the minimum for hourly car service?",
-        "a": "Aria's hourly service starts at a 3-hour minimum for sedans and SUVs (4 hours for Sprinters), from $95/hr for an executive sedan."
+        "a": "Aria's hourly service starts at a 3-hour minimum for sedans and SUVs (5 hours for Sprinters), from $90/hr for an executive sedan."
       }
     ]
   },
@@ -413,11 +413,11 @@
     "sections": [
       {
         "h2": "What to Look for in a Teterboro Car Service",
-        "html": "<ul class=\"check-list\"><li><strong>FBO coordination</strong> — works directly with Signature, Meridian, jetAviation and others</li><li><strong>Tail-number tracking</strong> — adjusts to early or delayed arrivals, not a rideshare pin</li><li><strong>Planeside pickup</strong> where the FBO permits ramp access</li><li><strong>Flat, all-inclusive rates</strong> — no surge on a delayed private arrival</li><li><strong>Discretion</strong> — NDA-ready chauffeurs for principals and crews</li></ul>"
+        "html": "<ul class=\"check-list\"><li><strong>FBO coordination</strong> — works directly with Signature, Meridian, jetAviation and others</li><li><strong>Tail-number tracking</strong> — adjusts to early or delayed arrivals, not a rideshare pin</li><li><strong>Planeside pickup</strong> where the FBO permits ramp access</li><li><strong>Flat, transparent rates</strong> — no surge on a delayed private arrival</li><li><strong>Discretion</strong> — NDA-ready chauffeurs for principals and crews</li></ul>"
       },
       {
         "h2": "Teterboro to Manhattan: The Numbers",
-        "html": "<p>TEB sits just across the Hudson in New Jersey — a flat <strong>$180 sedan / $250 SUV</strong> to Midtown with Aria, typically 30–45 minutes depending on the tunnels and traffic. That's a fixed rate that holds whether your jet lands at 6 a.m. or 11 p.m.</p>"
+        "html": "<p>TEB sits just across the Hudson in New Jersey — a flat <strong>$180 sedan / $275 SUV</strong> to Midtown with Aria, typically 30–45 minutes depending on the tunnels and traffic. That's a fixed rate that holds whether your jet lands at 6 a.m. or 11 p.m.</p>"
       },
       {
         "h2": "Why Aria for Private Aviation",
@@ -427,7 +427,7 @@
     "faqs": [
       {
         "q": "How much is a car from Teterboro to Manhattan?",
-        "a": "A flat $180 for a sedan and $250 for an SUV with Aria, all tolls included, typically 30–45 minutes to Midtown."
+        "a": "A flat $180 for a sedan and $275 for an SUV with Aria, all tolls included, typically 30–45 minutes to Midtown."
       },
       {
         "q": "Can the car pick me up planeside at Teterboro?",
@@ -442,11 +442,11 @@
     "category": "Fleet",
     "updated": "July 2026",
     "readTime": "6 min",
-    "intro": "<p class=\"lead\">When your group outgrows an SUV, the executive Sprinter van is the answer — up to 14 passengers in comfort, with room for luggage. Here's what to look for and where Aria's Sprinter service stands out.</p>",
+    "intro": "<p class=\"lead\">When your group outgrows an SUV, the executive Sprinter van is the answer — up to 12 passengers in comfort, with room for luggage. Here's what to look for and where Aria's Sprinter service stands out.</p>",
     "sections": [
       {
         "h2": "When a Sprinter Is the Right Call",
-        "html": "<ul class=\"check-list\"><li>Groups of 7–14 that won't fit an SUV</li><li>Airport runs for families or teams with lots of luggage</li><li>Corporate outings, roadshows, and site visits</li><li>Weddings, bachelor/bachelorette parties, and celebrations</li><li>Wine tours and day trips where everyone rides together</li></ul>"
+        "html": "<ul class=\"check-list\"><li>Groups of 7–12 that won't fit an SUV</li><li>Airport runs for families or teams with lots of luggage</li><li>Corporate outings, roadshows, and site visits</li><li>Weddings, bachelor/bachelorette parties, and celebrations</li><li>Wine tours and day trips where everyone rides together</li></ul>"
       },
       {
         "h2": "What to Compare",
@@ -454,17 +454,17 @@
       },
       {
         "h2": "Aria's Executive Sprinter",
-        "html": "<p>Aria's Executive Sprinter seats up to 14 with luggage room, from $200/hr (4-hour minimum) for hourly service or flat rates for airport and long-distance trips. Every Sprinter comes with a TLC-licensed chauffeur, Wi-Fi, and charging — book it for the airport, an event, or a full day out.</p>"
+        "html": "<p>Aria's Executive Sprinter seats up to 12 with luggage room, from $200/hr (5-hour minimum) for hourly service, with airport and long-distance trips quoted up front. Every Sprinter comes with a TLC-licensed chauffeur, Wi-Fi, and charging — book it for the airport, an event, or a full day out.</p>"
       }
     ],
     "faqs": [
       {
         "q": "How many people fit in a Sprinter van?",
-        "a": "Aria's Executive Sprinter seats up to 14 passengers with room for luggage, making it ideal for groups, teams, and families traveling together."
+        "a": "Aria's Executive Sprinter seats up to 12 passengers with room for luggage, making it ideal for groups, teams, and families traveling together."
       },
       {
         "q": "How much is a Sprinter van in NYC?",
-        "a": "Hourly Sprinter service starts at $200/hr with a 4-hour minimum; airport and long-distance trips are quoted as flat rates. Call for a group quote."
+        "a": "Hourly Sprinter service starts at $200/hr with a 5-hour minimum; airport and long-distance trips are quoted up front. Call for a group quote."
       }
     ]
   },
@@ -483,7 +483,7 @@
       },
       {
         "h2": "What to Compare",
-        "html": "<ul class=\"check-list\"><li><strong>Pricing transparency</strong> — flat all-inclusive rates vs. platform pricing</li><li><strong>Vehicle consistency</strong> — same fleet standard every ride</li><li><strong>Local expertise</strong> — chauffeurs who know NYC airports and traffic cold</li><li><strong>Direct support</strong> — a real dispatch line, not just an app</li><li><strong>Corporate accounts</strong> — consolidated billing and dedicated managers</li></ul>"
+        "html": "<ul class=\"check-list\"><li><strong>Pricing transparency</strong> — flat, transparent rates vs. platform pricing</li><li><strong>Vehicle consistency</strong> — same fleet standard every ride</li><li><strong>Local expertise</strong> — chauffeurs who know NYC airports and traffic cold</li><li><strong>Direct support</strong> — a real dispatch line, not just an app</li><li><strong>Corporate accounts</strong> — consolidated billing and dedicated managers</li></ul>"
       },
       {
         "h2": "Why New Yorkers Choose Aria",
@@ -497,7 +497,7 @@
       },
       {
         "q": "Is a local black car service cheaper than Blacklane?",
-        "a": "Often yes — local operators avoid platform markups and offer flat, all-inclusive rates. Aria quotes a fixed price at booking with no surge."
+        "a": "Often yes — local operators avoid platform markups and offer flat, transparent rates. Aria quotes a fixed base fare at booking with no surge, with gratuity, tax, and card processing itemized at checkout."
       }
     ]
   },
@@ -516,17 +516,17 @@
       },
       {
         "h2": "Match the Vehicle to the Occasion",
-        "html": "<table class=\"pricing-table\"><thead><tr><th>Vehicle</th><th>Best For</th><th>Capacity</th></tr></thead><tbody><tr><td>Executive Sedan</td><td>Airport, business, solo travel</td><td>Up to 3</td></tr><tr><td>First-Class Sedan (S-Class)</td><td>VIP, executive, special occasions</td><td>Up to 3</td></tr><tr><td>Premium SUV</td><td>Families, luggage, small groups</td><td>Up to 6</td></tr><tr><td>Executive Sprinter</td><td>Groups, events, roadshows</td><td>Up to 14</td></tr></tbody></table>"
+        "html": "<table class=\"pricing-table\"><thead><tr><th>Vehicle</th><th>Best For</th><th>Capacity</th></tr></thead><tbody><tr><td>Executive Sedan</td><td>Airport, business, solo travel</td><td>Up to 3</td></tr><tr><td>First-Class Sedan (S-Class)</td><td>VIP, executive, special occasions</td><td>Up to 3</td></tr><tr><td>Premium SUV</td><td>Families, luggage, small groups</td><td>Up to 6</td></tr><tr><td>Executive Sprinter</td><td>Groups, events, roadshows</td><td>Up to 12</td></tr></tbody></table>"
       },
       {
         "h2": "Why Aria Ranks Among the Best",
-        "html": "<p>Aria pairs a full luxury fleet with TLC-licensed chauffeurs, flat all-inclusive pricing, and 24/7 dispatch — 5,000+ trips at a 5.0★ rating across NYC and the tri-state area. Whether it's a JFK transfer, a wedding, or a corporate roadshow, the standard is the same.</p>"
+        "html": "<p>Aria pairs a full luxury fleet with TLC-licensed chauffeurs, flat, transparent pricing, and 24/7 dispatch — 5,000+ trips at a 5.0★ rating across NYC and the tri-state area. Whether it's a JFK transfer, a wedding, or a corporate roadshow, the standard is the same.</p>"
       }
     ],
     "faqs": [
       {
         "q": "How much does limo service cost in NYC?",
-        "a": "Executive sedans start at $95/hr and airport transfers run $140–$200 flat from Manhattan. SUVs and Sprinters cost more; all rates are flat with no surge."
+        "a": "Executive sedans start at $90/hr and airport transfers run $140–$200 flat from Manhattan. SUVs and Sprinters cost more; all rates are flat with no surge."
       },
       {
         "q": "What's the best limo service in NYC?",
@@ -549,21 +549,21 @@
       },
       {
         "h2": "What It Costs",
-        "html": "<table class=\"pricing-table\"><thead><tr><th>Vehicle</th><th>Rate</th><th>Minimum</th></tr></thead><tbody><tr><td>Executive Sedan</td><td>$95/hr</td><td>3 hrs</td></tr><tr><td>Premium SUV</td><td>$135/hr</td><td>3 hrs</td></tr><tr><td>First-Class Sedan</td><td>$175/hr</td><td>3 hrs</td></tr><tr><td>Executive Sprinter</td><td>$200/hr</td><td>4 hrs</td></tr></tbody></table><p>Rates are flat with no surge; tolls and wait time between stops are included.</p>"
+        "html": "<table class=\"pricing-table\"><thead><tr><th>Vehicle</th><th>Rate</th><th>Minimum</th></tr></thead><tbody><tr><td>Executive Sedan</td><td>$90/hr</td><td>3 hrs</td></tr><tr><td>Premium SUV</td><td>$125/hr</td><td>3 hrs</td></tr><tr><td>First-Class Sedan</td><td>$175/hr</td><td>3 hrs</td></tr><tr><td>Executive Sprinter</td><td>$200/hr</td><td>5 hrs</td></tr></tbody></table><p>Rates are flat with no surge; tolls and wait time between stops are included.</p>"
       },
       {
         "h2": "Why Aria for Hourly Chauffeur Service",
-        "html": "<p>Aria pairs as-directed hourly service with TLC-licensed chauffeurs and a consistent luxury fleet, from $95/hr. One vetted chauffeur stays with you all day. See our <a href=\"/services/hourly\">hourly service page</a> for details.</p>"
+        "html": "<p>Aria pairs as-directed hourly service with TLC-licensed chauffeurs and a consistent luxury fleet, from $90/hr. One vetted chauffeur stays with you all day. See our <a href=\"/services/hourly\">hourly service page</a> for details.</p>"
       }
     ],
     "faqs": [
       {
         "q": "How much is hourly car service in NYC?",
-        "a": "Executive sedans start at $95/hr with a 3-hour minimum; SUVs from $135/hr and Sprinters from $200/hr. All rates are flat with no surge."
+        "a": "Executive sedans start at $90/hr with a 3-hour minimum; SUVs from $125/hr and Sprinters from $200/hr. All rates are flat with no surge."
       },
       {
         "q": "Is there a minimum for hourly service?",
-        "a": "Yes — 3 hours for sedans and SUVs, 4 hours for Sprinters. The car and chauffeur stay with you the entire time, including waits between stops."
+        "a": "Yes — 3 hours for sedans and SUVs, 5 hours for Sprinters. The car and chauffeur stay with you the entire time, including waits between stops."
       }
     ]
   },
@@ -603,33 +603,33 @@
   {
     "slug": "best-long-distance-car-service-nyc-2026",
     "title": "Best Long-Distance Car Service from NYC (2026)",
-    "meta": "The best long-distance car service from NYC — flat rates to Boston, DC, Philadelphia, the Hamptons, and beyond.",
+    "meta": "The best long-distance car service from NYC — transparent distance-based rates to Boston, DC, Philadelphia, the Hamptons, and beyond.",
     "category": "Routes",
     "updated": "July 2026",
     "readTime": "6 min",
     "intro": "<p class=\"lead\">For trips up and down the Northeast corridor, a private car beats the train on comfort and the plane on door-to-door convenience. Here's how to pick the best long-distance service and what the popular routes cost.</p>",
     "sections": [
       {
-        "h2": "Popular Long-Distance Flat Rates",
-        "html": "<table class=\"pricing-table\"><thead><tr><th>Route</th><th>Sedan</th><th>SUV</th></tr></thead><tbody><tr><td>NYC → Boston</td><td>$795</td><td>$995</td></tr><tr><td>NYC → Washington DC</td><td>$895</td><td>$1,150</td></tr><tr><td>NYC → Philadelphia</td><td>$425</td><td>$575</td></tr><tr><td>NYC → The Hamptons</td><td>$595</td><td>$795</td></tr><tr><td>NYC → Atlantic City</td><td>$525</td><td>$695</td></tr></tbody></table>"
+        "h2": "Popular Long-Distance Routes & Approximate Fares",
+        "html": "<table class=\"pricing-table\"><thead><tr><th>Route</th><th>Sedan</th><th>SUV</th></tr></thead><tbody><tr><td>NYC → Boston</td><td>from ~$955</td><td>from ~$1,025</td></tr><tr><td>NYC → Washington DC</td><td>from ~$1,015</td><td>from ~$1,085</td></tr><tr><td>NYC → Philadelphia</td><td>from ~$475</td><td>from ~$520</td></tr><tr><td>NYC → The Hamptons</td><td>instant quote</td><td>instant quote</td></tr><tr><td>NYC → Atlantic City</td><td>instant quote</td><td>instant quote</td></tr></tbody></table><p>Long-distance trips are priced by distance — a transparent base fare plus a per-mile rate, with tolls and fuel included. Figures above are approximate sedan and SUV base fares; get an exact quote instantly online. A 20% gratuity, NYS sales tax, and card processing are itemized at checkout.</p>"
       },
       {
         "h2": "Why Private Car Over Train or Plane",
-        "html": "<ul class=\"check-list\"><li>Door-to-door — no stations, no airport security</li><li>Leave on your schedule, not a timetable</li><li>Work in privacy with Wi-Fi the whole way</li><li>Flat rate for the group — split it and it rivals the train</li><li>One chauffeur, all your luggage, zero transfers</li></ul>"
+        "html": "<ul class=\"check-list\"><li>Door-to-door — no stations, no airport security</li><li>Leave on your schedule, not a timetable</li><li>Work in privacy with Wi-Fi the whole way</li><li>One fare for the group — split it and it rivals the train</li><li>One chauffeur, all your luggage, zero transfers</li></ul>"
       },
       {
         "h2": "Why Aria for Long Distance",
-        "html": "<p>Aria runs flat-rate long-distance trips across the Northeast with TLC-licensed chauffeurs and premium sedans and SUVs. See our <a href=\"/services/long-distance\">long-distance page</a> for the full route list.</p>"
+        "html": "<p>Aria runs transparently priced, distance-based long-distance trips across the Northeast with TLC-licensed chauffeurs and premium sedans and SUVs. See our <a href=\"/services/long-distance\">long-distance page</a> for the full route list.</p>"
       }
     ],
     "faqs": [
       {
         "q": "How much is a car from NYC to Boston?",
-        "a": "A flat $795 for a sedan and $995 for an SUV, tolls included, for the roughly 215-mile trip — about 4–5 hours."
+        "a": "From about $955 for a sedan and $1,025 for an SUV — a distance-based base fare with tolls and fuel included — for the roughly 215-mile trip, about 4–5 hours. Get an exact quote instantly online."
       },
       {
         "q": "Is long-distance car service worth it vs. the train?",
-        "a": "For groups and door-to-door convenience, yes. You skip the stations, keep your luggage, work in privacy, and split a flat rate that rivals multiple train tickets."
+        "a": "For groups and door-to-door convenience, yes. You skip the stations, keep your luggage, work in privacy, and split one fare that rivals multiple train tickets."
       }
     ]
   },
@@ -648,7 +648,7 @@
       },
       {
         "h2": "For the Guest",
-        "html": "<p>Flat, all-inclusive rates with no surge, flight tracking on airport trips, and the same polished experience whether it's a 5 a.m. departure or an evening gala. Manhattan airport flats: JFK $165, LGA $140, EWR $180 (sedan).</p>"
+        "html": "<p>Flat, transparent rates with no surge, flight tracking on airport trips, and the same polished experience whether it's a 5 a.m. departure or an evening gala. Manhattan airport flats: JFK $165, LGA $140, EWR $180 (sedan).</p>"
       },
       {
         "h2": "Why Aria for Hotels",
@@ -658,7 +658,7 @@
     "faqs": [
       {
         "q": "Can a hotel set up an account with Aria?",
-        "a": "Yes — partner accounts include a dedicated manager, consolidated billing, and priority dispatch. Call (888) 503-4449."
+        "a": "Yes — partner accounts include a dedicated manager, consolidated billing, and priority dispatch. Call (888) 313-2455."
       },
       {
         "q": "How are guest rides billed?",
@@ -751,7 +751,7 @@
       },
       {
         "h2": "Why Aria",
-        "html": "<p>Aria structures monthly retainers and corporate accounts with consolidated billing and priority service. Call (888) 503-4449 to design a program.</p>"
+        "html": "<p>Aria structures monthly retainers and corporate accounts with consolidated billing and priority service. Call (888) 313-2455 to design a program.</p>"
       }
     ],
     "faqs": [
@@ -813,17 +813,17 @@
       },
       {
         "h2": "Flexible, Not Full-Time",
-        "html": "<p>Book a personal chauffeur by the day, week, or month — the flexibility of a private driver without payroll, insurance, or vehicle costs. As-directed hourly from $95/hr.</p>"
+        "html": "<p>Book a personal chauffeur by the day, week, or month — the flexibility of a private driver without payroll, insurance, or vehicle costs. As-directed hourly from $90/hr.</p>"
       },
       {
         "h2": "Why Aria",
-        "html": "<p>Aria provides dedicated personal chauffeurs, TLC-licensed and discreet, on flexible terms. Call (888) 503-4449 to arrange one.</p>"
+        "html": "<p>Aria provides dedicated personal chauffeurs, TLC-licensed and discreet, on flexible terms. Call (888) 313-2455 to arrange one.</p>"
       }
     ],
     "faqs": [
       {
         "q": "How much is a personal chauffeur in NYC?",
-        "a": "As-directed service starts at $95/hr for a sedan, with daily, weekly, and monthly rates for ongoing arrangements — no payroll or vehicle costs on your end."
+        "a": "As-directed service starts at $90/hr for a sedan, with daily, weekly, and monthly rates for ongoing arrangements — no payroll or vehicle costs on your end."
       },
       {
         "q": "Can I request the same chauffeur each time?",
@@ -850,7 +850,7 @@
       },
       {
         "h2": "Why Aria",
-        "html": "<p>Aria structures long-term chauffeur arrangements with NDA-ready drivers and flexible monthly terms. Call (888) 503-4449.</p>"
+        "html": "<p>Aria structures long-term chauffeur arrangements with NDA-ready drivers and flexible monthly terms. Call (888) 313-2455.</p>"
       }
     ],
     "faqs": [
@@ -889,7 +889,7 @@
     "faqs": [
       {
         "q": "Does Aria offer corporate accounts for business travel?",
-        "a": "Yes — consolidated monthly billing, detailed trip reporting, dedicated account management, and priority dispatch. Call (888) 503-4449."
+        "a": "Yes — consolidated monthly billing, detailed trip reporting, dedicated account management, and priority dispatch. Call (888) 313-2455."
       },
       {
         "q": "Are receipts itemized for expense reports?",
@@ -1011,7 +1011,7 @@
       },
       {
         "h2": "Key Airports",
-        "html": "<table class=\"pricing-table\"><thead><tr><th>Airport</th><th>Sedan</th><th>SUV</th></tr></thead><tbody><tr><td>Teterboro (TEB)</td><td>$180</td><td>$250</td></tr><tr><td>Westchester (HPN)</td><td>$200</td><td>$270</td></tr></tbody></table>"
+        "html": "<table class=\"pricing-table\"><thead><tr><th>Airport</th><th>Sedan</th><th>SUV</th></tr></thead><tbody><tr><td>Teterboro (TEB)</td><td>$180</td><td>$275</td></tr><tr><td>Westchester (HPN)</td><td>$200</td><td>$295</td></tr></tbody></table>"
       },
       {
         "h2": "Why Aria",
@@ -1025,7 +1025,7 @@
       },
       {
         "q": "How much is a car from Teterboro to Manhattan?",
-        "a": "A flat $180 sedan / $250 SUV, tolls included, typically 30–45 minutes to Midtown."
+        "a": "A flat $180 sedan / $275 SUV, tolls included, typically 30–45 minutes to Midtown."
       }
     ]
   },
@@ -1044,7 +1044,7 @@
       },
       {
         "h2": "Beyond Manhattan",
-        "html": "<p>Many programs span the corridor — Boston, Connecticut, Philadelphia, DC — handled on the same account with flat long-distance rates and the continuity of a chauffeur who knows the itinerary.</p>"
+        "html": "<p>Many programs span the corridor — Boston, Connecticut, Philadelphia, DC — handled on the same account with transparent long-distance rates and the continuity of a chauffeur who knows the itinerary.</p>"
       },
       {
         "h2": "Why Aria",
@@ -1077,11 +1077,11 @@
       },
       {
         "h2": "Questions to Ask Before You Book",
-        "html": "<ul class=\"check-list\"><li>Are all chauffeurs TLC-licensed and background-checked?</li><li>Is the rate flat and all-inclusive, or metered/surge?</li><li>Is meet-and-greet and wait time included at airports?</li><li>What vehicle class is guaranteed?</li><li>Is there 24/7 dispatch you can actually reach?</li></ul>"
+        "html": "<ul class=\"check-list\"><li>Are all chauffeurs TLC-licensed and background-checked?</li><li>Is the rate flat and transparent, or metered/surge?</li><li>Is meet-and-greet and wait time included at airports?</li><li>What vehicle class is guaranteed?</li><li>Is there 24/7 dispatch you can actually reach?</li></ul>"
       },
       {
         "h2": "Why Aria Measures Up",
-        "html": "<p>Aria checks every box: TLC-licensed chauffeurs, flat all-inclusive pricing, a consistent luxury fleet, 24/7 dispatch, and 5,000+ completed trips at a 5.0★ rating across NYC and the tri-state area.</p>"
+        "html": "<p>Aria checks every box: TLC-licensed chauffeurs, flat, transparent pricing, a consistent luxury fleet, 24/7 dispatch, and 5,000+ completed trips at a 5.0★ rating across NYC and the tri-state area.</p>"
       }
     ],
     "faqs": [
@@ -1091,7 +1091,7 @@
       },
       {
         "q": "How much should NYC car service cost?",
-        "a": "Airport transfers run $140–$200 flat from Manhattan; hourly from $95/hr. Beware quotes far below market — they often mean unlicensed drivers or hidden surge."
+        "a": "Airport transfers run $140–$200 flat from Manhattan; hourly from $90/hr. Beware quotes far below market — they often mean unlicensed drivers or hidden surge."
       }
     ]
   },
@@ -1106,7 +1106,7 @@
     "sections": [
       {
         "h2": "Manhattan Airport Flat Rates",
-        "html": "<table class=\"pricing-table\"><thead><tr><th>Airport</th><th>Sedan</th><th>SUV</th></tr></thead><tbody><tr><td>LaGuardia (LGA)</td><td>$140</td><td>$200</td></tr><tr><td>JFK</td><td>$165</td><td>$230</td></tr><tr><td>Newark (EWR)</td><td>$180</td><td>$250</td></tr><tr><td>Teterboro (TEB)</td><td>$180</td><td>$250</td></tr><tr><td>Westchester (HPN)</td><td>$200</td><td>$270</td></tr></tbody></table>"
+        "html": "<table class=\"pricing-table\"><thead><tr><th>Airport</th><th>Sedan</th><th>SUV</th></tr></thead><tbody><tr><td>LaGuardia (LGA)</td><td>$140</td><td>$220</td></tr><tr><td>JFK</td><td>$165</td><td>$250</td></tr><tr><td>Newark (EWR)</td><td>$180</td><td>$275</td></tr><tr><td>Teterboro (TEB)</td><td>$180</td><td>$275</td></tr><tr><td>Westchester (HPN)</td><td>$200</td><td>$295</td></tr></tbody></table>"
       },
       {
         "h2": "What Separates the Best",
@@ -1120,7 +1120,7 @@
     "faqs": [
       {
         "q": "How much is airport car service in NYC?",
-        "a": "From Manhattan: LGA $140, JFK $165, Newark $180 for a sedan — flat, all-inclusive of tolls, flight tracking, and 60 minutes of wait time."
+        "a": "From Manhattan: LGA $140, JFK $165, Newark $180 for a sedan — flat base rates that include tolls, flight tracking, and 60 minutes of wait time. A 20% gratuity, NYS sales tax, and card processing are added and itemized at checkout."
       },
       {
         "q": "Do airport transfers include meet-and-greet?",
@@ -1139,11 +1139,11 @@
     "sections": [
       {
         "h2": "What You Want for the Night",
-        "html": "<ul class=\"check-list\"><li>An Executive Sprinter that seats up to 14 — the whole crew together</li><li>Unlimited stops within the metro area</li><li>A chauffeur who handles the driving and the parking</li><li>Flat pricing so there's no surge at 2 a.m.</li><li>Room for coolers, gear, and a good time</li></ul>"
+        "html": "<ul class=\"check-list\"><li>An Executive Sprinter that seats up to 12 — the whole crew together</li><li>Unlimited stops within the metro area</li><li>A chauffeur who handles the driving and the parking</li><li>Flat pricing so there's no surge at 2 a.m.</li><li>Room for coolers, gear, and a good time</li></ul>"
       },
       {
         "h2": "How It's Priced",
-        "html": "<p>Sprinter service runs from $200/hr with a 4-hour minimum — split across the group it's a bargain versus a fleet of surging rideshares. Book the hours you need for dinner, bars, clubs, and the ride home.</p>"
+        "html": "<p>Sprinter service runs from $200/hr with a 5-hour minimum — split across the group it's a bargain versus a fleet of surging rideshares. Book the hours you need for dinner, bars, clubs, and the ride home.</p>"
       },
       {
         "h2": "Why Aria",
@@ -1153,11 +1153,11 @@
     "faqs": [
       {
         "q": "How many people fit for a bachelor party?",
-        "a": "Aria's Executive Sprinter seats up to 14, keeping the whole crew together for the night with room for gear."
+        "a": "Aria's Executive Sprinter seats up to 12, keeping the whole crew together for the night with room for gear."
       },
       {
         "q": "How much is a Sprinter for a bachelor party?",
-        "a": "From $200/hr with a 4-hour minimum — split across the group, it's often cheaper than multiple surging rideshares, with no 2 a.m. price spike."
+        "a": "From $200/hr with a 5-hour minimum — split across the group, it's often cheaper than multiple surging rideshares, with no 2 a.m. price spike."
       }
     ]
   },
@@ -1172,11 +1172,11 @@
     "sections": [
       {
         "h2": "What Makes the Night",
-        "html": "<ul class=\"check-list\"><li>A Sprinter for up to 14 — no one left behind</li><li>Unlimited stops: brunch, rooftop, dinner, dancing</li><li>A professional chauffeur so everyone can enjoy the night</li><li>Flat rates with no late-night surge</li><li>Space to travel together in style</li></ul>"
+        "html": "<ul class=\"check-list\"><li>A Sprinter for up to 12 — no one left behind</li><li>Unlimited stops: brunch, rooftop, dinner, dancing</li><li>A professional chauffeur so everyone can enjoy the night</li><li>Flat rates with no late-night surge</li><li>Space to travel together in style</li></ul>"
       },
       {
         "h2": "Pricing",
-        "html": "<p>Executive Sprinter service from $200/hr (4-hour minimum), SUVs from $135/hr — book the block you need and split it across the group.</p>"
+        "html": "<p>Executive Sprinter service from $200/hr (5-hour minimum), SUVs from $125/hr — book the block you need and split it across the group.</p>"
       },
       {
         "h2": "Why Aria",
@@ -1186,7 +1186,7 @@
     "faqs": [
       {
         "q": "What vehicle is best for a bachelorette party?",
-        "a": "An Executive Sprinter (up to 14) keeps the whole group together; SUVs suit smaller parties. Both come with a professional chauffeur and flat pricing."
+        "a": "An Executive Sprinter (up to 12) keeps the whole group together; SUVs suit smaller parties. Both come with a professional chauffeur and flat pricing."
       },
       {
         "q": "Can we make multiple stops?",
@@ -1223,7 +1223,7 @@
       },
       {
         "q": "How is mitzvah transportation priced?",
-        "a": "Flat, transparent fleet pricing based on vehicles and hours, consolidated into one invoice. Call (888) 503-4449 for a plan."
+        "a": "Flat, transparent fleet pricing based on vehicles and hours, consolidated into one invoice. Call (888) 313-2455 for a plan."
       }
     ]
   },
@@ -1252,7 +1252,7 @@
     "faqs": [
       {
         "q": "What vehicle is best for graduation?",
-        "a": "An SUV suits a family; an Executive Sprinter (up to 14) fits larger groups celebrating together. Both include a professional chauffeur."
+        "a": "An SUV suits a family; an Executive Sprinter (up to 12) fits larger groups celebrating together. Both include a professional chauffeur."
       },
       {
         "q": "Should I book hourly for graduation day?",
@@ -1483,7 +1483,7 @@
     "faqs": [
       {
         "q": "How much is car service in Manhattan?",
-        "a": "Airport transfers run $140–$180 flat from Manhattan for a sedan; hourly from $95/hr. All rates are flat with no surge."
+        "a": "Airport transfers run $140–$180 flat from Manhattan for a sedan; hourly from $90/hr. All rates are flat with no surge."
       },
       {
         "q": "Does Aria cover all of Manhattan?",
@@ -1494,7 +1494,7 @@
   {
     "slug": "best-bergen-county-nj-car-service-2026",
     "title": "Best Bergen County NJ Car Service (2026)",
-    "meta": "The best Bergen County car service — flat-rate airport transfers to Newark, Teterboro, JFK, and LGA, plus NYC transfers.",
+    "meta": "The best Bergen County car service — chauffeured airport transfers to Newark, Teterboro, JFK, and LGA, plus NYC transfers, quoted up front.",
     "category": "Routes",
     "updated": "July 2026",
     "readTime": "5 min",
@@ -1502,21 +1502,21 @@
     "sections": [
       {
         "h2": "What Bergen County Needs",
-        "html": "<ul class=\"check-list\"><li>Quick Teterboro and Newark access for private and commercial flights</li><li>Flat rates to JFK and LaGuardia across the river</li><li>Reliable NYC transfers for commuters</li><li>Coverage of Hackensack, Englewood, Fort Lee, Ridgewood, and Paramus</li><li>24/7 dispatch and TLC-licensed chauffeurs</li></ul>"
+        "html": "<ul class=\"check-list\"><li>Quick Teterboro and Newark access for private and commercial flights</li><li>Transparent, distance-based rates to JFK and LaGuardia across the river</li><li>Reliable NYC transfers for commuters</li><li>Coverage of Hackensack, Englewood, Fort Lee, Ridgewood, and Paramus</li><li>24/7 dispatch and TLC-licensed chauffeurs</li></ul>"
       },
       {
         "h2": "Airports From Bergen County",
-        "html": "<p>Teterboro is minutes away for private aviation; Newark is a short hop for commercial flights; JFK and LGA are across the George Washington Bridge. Aria runs flat rates to all four.</p>"
+        "html": "<p>Teterboro is minutes away for private aviation; Newark is a short hop for commercial flights; JFK and LGA are across the George Washington Bridge. Aria covers all four with transparent, distance-based rates quoted up front — airport flat rates apply within NYC's five boroughs, so New Jersey pickups are priced by distance.</p>"
       },
       {
         "h2": "Why Aria",
-        "html": "<p>Aria serves Bergen County with flat-rate airport and NYC transfers. Call (888) 503-4449 for a quote.</p>"
+        "html": "<p>Aria serves Bergen County with chauffeured airport and NYC transfers, quoted up front. Call (888) 313-2455 for a quote.</p>"
       }
     ],
     "faqs": [
       {
         "q": "Does Aria serve Bergen County, NJ?",
-        "a": "Yes — flat-rate airport transfers to Teterboro, Newark, JFK, and LaGuardia, plus NYC trips, across Hackensack, Englewood, Fort Lee, Ridgewood, and Paramus."
+        "a": "Yes — door-to-door airport transfers to Teterboro, Newark, JFK, and LaGuardia, plus NYC trips, across Hackensack, Englewood, Fort Lee, Ridgewood, and Paramus — priced transparently by distance and quoted up front."
       },
       {
         "q": "What's the closest airport to Bergen County?",
@@ -1527,40 +1527,40 @@
   {
     "slug": "best-fairfield-county-car-service-2026",
     "title": "Best Fairfield County CT Car Service (2026)",
-    "meta": "The best Fairfield County car service — flat-rate transfers to NYC airports and Manhattan from Greenwich, Stamford, and Westport.",
+    "meta": "The best Fairfield County car service — private transfers to NYC airports and Manhattan from Greenwich, Stamford, and Westport, quoted up front.",
     "category": "Routes",
     "updated": "July 2026",
     "readTime": "5 min",
-    "intro": "<p class=\"lead\">Fairfield County's Gold Coast commutes to Manhattan and flies out of NYC and Westchester airports. The best car service makes those trips flat-rate and effortless. Here's what to look for.</p>",
+    "intro": "<p class=\"lead\">Fairfield County's Gold Coast commutes to Manhattan and flies out of NYC and Westchester airports. The best car service makes those trips effortless, with a transparent quote up front. Here's what to look for.</p>",
     "sections": [
       {
         "h2": "What Fairfield County Needs",
-        "html": "<ul class=\"check-list\"><li>Flat transfers to JFK, LGA, Newark, and Westchester (HPN)</li><li>Reliable Manhattan commutes for executives</li><li>Coverage of Greenwich, Stamford, Darien, Westport, and New Canaan</li><li>Discreet chauffeurs for corporate and finance travel</li><li>24/7 dispatch and predictable pricing</li></ul>"
+        "html": "<ul class=\"check-list\"><li>Door-to-door transfers to JFK, LGA, Newark, and Westchester (HPN), quoted up front</li><li>Reliable Manhattan commutes for executives</li><li>Coverage of Greenwich, Stamford, Darien, Westport, and New Canaan</li><li>Discreet chauffeurs for corporate and finance travel</li><li>24/7 dispatch and predictable pricing</li></ul>"
       },
       {
         "h2": "Airports & Manhattan",
-        "html": "<p>Westchester (HPN) is closest for regional flights; JFK, LGA, and Newark are flat-rate trips across the line. Greenwich to Manhattan starts at $295 sedan. Aria handles it all.</p>"
+        "html": "<p>Westchester (HPN) is closest for regional flights; JFK, LGA, and Newark trips from Connecticut are priced by distance and quoted up front. Greenwich to Manhattan is distance-priced as well — get an instant quote online. Aria handles it all.</p>"
       },
       {
         "h2": "Why Aria",
-        "html": "<p>Aria serves the Fairfield County Gold Coast with flat-rate airport and NYC transfers. See our <a href=\"/routes/greenwich-to-airports\">Greenwich routes</a>.</p>"
+        "html": "<p>Aria serves the Fairfield County Gold Coast with chauffeured airport and NYC transfers, quoted up front. See our <a href=\"/routes/greenwich-to-airports\">Greenwich routes</a>.</p>"
       }
     ],
     "faqs": [
       {
         "q": "Does Aria serve Fairfield County, CT?",
-        "a": "Yes — flat-rate transfers to NYC airports and Manhattan from Greenwich, Stamford, Darien, Westport, and New Canaan."
+        "a": "Yes — door-to-door transfers to NYC airports and Manhattan from Greenwich, Stamford, Darien, Westport, and New Canaan, priced transparently by distance."
       },
       {
         "q": "How much is Greenwich to Manhattan car service?",
-        "a": "From $295 for a sedan and $395 for an SUV, all-inclusive. Airport transfers are quoted flat by destination."
+        "a": "Greenwich to Manhattan is priced by distance, with a transparent base fare quoted instantly online — tolls and fuel included, with gratuity, tax, and card processing itemized at checkout. Airport transfers from Fairfield County are distance-priced as well."
       }
     ]
   },
   {
     "slug": "best-long-island-gold-coast-car-service-2026",
     "title": "Best Long Island Gold Coast Car Service (2026)",
-    "meta": "The best Long Island Gold Coast car service — flat-rate airport transfers and NYC trips from the North Shore.",
+    "meta": "The best Long Island Gold Coast car service — chauffeured airport transfers and NYC trips from the North Shore, quoted up front.",
     "category": "Routes",
     "updated": "July 2026",
     "readTime": "5 min",
@@ -1568,32 +1568,32 @@
     "sections": [
       {
         "h2": "What the Gold Coast Needs",
-        "html": "<ul class=\"check-list\"><li>Flat transfers to JFK, LGA, and Newark</li><li>Reliable Manhattan trips for commuters and events</li><li>Coverage of Great Neck, Manhasset, Roslyn, Old Westbury, and Oyster Bay</li><li>SUVs and Sprinters for families and groups</li><li>Discreet, professional chauffeurs</li></ul>"
+        "html": "<ul class=\"check-list\"><li>Door-to-door transfers to JFK, LGA, and Newark, quoted up front</li><li>Reliable Manhattan trips for commuters and events</li><li>Coverage of Great Neck, Manhasset, Roslyn, Old Westbury, and Oyster Bay</li><li>SUVs and Sprinters for families and groups</li><li>Discreet, professional chauffeurs</li></ul>"
       },
       {
         "h2": "Airports & City",
-        "html": "<p>LaGuardia and JFK are the closest airports for the North Shore; Newark is a longer flat-rate run. Manhattan trips and Hamptons connections are handled on the same account.</p>"
+        "html": "<p>LaGuardia and JFK are the closest airports for the North Shore; Newark is a longer run, priced by distance and quoted up front. Manhattan trips and Hamptons connections are handled on the same account.</p>"
       },
       {
         "h2": "Why Aria",
-        "html": "<p>Aria serves the Long Island Gold Coast with flat-rate airport and NYC transfers. See our <a href=\"/routes/long-island\">Long Island routes</a>.</p>"
+        "html": "<p>Aria serves the Long Island Gold Coast with chauffeured airport and NYC transfers, quoted up front. See our <a href=\"/routes/long-island\">Long Island routes</a>.</p>"
       }
     ],
     "faqs": [
       {
         "q": "Does Aria serve Long Island's Gold Coast?",
-        "a": "Yes — flat-rate airport transfers and NYC trips from Great Neck, Manhasset, Roslyn, Old Westbury, and Oyster Bay."
+        "a": "Yes — chauffeured airport transfers and NYC trips from Great Neck, Manhasset, Roslyn, Old Westbury, and Oyster Bay, with transparent distance-based pricing."
       },
       {
         "q": "What's the closest airport to the North Shore?",
-        "a": "LaGuardia is usually closest, with JFK a short flat-rate trip. Newark is a longer run across the city."
+        "a": "LaGuardia is usually closest, with JFK a short trip away. Newark is a longer run across the city; all are quoted transparently up front."
       }
     ]
   },
   {
     "slug": "best-nyc-to-dc-car-service-2026",
     "title": "Best NYC to Washington DC Car Service (2026)",
-    "meta": "The best NYC to Washington DC car service — flat-rate private transfers down the I-95 corridor, door to door.",
+    "meta": "The best NYC to Washington DC car service — private transfers down the I-95 corridor, door to door, priced transparently by distance.",
     "category": "Routes",
     "updated": "July 2026",
     "readTime": "5 min",
@@ -1601,11 +1601,11 @@
     "sections": [
       {
         "h2": "Why Private Car for NYC → DC",
-        "html": "<ul class=\"check-list\"><li>Door-to-door — no Penn or Union Station transfers</li><li>Leave on your schedule, not Amtrak's</li><li>Work in privacy with Wi-Fi the whole way</li><li>Flat rate for the group — competitive with multiple Acela tickets</li><li>One chauffeur, all your luggage, zero connections</li></ul>"
+        "html": "<ul class=\"check-list\"><li>Door-to-door — no Penn or Union Station transfers</li><li>Leave on your schedule, not Amtrak's</li><li>Work in privacy with Wi-Fi the whole way</li><li>One fare for the group — competitive with multiple Acela tickets</li><li>One chauffeur, all your luggage, zero connections</li></ul>"
       },
       {
         "h2": "The Trip",
-        "html": "<p>NYC to Washington DC is about 230 miles and 4.5–5.5 hours down I-95, flat at $895 sedan / $1,150 SUV with Aria — tolls included. Ideal for executives, roadshows, and families.</p>"
+        "html": "<p>NYC to Washington DC is about 230 miles and 4.5–5.5 hours down I-95 — from ~$1,015 sedan / ~$1,085 SUV with Aria, a distance-based base fare with tolls and fuel included. Ideal for executives, roadshows, and families.</p>"
       },
       {
         "h2": "Why Aria",
@@ -1615,18 +1615,18 @@
     "faqs": [
       {
         "q": "How much is a car from NYC to Washington DC?",
-        "a": "A flat $895 for a sedan and $1,150 for an SUV, tolls included, for the roughly 230-mile trip — about 4.5–5.5 hours."
+        "a": "From about $1,015 for a sedan and $1,085 for an SUV — a distance-based base fare with tolls and fuel included — for the roughly 230-mile trip, about 4.5–5.5 hours."
       },
       {
         "q": "Is a private car better than the Acela to DC?",
-        "a": "For groups and door-to-door convenience, yes — you skip the stations, keep your luggage, work in privacy, and a flat group rate competes with multiple Acela tickets."
+        "a": "For groups and door-to-door convenience, yes — you skip the stations, keep your luggage, work in privacy, and one group fare competes with multiple Acela tickets."
       }
     ]
   },
   {
     "slug": "best-nyc-to-philadelphia-car-service-2026",
     "title": "Best NYC to Philadelphia Car Service (2026)",
-    "meta": "The best NYC to Philadelphia car service — flat-rate private transfers down I-95, door to door in about two hours.",
+    "meta": "The best NYC to Philadelphia car service — private transfers down I-95, door to door in about two hours, priced transparently by distance.",
     "category": "Routes",
     "updated": "July 2026",
     "readTime": "4 min",
@@ -1634,11 +1634,11 @@
     "sections": [
       {
         "h2": "Why Private Car for NYC → Philly",
-        "html": "<ul class=\"check-list\"><li>Door-to-door in about 2–3 hours</li><li>Leave when you want, with your whole group</li><li>Work or relax in privacy the whole way</li><li>Flat rate — no per-ticket train pricing</li><li>One chauffeur, all your luggage</li></ul>"
+        "html": "<ul class=\"check-list\"><li>Door-to-door in about 2–3 hours</li><li>Leave when you want, with your whole group</li><li>Work or relax in privacy the whole way</li><li>One transparent fare — no per-ticket train pricing</li><li>One chauffeur, all your luggage</li></ul>"
       },
       {
         "h2": "The Trip",
-        "html": "<p>NYC to Philadelphia is roughly 95 miles and 2–3 hours down I-95 and the Turnpike, flat at $425 sedan / $575 SUV with Aria, tolls included.</p>"
+        "html": "<p>NYC to Philadelphia is roughly 95 miles and 2–3 hours down I-95 and the Turnpike — from ~$475 sedan / ~$520 SUV with Aria, a distance-based base fare with tolls and fuel included.</p>"
       },
       {
         "h2": "Why Aria",
@@ -1648,7 +1648,7 @@
     "faqs": [
       {
         "q": "How much is a car from NYC to Philadelphia?",
-        "a": "A flat $425 for a sedan and $575 for an SUV, tolls included, for the roughly 95-mile trip — about 2–3 hours."
+        "a": "From about $475 for a sedan and $520 for an SUV — a distance-based base fare with tolls and fuel included — for the roughly 95-mile trip, about 2–3 hours."
       },
       {
         "q": "How long does it take to drive from NYC to Philadelphia?",

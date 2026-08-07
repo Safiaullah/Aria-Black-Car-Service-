@@ -1,9 +1,2 @@
+node_modules/
 .DS_Store
-.vercel
-node_modules
-public/
-*.log
-.env
-.env.local
-videos/
-keyword-map.csv

@@ -5,7 +5,7 @@
     "from": "Manhattan",
     "to": "JFK Airport",
     "sedan": 165,
-    "suv": 230,
+    "suv": 250,
     "miles": "15–20",
     "time": "45–75 min"
   },
@@ -15,7 +15,7 @@
     "from": "JFK Airport",
     "to": "Manhattan",
     "sedan": 165,
-    "suv": 230,
+    "suv": 250,
     "miles": "15–20",
     "time": "45–75 min"
   },
@@ -25,7 +25,7 @@
     "from": "Manhattan",
     "to": "LaGuardia",
     "sedan": 140,
-    "suv": 200,
+    "suv": 220,
     "miles": "8–12",
     "time": "25–40 min"
   },
@@ -35,7 +35,7 @@
     "from": "LaGuardia",
     "to": "Manhattan",
     "sedan": 140,
-    "suv": 200,
+    "suv": 220,
     "miles": "8–12",
     "time": "25–40 min"
   },
@@ -45,7 +45,7 @@
     "from": "Manhattan",
     "to": "Newark (EWR)",
     "sedan": 180,
-    "suv": 250,
+    "suv": 275,
     "miles": "16–22",
     "time": "35–55 min"
   },
@@ -55,7 +55,7 @@
     "from": "Brooklyn",
     "to": "JFK Airport",
     "sedan": 165,
-    "suv": 230,
+    "suv": 250,
     "miles": "12–18",
     "time": "35–55 min"
   },
@@ -65,7 +65,7 @@
     "from": "Williamsburg",
     "to": "JFK Airport",
     "sedan": 165,
-    "suv": 230,
+    "suv": 250,
     "miles": "14–18",
     "time": "40–60 min"
   },
@@ -75,7 +75,7 @@
     "from": "Chelsea",
     "to": "JFK Airport",
     "sedan": 165,
-    "suv": 230,
+    "suv": 250,
     "miles": "15–18",
     "time": "40–65 min"
   },
@@ -85,7 +85,7 @@
     "from": "Midtown Manhattan",
     "to": "JFK Airport",
     "sedan": 165,
-    "suv": 230,
+    "suv": 250,
     "miles": "15–20",
     "time": "45–75 min"
   },
@@ -95,7 +95,7 @@
     "from": "SoHo",
     "to": "JFK Airport",
     "sedan": 165,
-    "suv": 230,
+    "suv": 250,
     "miles": "14–18",
     "time": "40–65 min"
   },
@@ -105,10 +105,10 @@
     "from": "Park Slope",
     "to": "All NYC Airports",
     "sedan": 165,
-    "suv": 230,
+    "suv": 250,
     "miles": "varies",
     "time": "varies",
-    "note": "JFK $165 · LGA $140 · EWR $190 sedan"
+    "note": "JFK $165 · LGA $140 · EWR $180 sedan"
   },
   {
     "slug": "greenwich-to-airports",
@@ -116,10 +116,10 @@
     "from": "Greenwich, CT",
     "to": "NYC Airports",
     "sedan": 275,
-    "suv": 345,
+    "suv": 310,
     "miles": "varies",
     "time": "varies",
-    "note": "HPN from $80 · JFK from $275 sedan"
+    "note": "Distance-based — HPN from ~$130 · JFK from ~$275 sedan · instant quote online"
   },
   {
     "slug": "upper-east-side-to-airports",
@@ -127,7 +127,7 @@
     "from": "Upper East Side",
     "to": "All NYC Airports",
     "sedan": 165,
-    "suv": 230,
+    "suv": 250,
     "miles": "varies",
     "time": "varies"
   },
@@ -136,18 +136,19 @@
     "h1": "Hoboken to NYC Airports",
     "from": "Hoboken, NJ",
     "to": "All NYC Airports",
-    "sedan": 175,
-    "suv": 225,
+    "sedan": 140,
+    "suv": 165,
     "miles": "varies",
-    "time": "varies"
+    "time": "varies",
+    "note": "Distance-based — EWR from ~$140 · JFK from ~$185 sedan · instant quote online"
   },
   {
     "slug": "boston",
     "h1": "NYC to Boston Car Service",
     "from": "New York City",
     "to": "Boston, MA",
-    "sedan": 795,
-    "suv": 995,
+    "sedan": 955,
+    "suv": 1025,
     "miles": "215",
     "time": "4–5 hrs"
   },
@@ -156,8 +157,8 @@
     "h1": "NYC to Philadelphia Car Service",
     "from": "New York City",
     "to": "Philadelphia, PA",
-    "sedan": 425,
-    "suv": 575,
+    "sedan": 475,
+    "suv": 520,
     "miles": "95",
     "time": "2–3 hrs"
   },
@@ -166,8 +167,8 @@
     "h1": "NYC to Washington DC Car Service",
     "from": "New York City",
     "to": "Washington, DC",
-    "sedan": 895,
-    "suv": 1150,
+    "sedan": 1015,
+    "suv": 1085,
     "miles": "230",
     "time": "4.5–5.5 hrs"
   },
@@ -176,8 +177,8 @@
     "h1": "NYC to The Hamptons Car Service",
     "from": "Manhattan",
     "to": "The Hamptons",
-    "sedan": 595,
-    "suv": 795,
+    "sedan": 515,
+    "suv": 560,
     "miles": "105",
     "time": "2–3 hrs"
   },
@@ -186,8 +187,8 @@
     "h1": "NYC to Montauk Car Service",
     "from": "Manhattan",
     "to": "Montauk, NY",
-    "sedan": 695,
-    "suv": 895,
+    "sedan": 575,
+    "suv": 625,
     "miles": "120",
     "time": "2.5–3.5 hrs"
   },
@@ -197,7 +198,7 @@
     "from": "Manhattan",
     "to": "Princeton, NJ",
     "sedan": 295,
-    "suv": 395,
+    "suv": 330,
     "miles": "50",
     "time": "1–1.5 hrs"
   },
@@ -206,44 +207,44 @@
     "h1": "Long Island Car Service",
     "from": "NYC",
     "to": "Long Island",
-    "sedan": 140,
-    "suv": 200,
+    "sedan": 175,
+    "suv": 205,
     "miles": "varies",
     "time": "varies",
-    "note": "LGA from $140 sedan depending on destination"
+    "note": "Distance-based — Nassau from ~$175 sedan · instant quote online"
   },
   {
     "slug": "connecticut",
     "h1": "Connecticut Car Service from NYC",
     "from": "NYC",
     "to": "Fairfield County, CT",
-    "sedan": 295,
-    "suv": 395,
+    "sedan": 215,
+    "suv": 245,
     "miles": "varies",
     "time": "varies",
-    "note": "Greenwich to Manhattan from $295 sedan"
+    "note": "Distance-based — Greenwich to Manhattan from ~$215 sedan · instant quote online"
   },
   {
     "slug": "new-jersey",
     "h1": "New Jersey Car Service from NYC",
     "from": "NYC",
     "to": "Northern New Jersey",
-    "sedan": 120,
-    "suv": 180,
+    "sedan": 115,
+    "suv": 140,
     "miles": "varies",
     "time": "varies",
-    "note": "Hoboken to Manhattan from $120 sedan"
+    "note": "Distance-based — Hoboken to Manhattan from ~$115 sedan · instant quote online"
   },
   {
     "slug": "queens-to-jfk",
     "h1": "Queens to JFK Car Service",
     "from": "Queens",
     "to": "JFK Airport",
-    "sedan": 135,
-    "suv": 195,
+    "sedan": 165,
+    "suv": 250,
     "miles": "8–14",
     "time": "20–40 min",
-    "intro": "<p class=\"lead\">JFK sits inside Queens, so a car from Astoria, Long Island City, Forest Hills, or Flushing is one of the shortest airport runs in the city — but short doesn't mean simple when the Van Wyck backs up. Aria locks a flat <strong>$135 sedan / $195 SUV</strong> from anywhere in Queens to JFK, so a 20-minute trip never turns into a surge-priced surprise.</p>",
+    "intro": "<p class=\"lead\">JFK sits inside Queens, so a car from Astoria, Long Island City, Forest Hills, or Flushing is one of the shortest airport runs in the city — but short doesn't mean simple when the Van Wyck backs up. Aria locks a flat <strong>$165 sedan / $250 SUV</strong> from anywhere in Queens to JFK, so a 20-minute trip never turns into a surge-priced surprise.</p>",
     "sections": [
       {
         "h2": "Flat Rate From Every Queens Neighborhood",
@@ -255,13 +256,13 @@
       },
       {
         "h2": "The Right Vehicle",
-        "html": "<p>An Executive Sedan carries up to 3 with luggage; a Premium SUV handles 6 or a golf-bag-and-family load; an Executive Sprinter moves a full crew of up to 14. All include a TLC-licensed chauffeur, bottled water, and luggage assistance.</p>"
+        "html": "<p>An Executive Sedan carries up to 3 with luggage; a Premium SUV handles 6 or a golf-bag-and-family load; an Executive Sprinter moves a full crew of up to 12. All include a TLC-licensed chauffeur, bottled water, and luggage assistance.</p>"
       }
     ],
     "faqs": [
       {
         "q": "How much is a car from Queens to JFK?",
-        "a": "A flat $135 for a sedan and $195 for an SUV from anywhere in Queens, including tolls and gratuity-free base pricing. Rates hold 24/7 with no surge."
+        "a": "A flat $165 for a sedan and $250 for an SUV from anywhere in Queens. Base fares include tolls and fuel; gratuity, tax, and card processing are itemized at checkout. Rates hold 24/7 with no surge."
       },
       {
         "q": "How long does it take from Queens to JFK?",
@@ -278,11 +279,11 @@
     "h1": "Westchester to JFK Car Service",
     "from": "Westchester County",
     "to": "JFK Airport",
-    "sedan": 225,
-    "suv": 295,
+    "sedan": 215,
+    "suv": 245,
     "miles": "30–40",
     "time": "60–90 min",
-    "intro": "<p class=\"lead\">From White Plains, Scarsdale, Rye, or Bronxville, JFK is a 60–90 minute run down the Hutch and across the Whitestone or Throgs Neck — a drive you don't want to make in your own car and leave parked for a week. Aria runs flat <strong>$225 sedan / $295 SUV</strong> from Westchester to JFK, tolls included, with a chauffeur who leaves early enough to beat the bridges.</p>",
+    "intro": "<p class=\"lead\">From White Plains, Scarsdale, Rye, or Bronxville, JFK is a 60–90 minute run down the Hutch and across the Whitestone or Throgs Neck — a drive you don't want to make in your own car and leave parked for a week. Aria runs distance-based fares from <strong>~$215 sedan / ~$245 SUV</strong> from Westchester to JFK, tolls included in the base fare, with a chauffeur who leaves early enough to beat the bridges.</p>",
     "sections": [
       {
         "h2": "The Bridge Question",
@@ -290,7 +291,7 @@
       },
       {
         "h2": "Better Than Parking or Metro-North",
-        "html": "<p>Long-term parking at JFK plus the schlep from the lot — or Metro-North to Grand Central, then the AirTrain with luggage — turns a simple trip into a multi-transfer ordeal. A private car is door-to-terminal with your bags handled, and for HPN-area travelers we also cover Westchester County Airport transfers from $80.</p>"
+        "html": "<p>Long-term parking at JFK plus the schlep from the lot — or Metro-North to Grand Central, then the AirTrain with luggage — turns a simple trip into a multi-transfer ordeal. A private car is door-to-terminal with your bags handled, and for HPN-area travelers we also cover Westchester County Airport transfers from ~$115.</p>"
       },
       {
         "h2": "For Families and Groups",
@@ -300,7 +301,7 @@
     "faqs": [
       {
         "q": "How much is a car from Westchester to JFK?",
-        "a": "Flat rates are $225 for a sedan and $295 for an SUV, all tolls included, from most of central and southern Westchester. Northern towns may vary slightly — we quote up front."
+        "a": "Westchester trips price by distance — from about $215 for a sedan and $245 for an SUV from southern Westchester, all tolls included in the base fare. We quote your exact address up front."
       },
       {
         "q": "How early should I leave Westchester for a JFK flight?",
@@ -308,7 +309,7 @@
       },
       {
         "q": "Do you also serve Westchester County Airport (HPN)?",
-        "a": "Yes — HPN transfers start around $80 locally, and we connect HPN to Manhattan and the other NYC airports as well."
+        "a": "Yes — local HPN transfers price by distance, starting around $115, and we connect HPN to Manhattan and the other NYC airports as well."
       }
     ]
   },
@@ -317,16 +318,16 @@
     "h1": "Astoria to NYC Airports",
     "from": "Astoria",
     "to": "All NYC Airports",
-    "sedan": 135,
-    "suv": 195,
+    "sedan": 140,
+    "suv": 220,
     "miles": "varies",
     "time": "varies",
-    "note": "LGA from $95 · JFK from $135 · EWR from $195 sedan",
+    "note": "LGA $140 · JFK $165 · EWR $180 sedan",
     "intro": "<p class=\"lead\">Astoria may be the best-located neighborhood in the city for air travel — LaGuardia is barely ten minutes up the Grand Central, and JFK is a straight shot down the Van Wyck. Aria gives Astoria and Long Island City flyers flat rates to all three major airports, with a chauffeur who knows the difference between the Ditmars gridlock and a clean run to the terminals.</p>",
     "sections": [
       {
         "h2": "Astoria Airport Flat Rates",
-        "html": "<table class=\"pricing-table\"><thead><tr><th>Airport</th><th>Sedan</th><th>SUV</th></tr></thead><tbody><tr><td>LaGuardia (LGA)</td><td>$95</td><td>$150</td></tr><tr><td>JFK Airport</td><td>$135</td><td>$195</td></tr><tr><td>Newark (EWR)</td><td>$195</td><td>$265</td></tr></tbody></table><p>All rates are all-inclusive of tolls, flight tracking, and 60 minutes of complimentary airport wait time.</p>"
+        "html": "<table class=\"pricing-table\"><thead><tr><th>Airport</th><th>Sedan</th><th>SUV</th></tr></thead><tbody><tr><td>LaGuardia (LGA)</td><td>$140</td><td>$220</td></tr><tr><td>JFK Airport</td><td>$165</td><td>$250</td></tr><tr><td>Newark (EWR)</td><td>$180</td><td>$275</td></tr></tbody></table><p>Base rates include tolls, fuel, flight tracking, and 60 minutes of complimentary airport wait time; gratuity, tax, and card processing are itemized at checkout.</p>"
       },
       {
         "h2": "LaGuardia in Ten Minutes",
@@ -340,7 +341,7 @@
     "faqs": [
       {
         "q": "How much is a car from Astoria to LaGuardia?",
-        "a": "A flat $95 for a sedan and $150 for an SUV — one of our shortest and most affordable airport runs, tolls and wait time included."
+        "a": "A flat $140 for a sedan and $220 for an SUV — one of our shortest airport runs, with tolls and wait time included in the base fare."
       },
       {
         "q": "Which airport is closest to Astoria?",
@@ -354,15 +355,15 @@
     "from": "Financial District",
     "to": "All NYC Airports",
     "sedan": 165,
-    "suv": 230,
+    "suv": 250,
     "miles": "varies",
     "time": "varies",
-    "note": "JFK $165 · LGA $145 · EWR $175 sedan",
+    "note": "JFK $165 · LGA $140 · EWR $180 sedan",
     "intro": "<p class=\"lead\">Downtown's proximity to the Battery and the Brooklyn-Battery Tunnel makes it one of the easier Manhattan neighborhoods for airport runs — if your chauffeur knows to avoid the FDR at rush hour. Aria offers FiDi, Battery Park City, and Seaport travelers flat rates to JFK, LaGuardia, and Newark, with early-morning reliability for the trading-floor crowd.</p>",
     "sections": [
       {
         "h2": "Financial District Airport Flat Rates",
-        "html": "<table class=\"pricing-table\"><thead><tr><th>Airport</th><th>Sedan</th><th>SUV</th></tr></thead><tbody><tr><td>JFK Airport</td><td>$165</td><td>$230</td></tr><tr><td>LaGuardia (LGA)</td><td>$145</td><td>$205</td></tr><tr><td>Newark (EWR)</td><td>$175</td><td>$245</td></tr></tbody></table><p>Newark is often the quickest option from downtown via the Holland Tunnel and the Turnpike — ask your chauffeur which airport routes cleanest for your departure time.</p>"
+        "html": "<table class=\"pricing-table\"><thead><tr><th>Airport</th><th>Sedan</th><th>SUV</th></tr></thead><tbody><tr><td>JFK Airport</td><td>$165</td><td>$250</td></tr><tr><td>LaGuardia (LGA)</td><td>$140</td><td>$220</td></tr><tr><td>Newark (EWR)</td><td>$180</td><td>$275</td></tr></tbody></table><p>Newark is often the quickest option from downtown via the Holland Tunnel and the Turnpike — ask your chauffeur which airport routes cleanest for your departure time.</p>"
       },
       {
         "h2": "Early Flights, Discreet Service",
@@ -376,7 +377,7 @@
     "faqs": [
       {
         "q": "How much is a car from the Financial District to JFK?",
-        "a": "A flat $165 for a sedan and $230 for an SUV, tolls and wait time included. LaGuardia is $145 and Newark $175 for a sedan."
+        "a": "A flat $165 for a sedan and $250 for an SUV, tolls and wait time included in the base fare. LaGuardia is $140 and Newark $180 for a sedan."
       },
       {
         "q": "Which airport is fastest from downtown Manhattan?",
@@ -390,15 +391,15 @@
     "from": "Harlem",
     "to": "All NYC Airports",
     "sedan": 165,
-    "suv": 230,
+    "suv": 250,
     "miles": "varies",
     "time": "varies",
-    "note": "LGA from $140 · JFK from $165 · EWR from $185 sedan",
+    "note": "LGA $140 · JFK $165 · EWR $180 sedan",
     "intro": "<p class=\"lead\">Uptown has a geography advantage most travelers overlook: from Harlem and Morningside Heights, the RFK Bridge puts LaGuardia within easy reach and the Triborough feeds straight toward the Grand Central for JFK. Aria gives Harlem, Hamilton Heights, and Washington Heights flyers flat rates to every NYC airport with chauffeurs who know the uptown crossings cold.</p>",
     "sections": [
       {
         "h2": "Harlem Airport Flat Rates",
-        "html": "<table class=\"pricing-table\"><thead><tr><th>Airport</th><th>Sedan</th><th>SUV</th></tr></thead><tbody><tr><td>LaGuardia (LGA)</td><td>$140</td><td>$200</td></tr><tr><td>JFK Airport</td><td>$165</td><td>$230</td></tr><tr><td>Newark (EWR)</td><td>$185</td><td>$255</td></tr></tbody></table><p>All-inclusive of tolls, flight tracking, and 60 minutes of complimentary airport wait time.</p>"
+        "html": "<table class=\"pricing-table\"><thead><tr><th>Airport</th><th>Sedan</th><th>SUV</th></tr></thead><tbody><tr><td>LaGuardia (LGA)</td><td>$140</td><td>$220</td></tr><tr><td>JFK Airport</td><td>$165</td><td>$250</td></tr><tr><td>Newark (EWR)</td><td>$180</td><td>$275</td></tr></tbody></table><p>Base rates include tolls, fuel, flight tracking, and 60 minutes of complimentary airport wait time; gratuity, tax, and card processing are itemized at checkout.</p>"
       },
       {
         "h2": "The RFK Advantage",
@@ -412,7 +413,7 @@
     "faqs": [
       {
         "q": "How much is a car from Harlem to LaGuardia?",
-        "a": "A flat $140 for a sedan and $200 for an SUV via the RFK Bridge, tolls included. JFK is $165 and Newark $185 for a sedan."
+        "a": "A flat $140 for a sedan and $220 for an SUV via the RFK Bridge, tolls included. JFK is $165 and Newark $180 for a sedan."
       },
       {
         "q": "What's the fastest airport from Harlem?",
@@ -426,7 +427,7 @@
     "from": "Tribeca",
     "to": "All NYC Airports",
     "sedan": 165,
-    "suv": 230,
+    "suv": 250,
     "miles": "varies",
     "time": "varies",
     "note": "JFK $165 · LGA $140 · EWR $180 sedan",
@@ -434,7 +435,7 @@
     "sections": [
       {
         "h2": "Tribeca Airport Flat Rates",
-        "html": "<table class=\"pricing-table\"><thead><tr><th>Airport</th><th>Sedan</th><th>SUV</th></tr></thead><tbody><tr><td>JFK Airport</td><td>$165</td><td>$230</td></tr><tr><td>LaGuardia (LGA)</td><td>$140</td><td>$200</td></tr><tr><td>Newark (EWR)</td><td>$180</td><td>$250</td></tr></tbody></table><p>Rates are fixed at booking and include tolls, flight tracking, and complimentary airport wait time.</p>"
+        "html": "<table class=\"pricing-table\"><thead><tr><th>Airport</th><th>Sedan</th><th>SUV</th></tr></thead><tbody><tr><td>JFK Airport</td><td>$165</td><td>$250</td></tr><tr><td>LaGuardia (LGA)</td><td>$140</td><td>$220</td></tr><tr><td>Newark (EWR)</td><td>$180</td><td>$275</td></tr></tbody></table><p>Base rates are fixed at booking and include tolls, fuel, flight tracking, and complimentary airport wait time; gratuity, tax, and card processing are itemized at checkout.</p>"
       },
       {
         "h2": "Tunnels, Timed Right",
@@ -448,7 +449,7 @@
     "faqs": [
       {
         "q": "How much is a car from Tribeca to Newark Airport?",
-        "a": "A flat $180 for a sedan and $250 for an SUV via the Holland Tunnel, tolls included. JFK is $165 and LaGuardia $140 for a sedan."
+        "a": "A flat $180 for a sedan and $275 for an SUV via the Holland Tunnel, tolls included. JFK is $165 and LaGuardia $140 for a sedan."
       },
       {
         "q": "Which airport is easiest from Tribeca?",
@@ -461,20 +462,20 @@
     "h1": "Jersey City to NYC Airports",
     "from": "Jersey City",
     "to": "NYC Airports",
-    "sedan": 165,
-    "suv": 225,
+    "sedan": 130,
+    "suv": 160,
     "miles": "varies",
     "time": "varies",
-    "note": "EWR from $95 · JFK from $175 · LGA from $165 sedan",
-    "intro": "<p class=\"lead\">Jersey City and Hoboken travelers have Newark Liberty essentially in their backyard — often a 10–15 minute run down the Turnpike — while JFK and LaGuardia sit a tunnel away in Queens. Aria offers flat rates from the Gold Coast to all three, so whether it's a quick EWR hop or a cross-city JFK international, the price is locked and the chauffeur is early.</p>",
+    "note": "Distance-based — EWR from ~$130 · JFK from ~$180 · LGA from ~$150 sedan",
+    "intro": "<p class=\"lead\">Jersey City and Hoboken travelers have Newark Liberty essentially in their backyard — often a 10–15 minute run down the Turnpike — while JFK and LaGuardia sit a tunnel away in Queens. Aria prices Gold Coast airport trips by distance with an instant online quote, so whether it's a quick EWR hop or a cross-city JFK international, the price is locked at booking and the chauffeur is early.</p>",
     "sections": [
       {
-        "h2": "Jersey City Airport Flat Rates",
-        "html": "<table class=\"pricing-table\"><thead><tr><th>Airport</th><th>Sedan</th><th>SUV</th></tr></thead><tbody><tr><td>Newark (EWR)</td><td>$95</td><td>$150</td></tr><tr><td>JFK Airport</td><td>$175</td><td>$240</td></tr><tr><td>LaGuardia (LGA)</td><td>$165</td><td>$225</td></tr></tbody></table><p>Newark is the local favorite — close, cheap, and quick. For JFK and LGA the trip runs through the Holland or Lincoln Tunnel into Manhattan and out to Queens.</p>"
+        "h2": "Jersey City Airport Rates",
+        "html": "<table class=\"pricing-table\"><thead><tr><th>Airport</th><th>Sedan</th><th>SUV</th></tr></thead><tbody><tr><td>Newark (EWR)</td><td>from ~$130</td><td>from ~$160</td></tr><tr><td>JFK Airport</td><td>from ~$180</td><td>from ~$210</td></tr><tr><td>LaGuardia (LGA)</td><td>from ~$150</td><td>from ~$175</td></tr></tbody></table><p>Jersey City trips price by distance — get an instant quote online for your exact address. Newark is the local favorite — close, cheap, and quick. For JFK and LGA the trip runs through the Holland or Lincoln Tunnel into Manhattan and out to Queens.</p>"
       },
       {
         "h2": "Newark in Fifteen Minutes",
-        "html": "<p>From most of Jersey City, EWR is barely 15 minutes via the Turnpike extension — but the terminal roads and the AirTrain construction can add time, and rideshare surges hard on the Newark morning bank. A flat $95 sedan removes both the guesswork and the price spike.</p>"
+        "html": "<p>From most of Jersey City, EWR is barely 15 minutes via the Turnpike extension — but the terminal roads and the AirTrain construction can add time, and rideshare surges hard on the Newark morning bank. A distance-based sedan fare from ~$130, locked at booking, removes both the guesswork and the price spike.</p>"
       },
       {
         "h2": "Crossing Into Queens",
@@ -484,11 +485,11 @@
     "faqs": [
       {
         "q": "How much is a car from Jersey City to Newark Airport?",
-        "a": "A flat $95 for a sedan and $150 for an SUV — one of our quickest, most affordable runs, tolls and wait time included."
+        "a": "Distance-based, from about $130 for a sedan and $160 for an SUV — one of our quickest, most affordable runs, with tolls and wait time included in the base fare."
       },
       {
         "q": "Can you take me from Jersey City to JFK?",
-        "a": "Yes — flat $175 sedan / $240 SUV, crossing into Queens via the tunnels with live-traffic routing, flight tracking, and meet-and-greet on return."
+        "a": "Yes — distance-based from about $180 sedan / $210 SUV, crossing into Queens via the tunnels with live-traffic routing, flight tracking, and meet-and-greet on return."
       }
     ]
   },
@@ -497,20 +498,20 @@
     "h1": "Staten Island to NYC Airports",
     "from": "Staten Island",
     "to": "NYC Airports",
-    "sedan": 165,
-    "suv": 225,
+    "sedan": 140,
+    "suv": 220,
     "miles": "varies",
     "time": "varies",
-    "note": "EWR from $115 · JFK from $165 · LGA from $185 sedan",
+    "note": "LGA $140 · JFK $165 · EWR $180 sedan",
     "intro": "<p class=\"lead\">Staten Island's airport math is all about the bridges: Newark via the Goethals is usually the closest, JFK via the Verrazzano and the Belt is a straight shot, and LaGuardia is the long haul. Aria gives Staten Island travelers flat rates to all three — with tolls included, so the Verrazzano and Goethals never pad your fare.</p>",
     "sections": [
       {
         "h2": "Staten Island Airport Flat Rates",
-        "html": "<table class=\"pricing-table\"><thead><tr><th>Airport</th><th>Sedan</th><th>SUV</th></tr></thead><tbody><tr><td>Newark (EWR)</td><td>$115</td><td>$175</td></tr><tr><td>JFK Airport</td><td>$165</td><td>$230</td></tr><tr><td>LaGuardia (LGA)</td><td>$185</td><td>$255</td></tr></tbody></table><p>Every rate includes the bridge tolls — no surprise Verrazzano or Goethals charges added at drop-off.</p>"
+        "html": "<table class=\"pricing-table\"><thead><tr><th>Airport</th><th>Sedan</th><th>SUV</th></tr></thead><tbody><tr><td>Newark (EWR)</td><td>$180</td><td>$275</td></tr><tr><td>JFK Airport</td><td>$165</td><td>$250</td></tr><tr><td>LaGuardia (LGA)</td><td>$140</td><td>$220</td></tr></tbody></table><p>Every base rate includes the bridge tolls — no surprise Verrazzano or Goethals charges added at drop-off. Gratuity, tax, and card processing are itemized at checkout.</p>"
       },
       {
         "h2": "Newark via the Goethals",
-        "html": "<p>For most of Staten Island, Newark is the fastest and most economical airport, reached via the Goethals Bridge and the Turnpike in 20–35 minutes. JFK runs across the Verrazzano to the Belt Parkway; LaGuardia is the longest trip, typically up through Brooklyn or across the RFK.</p>"
+        "html": "<p>For most of Staten Island, Newark is the fastest airport, reached via the Goethals Bridge and the Turnpike in 20–35 minutes. JFK runs across the Verrazzano to the Belt Parkway; LaGuardia is the longest trip, typically up through Brooklyn or across the RFK.</p>"
       },
       {
         "h2": "One Chauffeur, Every Terminal",
@@ -520,7 +521,7 @@
     "faqs": [
       {
         "q": "How much is a car from Staten Island to Newark Airport?",
-        "a": "A flat $115 for a sedan and $175 for an SUV via the Goethals Bridge, with tolls included. JFK is $165 and LaGuardia $185 for a sedan."
+        "a": "A flat $180 for a sedan and $275 for an SUV via the Goethals Bridge, with tolls included. JFK is $165 and LaGuardia $140 for a sedan."
       },
       {
         "q": "Which airport is closest to Staten Island?",
@@ -533,11 +534,11 @@
     "h1": "NYC to Albany Car Service",
     "from": "New York City",
     "to": "Albany, NY",
-    "sedan": 650,
-    "suv": 850,
+    "sedan": 695,
+    "suv": 750,
     "miles": "150",
     "time": "2.5–3.5 hrs",
-    "intro": "<p class=\"lead\">Albany is a 150-mile straight run up the Thruway — comfortable in a private car, miserable on a crowded Amtrak with luggage and a laptop you can't quite open. Aria runs flat-rate chauffeured service from anywhere in NYC to Albany and the Capital Region for <strong>$650 sedan / $850 SUV</strong>, tolls included, on your schedule rather than the train's.</p>",
+    "intro": "<p class=\"lead\">Albany is a 150-mile straight run up the Thruway — comfortable in a private car, miserable on a crowded Amtrak with luggage and a laptop you can't quite open. Aria runs distance-based chauffeured service from anywhere in NYC to Albany and the Capital Region from <strong>~$695 sedan / ~$750 SUV</strong>, tolls included in the base fare, on your schedule rather than the train's.</p>",
     "sections": [
       {
         "h2": "Why Private Car Beats the Train to Albany",
@@ -555,7 +556,7 @@
     "faqs": [
       {
         "q": "How much is a car from NYC to Albany?",
-        "a": "A flat $650 for a sedan and $850 for an SUV, all tolls included, for the roughly 150-mile trip up the Thruway."
+        "a": "Distance-based — from about $695 for a sedan and $750 for an SUV, all tolls included in the base fare, for the roughly 150-mile trip up the Thruway."
       },
       {
         "q": "How long does the drive to Albany take?",
@@ -572,11 +573,11 @@
     "h1": "NYC to Atlantic City Car Service",
     "from": "New York City",
     "to": "Atlantic City, NJ",
-    "sedan": 525,
-    "suv": 695,
+    "sedan": 595,
+    "suv": 645,
     "miles": "125",
     "time": "2.5–3 hrs",
-    "intro": "<p class=\"lead\">Atlantic City is close enough for a day trip and far enough that you don't want to drive it yourself, park in a casino garage, and drive home tired. Aria runs flat-rate chauffeured service from NYC to AC for <strong>$525 sedan / $695 SUV</strong> — arrive relaxed, leave whenever you're ready, and let someone else handle the Parkway.</p>",
+    "intro": "<p class=\"lead\">Atlantic City is close enough for a day trip and far enough that you don't want to drive it yourself, park in a casino garage, and drive home tired. Aria runs distance-based chauffeured service from NYC to AC from <strong>~$595 sedan / ~$645 SUV</strong> — arrive relaxed, leave whenever you're ready, and let someone else handle the Parkway.</p>",
     "sections": [
       {
         "h2": "The Smart Way to Do AC",
@@ -588,13 +589,13 @@
       },
       {
         "h2": "Groups and Overnight",
-        "html": "<p>An Executive Sprinter carries up to 14 for a bachelor party, birthday, or casino outing. For overnight trips we can drop and return, or hold the vehicle as-directed. Tell us the plan and we'll quote it flat.</p>"
+        "html": "<p>An Executive Sprinter carries up to 12 for a bachelor party, birthday, or casino outing. For overnight trips we can drop and return, or hold the vehicle as-directed. Tell us the plan and we'll quote it flat.</p>"
       }
     ],
     "faqs": [
       {
         "q": "How much is a car from NYC to Atlantic City?",
-        "a": "A flat $525 for a sedan and $695 for an SUV each way, tolls included, for the roughly 125-mile trip down the Parkway. Sprinters available for groups."
+        "a": "Distance-based — from about $595 for a sedan and $645 for an SUV each way, tolls included in the base fare, for the roughly 125-mile trip down the Parkway. Sprinters available for groups."
       },
       {
         "q": "Can you wait and bring us back the same day?",

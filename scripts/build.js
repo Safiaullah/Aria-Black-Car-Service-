@@ -187,9 +187,9 @@ function layout({ title, description, canonical, body, bc, schema, bodyClass = "
   <meta property="og:site_name" content="${esc(site.name)}" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link rel="dns-prefetch" href="https://book.mylimobiz.com" />
+  <link rel="dns-prefetch" href="https://book.ariablackcarservice.com" />
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Outfit:wght@300;400;500;600;700&family=Pinyon+Script&display=swap" rel="stylesheet" />
-  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  <link rel="icon" href="/favicon.png?v=2" type="image/png" />
   <link rel="stylesheet" href="/css/styles.css" />
   <link rel="stylesheet" href="/css/pages.css" />
   ${schema ? `<script type="application/ld+json">${schema}</script>` : ""}
@@ -357,8 +357,8 @@ function servicePage(s) {
       </aside>
     </div></section>
     ${faqSection(s.faqs || [
-      { q: `How much does ${s.title.toLowerCase()} cost in NYC?`, a: `Rates vary by vehicle and distance. Airport sedans from $140, hourly from $95/hr. Request a flat quote at booking — no surge pricing.` },
-      { q: "How far in advance should I book?", a: "We recommend 24 hours for airport transfers. Same-day often available — call to confirm." },
+      { q: `How much does ${s.title.toLowerCase()} cost in NYC?`, a: `Rates vary by vehicle and distance. Airport sedans from $140, hourly from $90/hr. Request a flat quote at booking — no surge pricing.` },
+      { q: "How far in advance should I book?", a: "We recommend 24 hours for airport transfers; online booking requires 12 hours’ notice. Same-day pickups are phone-only — call (888) 313-2455, 24/7." },
     ])}
     ${ctaBlock()}`;
 
@@ -394,9 +394,10 @@ function airportPage(a) {
         ${lead}
         <h2>Flat Rates from Manhattan</h2>
         <table class="pricing-table"><tbody>
-          <tr><td>Executive Sedan</td><td><strong>$${a.sedan}</strong> all-inclusive</td></tr>
-          <tr><td>Premium SUV</td><td><strong>$${a.suv}</strong> all-inclusive</td></tr>
+          <tr><td>Executive Sedan</td><td><strong>$${a.sedan}</strong> base fare</td></tr>
+          <tr><td>Premium SUV</td><td><strong>$${a.suv}</strong> base fare</td></tr>
         </tbody></table>
+        <p>Base fares include tolls and fuel. Gratuity, NYS sales tax, and card processing are itemized transparently at checkout. Flat rates apply within NYC's five boroughs.</p>
         <h2>What's Included</h2>
         ${includedFeatures()}
         <h2>Aria vs Uber at ${esc(a.code)}</h2>
@@ -421,7 +422,7 @@ function airportPage(a) {
       </aside>
     </div></section>
     ${faqSection([
-      { q: `How much is a car from ${a.code} to Manhattan?`, a: `Aria charges $${a.sedan} flat for a sedan and $${a.suv} for an SUV from ${a.code} to Manhattan, including tolls and 60 minutes wait time.` },
+      { q: `How much is a car from ${a.code} to Manhattan?`, a: `Aria charges a $${a.sedan} base flat rate for a sedan and $${a.suv} for an SUV from ${a.code} to Manhattan, including tolls and 60 minutes wait time. Gratuity, tax, and card processing are itemized at checkout.` },
       { q: "Do you track my flight?", a: "Yes — we monitor your flight and adjust pickup automatically if you're delayed." },
     ])}
     ${ctaBlock()}`;
@@ -466,7 +467,7 @@ function routePage(r) {
         <tbody>
           <tr><td>Executive Sedan</td><td>Up to 3</td><td>$${r.sedan}</td></tr>
           <tr><td>Premium SUV</td><td>Up to 6</td><td>$${r.suv}</td></tr>
-          <tr><td>Executive Sprinter</td><td>Up to 14</td><td>${bookLink("Request quote", "")}</td></tr>
+          <tr><td>Executive Sprinter</td><td>Up to 12</td><td>${bookLink("Request quote", "")}</td></tr>
         </tbody></table>
         <h2>How to Book</h2>
         <ol class="steps-list">
@@ -488,7 +489,7 @@ function routePage(r) {
   </div></section>
   ${faqSection(r.faqs || [
     { q: `How much is car service from ${r.from} to ${r.to}?`, a: `Flat rate from $${r.sedan} for a sedan and $${r.suv} for an SUV, including chauffeur, fuel, and standard tolls.` },
-    { q: "Is the price all-inclusive?", a: "Yes — tolls and standard fees included. Gratuity 18–20% suggested." },
+    { q: "Is the price all-inclusive?", a: "Base rates include tolls and fuel. Gratuity (20%), NYS sales tax (8.87%), and card processing (3.5%) are itemized transparently at checkout — you see every line before you confirm." },
   ])}
   ${ctaBlock()}`;
 
@@ -509,9 +510,9 @@ function locationPage(l) {
   const body = `
     ${pageHero(l.h1, l.desc, "Location")}
     <section class="page-section"><div class="container prose">
-      ${l.intro ? l.intro : `<p class="lead">${esc(l.desc)} Flat-rate airport transfers to JFK ($165), LaGuardia ($140), and Newark ($180) from ${esc(l.area)}.</p>`}
+      ${l.intro ? l.intro : `<p class="lead">${esc(l.desc)} Airport transfers to JFK (from $165), LaGuardia (from $140), and Newark (from $180) — flat base rates within NYC's five boroughs, distance-based quotes beyond.</p>`}
       ${l.sections ? richBody(l.sections) : ""}
-      ${l.hideAirportRates ? "" : `<h2>Airport Flat Rates from ${esc(l.area)}</h2>${airportRatesTable()}`}
+      ${l.hideAirportRates ? "" : `<h2>Airport Flat Rates — NYC's Five Boroughs</h2>${airportRatesTable()}`}
       <h2>Services in ${esc(l.area)}</h2>
       <div class="card-grid">${services.slice(0, 8).map((s) => `<a href="/services/${s.slug}" class="link-card"><h3>${esc(s.title)}</h3><p>${esc(s.desc)}</p></a>`).join("")}</div>
       ${l.sections ? "" : `<h2>Popular Routes</h2>
@@ -769,7 +770,7 @@ function blogPage(b) {
       <ul class="check-list">
         <li><a href="/services/airport-transfer">Airport Transfers</a> — JFK, LGA, EWR, TEB, HPN</li>
         <li><a href="/services/corporate-shuttle">Corporate Shuttle</a> — accounts & billing</li>
-        <li><a href="/services/hourly">Hourly Chauffeur</a> — from $95/hr</li>
+        <li><a href="/services/hourly">Hourly Chauffeur</a> — from $90/hr</li>
         <li><a href="/services/long-distance">Long Distance</a> — Boston, Hamptons, DC</li>
       </ul>
       <h2>Airport Flat Rates (Manhattan)</h2>
@@ -973,7 +974,7 @@ function patchHomepage(html) {
     .replace('src="js/main.js?v=4"', 'src="/js/main.js?v=4"')
     .replace('src="js/main.js?v=3"', 'src="/js/main.js?v=4"')
     .replace('src="js/main.js"', 'src="/js/main.js?v=4"')
-    .replace('href="favicon.svg"', 'href="/favicon.svg"')
+    .replace('href="favicon.png?v=2"', 'href="/favicon.png?v=2"')
     .replace(/src="images\//g, 'src="/images/')
     .replace(
       '<link rel="stylesheet" href="/css/styles.css" />',
@@ -995,7 +996,7 @@ function patchHomepage(html) {
     )
     .replace(
       '<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />',
-      '<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />\n  <link rel="dns-prefetch" href="https://book.mylimobiz.com" />'
+      '<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />\n  <link rel="dns-prefetch" href="https://book.ariablackcarservice.com" />'
     )
     .replace(/<footer class="footer">[\s\S]*?<div class="floating-cta"[\s\S]*?<\/div>/, seoFooter().trim())
     .replace(
@@ -1029,6 +1030,7 @@ fs.copyFileSync(path.join(ROOT, "css", "styles.css"), path.join(OUT, "css", "sty
 fs.copyFileSync(path.join(ROOT, "css", "pages.css"), path.join(OUT, "css", "pages.css"));
 fs.copyFileSync(path.join(ROOT, "js", "main.js"), path.join(OUT, "js", "main.js"));
 fs.copyFileSync(path.join(ROOT, "favicon.svg"), path.join(OUT, "favicon.svg"));
+fs.copyFileSync(path.join(ROOT, "favicon.png"), path.join(OUT, "favicon.png"));
 if (fs.existsSync(path.join(ROOT, "llms.txt"))) {
   fs.copyFileSync(path.join(ROOT, "llms.txt"), path.join(OUT, "llms.txt"));
 }
@@ -1102,7 +1104,7 @@ events.forEach((e) => {
   writePage(`/events/${e.slug}`, layout({
     title: `${e.h1} | ${site.name}`, description: e.desc, canonical: `/events/${e.slug}`,
     bc: breadcrumbs([{ label: "Home", href: "/" }, { label: "Events", href: "/events/sporting" }, { label: e.h1, href: `/events/${e.slug}` }]),
-    body: `${pageHero(e.h1, e.desc, "Events")}<section class="page-section"><div class="container prose"><p class="lead">${esc(e.desc)}</p><p>Hourly chauffeur from $95/hr · Sprinter vans $200/hr · Book 24–48 hours ahead for major events.</p></div></section>${ctaBlock()}`,
+    body: `${pageHero(e.h1, e.desc, "Events")}<section class="page-section"><div class="container prose"><p class="lead">${esc(e.desc)}</p><p>Hourly chauffeur from $90/hr · Sprinter vans $200/hr (5-hour minimum) · Book 24–48 hours ahead for major events.</p></div></section>${ctaBlock()}`,
   }));
   urls.push(`/events/${e.slug}`);
 });
@@ -1132,7 +1134,7 @@ writePage("/faq", layout({
   bc: breadcrumbs([{ label: "Home", href: "/" }, { label: "FAQ", href: "/faq" }]),
   body: `${pageHero("Frequently Asked Questions", "Everything you need to know about booking with Aria.", "FAQ")}
   ${faqSection([
-    { q: "How much is JFK to Manhattan?", a: "$165 sedan, $230 SUV — flat rate including tolls, flight tracking, and 60 min wait." },
+    { q: "How much is JFK to Manhattan?", a: "$165 sedan, $250 SUV — base flat rate including tolls, flight tracking, and 60 min wait. Gratuity, tax, and card processing itemized at checkout." },
     { q: "Is there surge pricing?", a: "Never. Your quoted flat rate is final." },
     { q: "Do you offer corporate accounts?", a: "Yes — monthly billing, account manager, volume discounts." },
     { q: "How do I book?", a: `Book online or call ${site.phone}.` },
@@ -1156,6 +1158,7 @@ writePage("/pricing", layout({
     <h2 style="margin-top:3rem">Long Distance</h2>
     <table class="pricing-table"><thead><tr><th>Route</th><th>Sedan</th><th>SUV</th></tr></thead>
     <tbody>${site.longDistance.map((r) => `<tr><td>${esc(r.route)}</td><td>$${r.sedan}</td><td>$${r.suv}</td></tr>`).join("")}</tbody></table>
+    <p style="margin-top:2rem">Base rates include tolls and fuel. Gratuity (20%), NYS sales tax (8.87%), and card processing (3.5%) are itemized transparently at checkout. Airport flat rates apply within NYC's five boroughs; trips beyond are distance-priced.</p>
   </div></section>${ctaBlock()}`,
 }));
 urls.push("/pricing");
@@ -1178,7 +1181,7 @@ urls.push("/quote");
 writePage("/sitemap", htmlSitemapPage());
 urls.push("/sitemap");
 
-writePage("/terms", staticPage("terms", "Terms of Service", "Terms of Service", `<p>By booking with Aria Black Car Service you agree to our cancellation policy: 24+ hours notice for full refund. Gratuity not included in quoted rates unless stated. Chauffeurs wait 60 minutes complimentary at airports.</p>`));
+writePage("/terms", staticPage("terms", "Terms of Service", "Terms of Service", `<p>By booking with Aria Black Car Service you agree to our cancellation policy: 24+ hours notice for full refund. Quoted rates are base fares; a 20% standard gratuity, 8.87% NYS sales tax, and 3.5% card processing fee are itemized at checkout. Chauffeurs wait 60 minutes complimentary at airports.</p>`));
 writePage("/privacy", staticPage("privacy", "Privacy Policy", "Privacy Policy", `<p>We collect booking information to provide transportation services. We do not sell personal data. Contact ${site.infoEmail} for data requests.</p>`));
 urls.push("/terms", "/privacy");
 

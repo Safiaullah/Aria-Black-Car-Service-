@@ -5,7 +5,7 @@
     "h1": "Executive Sedan Fleet",
     "pax": "3",
     "bags": "3",
-    "hourly": 95,
+    "hourly": 90,
     "jfk": 165,
     "vehicles": [
       { "name": "Mercedes-Benz E-Class", "image": "mercedes-e-class.png", "pax": "3" },
@@ -33,8 +33,8 @@
     "h1": "Premium SUV Fleet",
     "pax": "6",
     "bags": "6",
-    "hourly": 135,
-    "jfk": 230,
+    "hourly": 125,
+    "jfk": 250,
     "vehicles": [
       { "name": "Chevrolet Suburban", "image": "chevrolet-suburban.png", "pax": "6" },
       { "name": "GMC Yukon XL", "image": "gmc-yukon.png", "pax": "6" }
@@ -56,12 +56,12 @@
     "slug": "sprinter",
     "tier": "Sprinters",
     "h1": "Mercedes-Benz Sprinter Fleet",
-    "pax": "14",
-    "bags": "14",
+    "pax": "12",
+    "bags": "12",
     "hourly": 200,
-    "jfk": 350,
+    "jfk": 500,
     "vehicles": [
-      { "name": "Executive Sprinter", "image": "executive-sprinter.png", "pax": "14" },
+      { "name": "Executive Sprinter", "image": "executive-sprinter.png", "pax": "12" },
       { "name": "Limo Sprinter", "image": "limo-sprinter.png", "pax": "18" },
       { "name": "Jet Sprinter", "image": "jet-sprinter.png", "pax": "13" },
       { "name": "ADA Sprinter", "image": "ada-sprinter.png", "pax": "11" }

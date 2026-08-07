@@ -1,8 +1,8 @@
 {
   "name": "Aria Black Car Service",
   "domain": "https://ariablackcarservice.com",
-  "phone": "(888) 503-4449",
-  "phoneTel": "+18885034449",
+  "phone": "(888) 313-2455",
+  "phoneTel": "+18883132455",
   "email": "bookings@ariablackcarservice.com",
   "infoEmail": "info@ariablackcarservice.com",
   "address": "New York, NY",
@@ -12,30 +12,31 @@
   "reviews": "250+",
   "trips": "5,000+",
   "founded": "2020",
-  "bookingUrl": "https://book.mylimobiz.com/v4/nobleblackcar",
+  "bookingUrl": "https://book.ariablackcarservice.com/book",
   "bookingAlias": "nobleblackcar",
   "airportRates": {
-    "jfk": { "sedan": 165, "suv": 230 },
-    "lga": { "sedan": 140, "suv": 200 },
-    "ewr": { "sedan": 180, "suv": 250 },
-    "teb": { "sedan": 180, "suv": 250 },
-    "hpn": { "sedan": 200, "suv": 270 }
+    "jfk": { "sedan": 165, "suv": 250 },
+    "lga": { "sedan": 140, "suv": 220 },
+    "ewr": { "sedan": 180, "suv": 275 },
+    "teb": { "sedan": 180, "suv": 275 },
+    "hpn": { "sedan": 200, "suv": 295 }
   },
   "hourlyRates": [
-    { "vehicle": "Executive Sedan", "rate": 95, "min": "3 hours" },
+    { "vehicle": "Executive Sedan", "rate": 90, "min": "3 hours" },
     { "vehicle": "First Class Sedan (S-Class)", "rate": 175, "min": "3 hours" },
-    { "vehicle": "Premium SUV", "rate": 135, "min": "3 hours" },
-    { "vehicle": "Executive Sprinter", "rate": 200, "min": "4 hours" }
+    { "vehicle": "Premium SUV", "rate": 125, "min": "3 hours" },
+    { "vehicle": "First Class SUV", "rate": 150, "min": "3 hours" },
+    { "vehicle": "Executive Sprinter", "rate": 200, "min": "5 hours" }
   ],
   "longDistance": [
-    { "route": "NYC → Boston", "sedan": 795, "suv": 995 },
-    { "route": "NYC → Philadelphia", "sedan": 425, "suv": 575 },
-    { "route": "NYC → Washington DC", "sedan": 895, "suv": 1150 },
-    { "route": "NYC → The Hamptons", "sedan": 595, "suv": 795 },
-    { "route": "NYC → Montauk", "sedan": 695, "suv": 895 },
-    { "route": "NYC → Atlantic City", "sedan": 525, "suv": 695 },
-    { "route": "NYC → Greenwich CT", "sedan": 295, "suv": 395 },
-    { "route": "NYC → Princeton NJ", "sedan": 295, "suv": 395 },
-    { "route": "NYC → New Haven CT", "sedan": 395, "suv": 525 }
+    { "route": "NYC → Boston", "sedan": 955, "suv": 1025 },
+    { "route": "NYC → Philadelphia", "sedan": 475, "suv": 520 },
+    { "route": "NYC → Washington DC", "sedan": 1015, "suv": 1085 },
+    { "route": "NYC → The Hamptons", "sedan": 515, "suv": 560 },
+    { "route": "NYC → Montauk", "sedan": 575, "suv": 625 },
+    { "route": "NYC → Atlantic City", "sedan": 595, "suv": 645 },
+    { "route": "NYC → Greenwich CT", "sedan": 215, "suv": 245 },
+    { "route": "NYC → Princeton NJ", "sedan": 295, "suv": 330 },
+    { "route": "NYC → New Haven CT", "sedan": 415, "suv": 455 }
   ]
 }

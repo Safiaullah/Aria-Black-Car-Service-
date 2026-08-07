@@ -79,7 +79,7 @@
       },
       {
         "q": "How early should I book JFK car service?",
-        "a": "Book 24 hours ahead when possible. Same-day is often available — call (888) 503-4449."
+        "a": "Book 24 hours ahead when possible; online booking requires 12 hours’ notice. For same-day pickups call (888) 313-2455 — 24/7."
       }
     ]
   },
@@ -150,7 +150,7 @@
     "faqs": [
       {
         "q": "How much is LaGuardia to Manhattan?",
-        "a": "Flat rate from $140 for a sedan with Aria Black Car Service. SUVs from $200."
+        "a": "Flat rate from $140 for a sedan with Aria Black Car Service. SUVs from $220."
       },
       {
         "q": "Which terminal does Aria serve at LGA?",
@@ -218,15 +218,15 @@
     "faqs": [
       {
         "q": "How much does black car service cost per hour in NYC?",
-        "a": "Executive sedans from $95/hour (3-hour minimum), first class sedans $175/hour, SUVs $135/hour, Sprinters $200/hour."
+        "a": "Executive sedans from $90/hour (3-hour minimum), first class sedans $175/hour, SUVs $125/hour, and Sprinters $200/hour with a 5-hour minimum."
       },
       {
         "q": "Are tolls included?",
-        "a": "Yes — Aria flat rates include standard tolls. No fuel surcharges or holiday premiums."
+        "a": "Yes — Aria base rates include standard tolls and fuel, with no holiday premiums. Gratuity, NYS sales tax, and card processing are itemized at checkout."
       },
       {
         "q": "Is gratuity included?",
-        "a": "Gratuity is not included. 18–20% is customary for excellent service."
+        "a": "A 20% standard gratuity is added and itemized transparently at checkout, alongside NYS sales tax and a card processing fee — no need to tip on top unless you'd like to."
       }
     ]
   },
@@ -260,7 +260,7 @@
       "Select vehicle: sedan for 1–3 passengers, SUV for groups/luggage, Sprinter for 6+",
       "Provide flight number for airport pickups — we track delays automatically",
       "Request meet-and-greet inside the terminal for international arrivals",
-      "Book 24+ hours ahead; call for same-day availability"
+      "Book 24+ hours ahead; within 12 hours, call (888) 313-2455"
     ],
     "mistakes": [
       "Not providing flight number",
@@ -271,7 +271,7 @@
     "faqs": [
       {
         "q": "Can I book same-day?",
-        "a": "Yes — call (888) 503-4449. 24-hour advance booking recommended for guaranteed vehicle class."
+        "a": "Yes — call (888) 313-2455. 24-hour advance booking recommended for guaranteed vehicle class."
       }
     ]
   },
@@ -349,14 +349,14 @@
   {
     "slug": "hamptons-transportation-guide",
     "title": "NYC to Hamptons Transportation Guide 2026",
-    "meta": "How to get from NYC to the Hamptons: private car vs Jitney vs train. Summer Friday traffic tips and flat-rate pricing.",
+    "meta": "How to get from NYC to the Hamptons: private car vs Jitney vs train. Summer Friday traffic tips and transparent pricing.",
     "type": "route-guide",
     "updated": "May 2026",
     "readTime": "8 min",
     "faqs": [
       {
         "q": "How much is a car from Manhattan to the Hamptons?",
-        "a": "Flat rate from $595 sedan, $795 SUV. Summer Fridays book early — Route 27 traffic heavy."
+        "a": "Hamptons trips are priced by distance — get an instant quote online. Summer Fridays book early — Route 27 traffic heavy."
       },
       {
         "q": "How long is the drive?",
@@ -392,7 +392,7 @@
     "faqs": [
       {
         "q": "Standard gratuity for black car?",
-        "a": "18–20% for excellent service. Airport flat rates from Aria do not include gratuity."
+        "a": "18–20% is the industry standard. Aria adds a 20% standard gratuity at checkout, itemized transparently — no need to tip on top."
       }
     ]
   },
