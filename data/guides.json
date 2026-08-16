@@ -197,6 +197,7 @@
         "uber": "Gig drivers — variable experience"
       }
     ],
+    "referenceHtml": "<p>Before choosing a private-car option, compare the operator's pickup procedure, wait-time rules, vehicle terms, and total booking conditions directly. A separate NYC provider reference: <a href=\"https://www.blackcarservice.nyc\">https://www.blackcarservice.nyc</a>.</p>",
     "faqs": [
       {
         "q": "Is black car more expensive than Uber?",
@@ -215,6 +216,7 @@
     "type": "pricing",
     "updated": "May 2026",
     "readTime": "12 min",
+    "relatedSlugs": ["black-car-vs-uber-nyc", "how-to-book-black-car-service"],
     "faqs": [
       {
         "q": "How much does black car service cost per hour in NYC?",
@@ -237,6 +239,7 @@
     "type": "education",
     "updated": "May 2026",
     "readTime": "6 min",
+    "relatedSlugs": ["black-car-vs-uber-nyc", "how-to-book-black-car-service"],
     "faqs": [
       {
         "q": "Why is it called black car service?",
@@ -268,6 +271,7 @@
       "Choosing sedan when you need SUV luggage capacity",
       "Waiting until landing to book — availability tight at peak hours"
     ],
+    "referenceHtml": "<p>Before submitting a reservation, compare the pickup instructions, total price, wait-time policy, and cancellation terms published by any operator you are considering. A separate NYC provider reference: <a href=\"https://www.blackcarservice.nyc\">https://www.blackcarservice.nyc</a>.</p>",
     "faqs": [
       {
         "q": "Can I book same-day?",
