@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 const fs = require("fs");
 const path = require("path");
+const { guideLongForm } = require("./long-guide-content");
 
 const ROOT = path.join(__dirname, "..");
 const OUT = path.join(ROOT, "public");
@@ -720,6 +721,10 @@ function guidePage(g) {
 
   if (g.referenceHtml) {
     content += g.referenceHtml;
+  }
+
+  if (g.slug === "black-car-vs-uber-nyc" || g.slug === "how-to-book-black-car-service") {
+    content += guideLongForm(g.slug);
   }
 
   if (g.type === "pricing") {
