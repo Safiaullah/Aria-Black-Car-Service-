@@ -163,8 +163,8 @@
     "title": "Black Car vs Uber in NYC: Which Is Better?",
     "meta": "Black car service vs Uber in NYC — compare pricing, reliability, airport pickup, surge, and vehicle quality for business and airport travel.",
     "type": "comparison",
-    "updated": "May 2026",
-    "readTime": "10 min",
+    "updated": "August 2026",
+    "readTime": "22 min",
     "comparison": [
       {
         "factor": "Pricing",
@@ -197,6 +197,7 @@
         "uber": "Gig drivers — variable experience"
       }
     ],
+    "referenceHtml": "<p>Before choosing a private-car option, compare the operator's pickup procedure, wait-time rules, vehicle terms, and total booking conditions directly. A separate NYC provider reference: <a href=\"https://www.blackcarservice.nyc\">https://www.blackcarservice.nyc</a>.</p>",
     "faqs": [
       {
         "q": "Is black car more expensive than Uber?",
@@ -215,6 +216,7 @@
     "type": "pricing",
     "updated": "May 2026",
     "readTime": "12 min",
+    "relatedSlugs": ["black-car-vs-uber-nyc", "how-to-book-black-car-service"],
     "faqs": [
       {
         "q": "How much does black car service cost per hour in NYC?",
@@ -237,6 +239,7 @@
     "type": "education",
     "updated": "May 2026",
     "readTime": "6 min",
+    "relatedSlugs": ["black-car-vs-uber-nyc", "how-to-book-black-car-service"],
     "faqs": [
       {
         "q": "Why is it called black car service?",
@@ -253,8 +256,8 @@
     "title": "How to Book Black Car Service in NYC (Step-by-Step)",
     "meta": "How to book NYC black car service: choose vehicle, flat vs hourly, airport details, and mistakes to avoid.",
     "type": "howto",
-    "updated": "May 2026",
-    "readTime": "7 min",
+    "updated": "August 2026",
+    "readTime": "22 min",
     "steps": [
       "Choose flat-rate (airport/point-to-point) or hourly (multi-stop, events)",
       "Select vehicle: sedan for 1–3 passengers, SUV for groups/luggage, Sprinter for 6+",
@@ -268,6 +271,7 @@
       "Choosing sedan when you need SUV luggage capacity",
       "Waiting until landing to book — availability tight at peak hours"
     ],
+    "referenceHtml": "<p>Before submitting a reservation, compare the pickup instructions, total price, wait-time policy, and cancellation terms published by any operator you are considering. A separate NYC provider reference: <a href=\"https://www.blackcarservice.nyc\">https://www.blackcarservice.nyc</a>.</p>",
     "faqs": [
       {
         "q": "Can I book same-day?",

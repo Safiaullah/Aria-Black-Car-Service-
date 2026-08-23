@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 const fs = require("fs");
 const path = require("path");
+const { guideLongForm } = require("./long-guide-content");
 
 const ROOT = path.join(__dirname, "..");
 const OUT = path.join(ROOT, "public");
@@ -718,6 +719,14 @@ function guidePage(g) {
     content += `<h2>Route Options</h2>${g.routes.map((r) => `<h3>${esc(r.name)}</h3><p><strong>Time:</strong> ${esc(r.time)}. ${esc(r.best)}</p>`).join("")}`;
   }
 
+  if (g.referenceHtml) {
+    content += g.referenceHtml;
+  }
+
+  if (g.slug === "black-car-vs-uber-nyc" || g.slug === "how-to-book-black-car-service") {
+    content += guideLongForm(g.slug);
+  }
+
   if (g.type === "pricing") {
     content += `<h2>Aria Black Car Rates (${site.year})</h2>
       <h3>Hourly Chauffeur</h3>
@@ -729,13 +738,17 @@ function guidePage(g) {
       <tbody>${site.longDistance.map((r) => `<tr><td>${esc(r.route)}</td><td>$${r.sedan}</td><td>$${r.suv}</td></tr>`).join("")}</tbody></table>`;
   }
 
+  const relatedGuides = g.relatedSlugs
+    ? g.relatedSlugs.map((slug) => guides.find((guide) => guide.slug === slug)).filter(Boolean)
+    : guides.filter((guide) => guide.slug !== g.slug).slice(0, 4);
+
   const body = `
     ${pageHero(g.title, "", "Guide")}
     <section class="page-section"><div class="container prose narrow">${content}</div></section>
     ${faqSection(g.faqs || [])}
     <section class="page-section"><div class="container">
       <h2 class="section-title">Related <em>Guides</em></h2>
-      <div class="card-grid">${guides.filter((x) => x.slug !== g.slug).slice(0, 4).map((x) => `<a href="/guides/${x.slug}" class="link-card"><h3>${esc(x.title)}</h3></a>`).join("")}</div>
+      <div class="card-grid">${relatedGuides.map((guide) => `<a href="/guides/${guide.slug}" class="link-card"><h3>${esc(guide.title)}</h3></a>`).join("")}</div>
     </div></section>
     ${ctaBlock()}`;
 
