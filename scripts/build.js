@@ -358,7 +358,7 @@ function servicePage(s) {
     </div></section>
     ${faqSection(s.faqs || [
       { q: `How much does ${s.title.toLowerCase()} cost in NYC?`, a: `Rates vary by vehicle and distance. Airport sedans from $140, hourly from $90/hr. Request a flat quote at booking — no surge pricing.` },
-      { q: "How far in advance should I book?", a: "We recommend 24 hours for airport transfers; online booking requires 12 hours’ notice. Same-day pickups are phone-only — call (888) 313-2455, 24/7." },
+      { q: "How far in advance should I book?", a: "We recommend 24 hours for airport transfers; online booking requires 12 hours’ notice. Same-day pickups are phone-only — call (888) 402-8202, 24/7." },
     ])}
     ${ctaBlock()}`;
 
