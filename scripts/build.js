@@ -71,7 +71,7 @@ function nav() {
       <nav class="nav-links" aria-label="Main navigation">
         <div class="nav-dropdown">
           <a href="/services">Services</a>
-          <div class="nav-dropdown-menu">${svcLinks}</div>
+          <div class="nav-dropdown-menu nav-dropdown-menu--wide">${svcLinks}</div>
         </div>
         <div class="nav-dropdown">
           <a href="/airports">Airports</a>

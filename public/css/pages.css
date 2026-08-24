@@ -47,12 +47,10 @@ body.inner-page .menu-toggle {
   left: 50%;
   transform: translateX(-50%) translateY(8px);
   min-width: 220px;
-  max-height: 320px;
-  overflow-y: auto;
   background: var(--black-card);
   border: 1px solid rgba(255, 255, 255, 0.08);
-  border-radius: 0.5rem;
-  padding: 0.5rem 0;
+  border-radius: 0.65rem;
+  padding: 0.45rem;
   opacity: 0;
   visibility: hidden;
   transition: var(--transition);
@@ -60,27 +58,89 @@ body.inner-page .menu-toggle {
   box-shadow: 0 24px 48px rgba(0, 0, 0, 0.5);
 }
 
-.nav-dropdown:hover .nav-dropdown-menu {
+/* Invisible bridge across the 8px gap so the menu doesn't snap shut
+   while the pointer travels from the trigger into the list. */
+.nav-dropdown-menu::before {
+  content: "";
+  position: absolute;
+  top: -12px;
+  left: 0;
+  right: 0;
+  height: 12px;
+}
+
+/* Long lists (Services) run in columns instead of scrolling. */
+.nav-dropdown-menu--wide {
+  /* Anchored to the trigger, not centred — a centred 3-column menu
+     runs off the left edge of the viewport. */
+  left: 0;
+  transform: translateX(0) translateY(8px);
+  display: grid;
+  grid-template-columns: repeat(3, minmax(168px, 1fr));
+  gap: 0.05rem 0.2rem;
+  width: max-content;
+  max-width: min(680px, calc(100vw - 3rem));
+}
+
+.nav-dropdown:hover .nav-dropdown-menu,
+.nav-dropdown:focus-within .nav-dropdown-menu {
   opacity: 1;
   visibility: visible;
   transform: translateX(-50%) translateY(0);
 }
 
+.nav-dropdown:hover .nav-dropdown-menu--wide,
+.nav-dropdown:focus-within .nav-dropdown-menu--wide {
+  transform: translateX(0) translateY(0);
+}
+
 .nav-dropdown-menu a {
-  display: block;
-  padding: 0.5rem 1.25rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 0.8rem;
+  border-radius: 0.4rem;
   font-size: 0.75rem;
   letter-spacing: 0.08em;
   text-transform: none;
+  white-space: nowrap;
+  transition: background 0.18s ease, color 0.18s ease, transform 0.18s ease;
+}
+
+/* Gold dot that blooms on hover — the interactive cue. */
+.nav-dropdown-menu a::before {
+  content: "";
+  flex: 0 0 auto;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: var(--gold);
+  opacity: 0;
+  transform: scale(0.4);
+  transition: opacity 0.18s ease, transform 0.18s ease;
 }
 
 .nav-dropdown-menu a::after {
   display: none;
 }
 
-.nav-dropdown-menu a:hover {
-  background: rgba(201, 169, 98, 0.08);
+.nav-dropdown-menu a:hover,
+.nav-dropdown-menu a:focus-visible {
+  background: rgba(201, 169, 98, 0.09);
   color: var(--gold);
+  transform: translateX(2px);
+}
+
+.nav-dropdown-menu a:hover::before,
+.nav-dropdown-menu a:focus-visible::before {
+  opacity: 1;
+  transform: scale(1);
+}
+
+@media (max-width: 900px) {
+  .nav-dropdown-menu--wide {
+    grid-template-columns: repeat(2, minmax(150px, 1fr));
+  }
 }
 
 /* Breadcrumbs */
