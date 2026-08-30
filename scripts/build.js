@@ -2,6 +2,7 @@
 const fs = require("fs");
 const path = require("path");
 const { guideLongForm } = require("./long-guide-content");
+const { jfkTerminalLongForm } = require("./jfk-terminal-guide-content");
 
 const ROOT = path.join(__dirname, "..");
 const OUT = path.join(ROOT, "public");
@@ -80,7 +81,15 @@ function nav() {
         <a href="/fleet">Fleet</a>
         <a href="/routes">Routes</a>
         <a href="/locations/manhattan">Locations</a>
-        <a href="/guides">Guides</a>
+        <div class="nav-dropdown">
+          <a href="/guides">Guides</a>
+          <div class="nav-dropdown-menu">
+            <a href="/guides/jfk-terminal-guide">JFK Terminal Guide 2026</a>
+            <a href="/guides/black-car-vs-uber-nyc">Black Car vs Uber</a>
+            <a href="/guides/black-car-pricing-guide">Pricing Guide</a>
+            <a href="/guides">All guides</a>
+          </div>
+        </div>
         <a href="/blog">Blog</a>
         <a href="/pricing">Rates</a>
       </nav>
@@ -96,7 +105,7 @@ function nav() {
   </header>
   <nav id="mobile-menu" class="mobile-menu" aria-label="Mobile navigation">
     <a href="/services">Services</a><a href="/airports">Airports</a><a href="/fleet">Fleet</a>
-    <a href="/routes">Routes</a><a href="/guides">Guides</a><a href="/blog">Blog</a>
+    <a href="/routes">Routes</a><a href="/guides/jfk-terminal-guide">JFK Guide</a><a href="/guides">Guides</a><a href="/blog">Blog</a>
     ${bookLink("Book", "")}<a href="/contact">Contact</a>
     <a href="tel:${site.phoneTel}" style="color:var(--gold)">${esc(site.phone)}</a>
   </nav>`;
@@ -712,7 +721,16 @@ function guidePage(g) {
   }
 
   if (g.terminals) {
-    content += `<h2>Terminal Overview</h2>${g.terminals.map((t) => `<h3>${esc(t.name)}</h3><p>${esc(t.airlines)}</p>`).join("")}`;
+    if (g.terminals[0] && g.terminals[0].status) {
+      content += `<h2>JFK terminals and airlines (2026)</h2>
+        <p>Assignments follow the official JFK airline directory. Confirm your flight in the airline app the day you travel — construction can move carriers.</p>
+        <div style="overflow-x:auto"><table class="pricing-table compare-table">
+          <thead><tr><th>Terminal</th><th>Status</th><th>Airlines</th></tr></thead>
+          <tbody>${g.terminals.map((t) => `<tr><td>${esc(t.name)}</td><td>${esc(t.status)}</td><td>${esc(t.airlines)}</td></tr>`).join("")}</tbody>
+        </table></div>`;
+    } else {
+      content += `<h2>Terminal Overview</h2>${g.terminals.map((t) => `<h3>${esc(t.name)}</h3><p>${esc(t.airlines)}</p>`).join("")}`;
+    }
   }
 
   if (g.routes) {
@@ -721,6 +739,10 @@ function guidePage(g) {
 
   if (g.referenceHtml) {
     content += g.referenceHtml;
+  }
+
+  if (g.slug === "jfk-terminal-guide") {
+    content += jfkTerminalLongForm();
   }
 
   if (g.slug === "black-car-vs-uber-nyc" || g.slug === "how-to-book-black-car-service") {
@@ -743,7 +765,7 @@ function guidePage(g) {
     : guides.filter((guide) => guide.slug !== g.slug).slice(0, 4);
 
   const body = `
-    ${pageHero(g.title, "", "Guide")}
+    ${pageHero(g.h1 || g.title, g.heroSub || "", "Guide")}
     <section class="page-section"><div class="container prose narrow">${content}</div></section>
     ${faqSection(g.faqs || [])}
     <section class="page-section"><div class="container">
@@ -966,6 +988,7 @@ function patchHomepage(html) {
         <a href="/airports">Airports</a>
         <a href="/fleet">Fleet</a>
         <a href="/routes">Routes</a>
+        <a href="/guides/jfk-terminal-guide">JFK Guide</a>
         <a href="/guides">Guides</a>
         <a href="/blog">Blog</a>
         <a href="/pricing">Rates</a>
@@ -1001,7 +1024,7 @@ function patchHomepage(html) {
       /<nav id="mobile-menu"[\s\S]*?<\/nav>\s*<main>/,
       `<nav id="mobile-menu" class="mobile-menu" aria-label="Mobile navigation">
     <a href="/services">Services</a><a href="/airports">Airports</a><a href="/fleet">Fleet</a>
-    <a href="/routes">Routes</a><a href="/guides">Guides</a><a href="/blog">Blog</a>
+    <a href="/routes">Routes</a><a href="/guides/jfk-terminal-guide">JFK Guide</a><a href="/guides">Guides</a><a href="/blog">Blog</a>
     <a href="/pricing">Rates</a>${bookLink("Book", "")}<a href="/contact">Contact</a>
     <a href="tel:${site.phoneTel}" style="color:var(--gold)">${site.phone}</a>
   </nav>

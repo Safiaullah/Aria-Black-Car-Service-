@@ -8,6 +8,11 @@
   },
   "redirects": [
     {
+      "source": "/guides/best-way-from-jfk-to-manhattan",
+      "destination": "/guides/jfk-terminal-guide",
+      "permanent": true
+    },
+    {
       "source": "/blog/tlc-license-explained",
       "destination": "/blog",
       "permanent": true
