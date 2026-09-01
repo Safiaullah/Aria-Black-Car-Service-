@@ -226,7 +226,7 @@ function footer() {
 
 function layout({ title, description, canonical, body, bc, schema, bodyClass = "", noindex }) {
   const canonicalUrl = `${site.domain}${canonical}`;
-  const robots = (noindex ?? isNoindexPath(canonical)) ? "noindex, follow" : "index, follow";
+  const robots = "noindex, nofollow";
   const ogImg = hasOgImage() ? `${site.domain}${OG_IMAGE_PATH}` : "";
   const schemaHtml = schema
     ? (schema.trim().startsWith("<script") ? schema : `<script type="application/ld+json">${schema}</script>`)
@@ -1224,7 +1224,7 @@ writePage("/terms", staticPage("terms", "Terms of Service", "Terms of Service", 
 writePage("/privacy", staticPage("privacy", "Privacy Policy", "Privacy Policy", `<p>We collect booking information to provide transportation services. We do not sell personal data. Contact ${site.infoEmail} for data requests.</p>`));
 urls.push("/terms", "/privacy");
 
-fs.writeFileSync(path.join(OUT, "robots.txt"), `User-agent: *\nAllow: /\n\nSitemap: ${site.domain}/sitemap.xml\n`);
+fs.writeFileSync(path.join(OUT, "robots.txt"), `User-agent: *\nDisallow: /\n`);
 const sitemapUrls = [
   "/",
   "/services",
