@@ -8,35 +8,103 @@
   "address": "New York, NY",
   "tagline": "Where Every Mile Feels First Class",
   "year": 2026,
-  "rating": "5.0",
-  "reviews": "250+",
-  "trips": "5,000+",
   "founded": "2020",
   "bookingUrl": "https://book.ariablackcarservice.com/book",
   "bookingAlias": "nobleblackcar",
   "airportRates": {
-    "jfk": { "sedan": 165, "suv": 250 },
-    "lga": { "sedan": 140, "suv": 220 },
-    "ewr": { "sedan": 180, "suv": 275 },
-    "teb": { "sedan": 180, "suv": 275 },
-    "hpn": { "sedan": 200, "suv": 295 }
+    "jfk": {
+      "sedan": 165,
+      "suv": 250
+    },
+    "lga": {
+      "sedan": 140,
+      "suv": 220
+    },
+    "ewr": {
+      "sedan": 180,
+      "suv": 275
+    },
+    "teb": {
+      "sedan": 180,
+      "suv": 275
+    },
+    "hpn": {
+      "sedan": 200,
+      "suv": 295
+    }
   },
   "hourlyRates": [
-    { "vehicle": "Executive Sedan", "rate": 90, "min": "3 hours" },
-    { "vehicle": "First Class Sedan (S-Class)", "rate": 175, "min": "3 hours" },
-    { "vehicle": "Premium SUV", "rate": 125, "min": "3 hours" },
-    { "vehicle": "First Class SUV", "rate": 150, "min": "3 hours" },
-    { "vehicle": "Executive Sprinter", "rate": 200, "min": "5 hours" }
+    {
+      "vehicle": "Executive Sedan",
+      "rate": 90,
+      "min": "3 hours"
+    },
+    {
+      "vehicle": "First Class Sedan (S-Class)",
+      "rate": 175,
+      "min": "3 hours"
+    },
+    {
+      "vehicle": "Premium SUV",
+      "rate": 125,
+      "min": "3 hours"
+    },
+    {
+      "vehicle": "First Class SUV",
+      "rate": 150,
+      "min": "3 hours"
+    },
+    {
+      "vehicle": "Executive Sprinter",
+      "rate": 200,
+      "min": "5 hours"
+    }
   ],
   "longDistance": [
-    { "route": "NYC → Boston", "sedan": 955, "suv": 1025 },
-    { "route": "NYC → Philadelphia", "sedan": 475, "suv": 520 },
-    { "route": "NYC → Washington DC", "sedan": 1015, "suv": 1085 },
-    { "route": "NYC → The Hamptons", "sedan": 515, "suv": 560 },
-    { "route": "NYC → Montauk", "sedan": 575, "suv": 625 },
-    { "route": "NYC → Atlantic City", "sedan": 595, "suv": 645 },
-    { "route": "NYC → Greenwich CT", "sedan": 215, "suv": 245 },
-    { "route": "NYC → Princeton NJ", "sedan": 295, "suv": 330 },
-    { "route": "NYC → New Haven CT", "sedan": 415, "suv": 455 }
+    {
+      "route": "NYC \u2192 Boston",
+      "sedan": 955,
+      "suv": 1025
+    },
+    {
+      "route": "NYC \u2192 Philadelphia",
+      "sedan": 475,
+      "suv": 520
+    },
+    {
+      "route": "NYC \u2192 Washington DC",
+      "sedan": 1015,
+      "suv": 1085
+    },
+    {
+      "route": "NYC \u2192 The Hamptons",
+      "sedan": 515,
+      "suv": 560
+    },
+    {
+      "route": "NYC \u2192 Montauk",
+      "sedan": 575,
+      "suv": 625
+    },
+    {
+      "route": "NYC \u2192 Atlantic City",
+      "sedan": 595,
+      "suv": 645
+    },
+    {
+      "route": "NYC \u2192 Greenwich CT",
+      "sedan": 215,
+      "suv": 245
+    },
+    {
+      "route": "NYC \u2192 Princeton NJ",
+      "sedan": 295,
+      "suv": 330
+    },
+    {
+      "route": "NYC \u2192 New Haven CT",
+      "sedan": 415,
+      "suv": 455
+    }
   ]
 }

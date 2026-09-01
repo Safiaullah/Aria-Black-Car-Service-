@@ -2,13 +2,61 @@
 const fs = require("fs");
 const path = require("path");
 const { guideLongForm } = require("./long-guide-content");
+const lockedCopy = require("./locked-service-copy");
+const LOCKED_SLUGS = lockedCopy.LOCKED_SLUGS;
+const LOCKED_SLUG_SET = new Set(LOCKED_SLUGS);
+const EXTRA_SERVICE_SLUGS = new Set([
+  "event-transportation",
+  "medical-transportation",
+  "night-out",
+  "prom-limo",
+  "graduation-transportation",
+  "bachelor-party",
+  "birthday-limo",
+  "wine-tours",
+  "family",
+  "hotel",
+  "private-aviation",
+  "pharma-roadshow",
+]);
+const MONEY_PATHS = new Set(["/", ...LOCKED_SLUGS.map((slug) => `/services/${slug}`)]);
+const SITEMAP_PATHS = new Set([
+  "/",
+  "/services",
+  ...LOCKED_SLUGS.map((slug) => `/services/${slug}`),
+  "/about",
+  "/contact",
+  "/faq",
+  "/fleet",
+  "/privacy",
+  "/terms",
+  "/pricing",
+]);
+const LOCAL_BUSINESS_ID = "https://ariablackcarservice.com/#business";
+const OG_IMAGE_PATH = "/assets/og-image.jpg";
 
 const ROOT = path.join(__dirname, "..");
 const OUT = path.join(ROOT, "public");
 const DATA = path.join(ROOT, "data");
 
 const site = load("site.json");
-const services = load("services.json");
+const servicesRaw = load("services.json");
+const services = servicesRaw.map((svc) => {
+  const locked = lockedCopy.pages[svc.slug];
+  if (!locked) return svc;
+  return {
+    ...svc,
+    title: locked.title,
+    h1: locked.h1,
+    desc: locked.desc,
+    metaTitle: locked.metaTitle,
+    featured: true,
+    faqs: locked.faqs,
+    related: locked.related,
+    bodyHtml: locked.bodyHtml,
+  };
+});
+const moneyServices = LOCKED_SLUGS.map((slug) => services.find((svc) => svc.slug === slug)).filter(Boolean);
 const airports = load("airports.json");
 const fleet = load("fleet.json");
 const routes = load("routes.json");
@@ -53,15 +101,46 @@ function breadcrumbs(items) {
   return `<nav class="breadcrumbs" aria-label="Breadcrumb">${parts}</nav>`;
 }
 
+function hasOgImage() {
+  return fs.existsSync(path.join(ROOT, "assets", "og-image.jpg")) ||
+    fs.existsSync(path.join(OUT, "assets", "og-image.jpg"));
+}
+
+function isNoindexPath(urlPath) {
+  if (SITEMAP_PATHS.has(urlPath) || MONEY_PATHS.has(urlPath)) return false;
+  if (urlPath === "/guides" || urlPath.startsWith("/guides/")) return false;
+  if (urlPath === "/blog") return false;
+  if (urlPath.startsWith("/blog/")) {
+    const slug = urlPath.slice("/blog/".length);
+    return slug.startsWith("best-");
+  }
+  if (urlPath === "/fleet" || urlPath.startsWith("/fleet/")) return false;
+  if (urlPath === "/sitemap" || urlPath === "/quote") return false;
+  return true;
+}
+
+function breadcrumbSchema(items) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: items.map((item, i) => ({
+      "@type": "ListItem",
+      position: i + 1,
+      name: item.label,
+      item: item.href.startsWith("http") ? item.href : `${site.domain}${item.href === "/" ? "/" : item.href}`,
+    })),
+  };
+}
+
+function jsonLd(schemas) {
+  const list = Array.isArray(schemas) ? schemas.filter(Boolean) : [schemas];
+  if (!list.length) return "";
+  return `<script type="application/ld+json">${JSON.stringify(list.length === 1 ? list[0] : list)}</script>`;
+}
+
 function nav() {
-  const svcLinks = services
+  const svcLinks = moneyServices
     .map((s) => `<a href="/services/${s.slug}">${esc(s.title)}</a>`)
-    .join("");
-  const aptLinks = airports
-    .map((a) => `<a href="/airports/${a.slug}">${esc(a.code)}</a>`)
-    .join("");
-  const fleetLinks = fleet
-    .map((f) => `<a href="/fleet/${f.slug}">${esc(f.tier)}</a>`)
     .join("");
 
   return `
@@ -73,13 +152,8 @@ function nav() {
           <a href="/services">Services</a>
           <div class="nav-dropdown-menu nav-dropdown-menu--wide">${svcLinks}</div>
         </div>
-        <div class="nav-dropdown">
-          <a href="/airports">Airports</a>
-          <div class="nav-dropdown-menu">${aptLinks}</div>
-        </div>
+        <a href="/services/airport-transfer">Airports</a>
         <a href="/fleet">Fleet</a>
-        <a href="/routes">Routes</a>
-        <a href="/locations/manhattan">Locations</a>
         <a href="/guides">Guides</a>
         <a href="/blog">Blog</a>
         <a href="/pricing">Rates</a>
@@ -95,28 +169,16 @@ function nav() {
     </div>
   </header>
   <nav id="mobile-menu" class="mobile-menu" aria-label="Mobile navigation">
-    <a href="/services">Services</a><a href="/airports">Airports</a><a href="/fleet">Fleet</a>
-    <a href="/routes">Routes</a><a href="/guides">Guides</a><a href="/blog">Blog</a>
+    <a href="/services">Services</a><a href="/services/airport-transfer">Airports</a><a href="/fleet">Fleet</a>
+    <a href="/guides">Guides</a><a href="/blog">Blog</a>
     ${bookLink("Book", "")}<a href="/contact">Contact</a>
     <a href="tel:${site.phoneTel}" style="color:var(--gold)">${esc(site.phone)}</a>
   </nav>`;
 }
 
 function seoFooter() {
-  const svcLinks = services
-    .slice(0, 8)
+  const svcLinks = moneyServices
     .map((s) => `<a href="/services/${s.slug}">${esc(s.title)}</a>`)
-    .join("");
-  const aptLinks = airports
-    .map((a) => `<a href="/airports/${a.slug}">${esc(a.code)} — ${esc(a.name)}</a>`)
-    .join("");
-  const routeLinks = routes
-    .slice(0, 8)
-    .map((r) => `<a href="/routes/${r.slug}">${esc(r.h1)}</a>`)
-    .join("");
-  const areaLinks = locations
-    .slice(0, 6)
-    .map((l) => `<a href="/locations/${l.slug}">${esc(l.area)}</a>`)
     .join("");
 
   return `
@@ -125,32 +187,25 @@ function seoFooter() {
       <div class="footer-grid footer-grid--wide">
         <div class="footer-brand">
           <a href="/" class="logo"><span class="logo-name">ARIA</span><span class="logo-tag">Black Car Service</span></a>
-          <p>Premium black car and chauffeur service serving NYC and the tri-state area. TLC licensed. 24/7.</p>
+          <p>Premium black car and chauffeur service serving NYC, Long Island, New Jersey, and Connecticut. 24/7.</p>
+          <p><a href="tel:${site.phoneTel}">${esc(site.phone)}</a><br>
+          <a href="mailto:${site.email}">${esc(site.email)}</a><br>
+          <a href="${esc(site.bookingUrl)}">Book online</a></p>
         </div>
         <div class="footer-col"><h4>Services</h4>
           ${svcLinks}
           <a href="/services">All services →</a>
         </div>
-        <div class="footer-col"><h4>Airports</h4>
-          ${aptLinks}
-        </div>
-        <div class="footer-col"><h4>Routes</h4>
-          ${routeLinks}
-          <a href="/routes">All routes →</a>
-        </div>
-        <div class="footer-col"><h4>Areas &amp; Company</h4>
-          ${areaLinks}
-          <a href="/locations/manhattan">All areas →</a>
-          <a href="/guides">Guides</a>
-          ${blog
-            .slice(0, 4)
-            .map((b) => `<a href="/blog/${b.slug}">${esc(b.title.replace(/ \(2026\)$/, ""))}</a>`)
-            .join("")}
-          <a href="/blog">All articles →</a>
+        <div class="footer-col"><h4>Company</h4>
           <a href="/about">About</a>
+          <a href="/fleet">Fleet</a>
+          <a href="/pricing">Rates</a>
           <a href="/faq">FAQ</a>
+          <a href="/guides">Guides</a>
+          <a href="/blog">Blog</a>
           <a href="/contact">Contact</a>
-          <a href="/sitemap">Sitemap</a>
+          <a href="/privacy">Privacy</a>
+          <a href="/terms">Terms</a>
         </div>
       </div>
       <div class="footer-bottom">
@@ -169,8 +224,13 @@ function footer() {
   return seoFooter();
 }
 
-function layout({ title, description, canonical, body, bc, schema, bodyClass = "" }) {
+function layout({ title, description, canonical, body, bc, schema, bodyClass = "", noindex }) {
   const canonicalUrl = `${site.domain}${canonical}`;
+  const robots = (noindex ?? isNoindexPath(canonical)) ? "noindex, follow" : "index, follow";
+  const ogImg = hasOgImage() ? `${site.domain}${OG_IMAGE_PATH}` : "";
+  const schemaHtml = schema
+    ? (schema.trim().startsWith("<script") ? schema : `<script type="application/ld+json">${schema}</script>`)
+    : "";
   return `<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -179,13 +239,14 @@ function layout({ title, description, canonical, body, bc, schema, bodyClass = "
   <meta name="theme-color" content="#050505" />
   <title>${esc(title)}</title>
   <meta name="description" content="${esc(description)}" />
-  <meta name="robots" content="index, follow" />
+  <meta name="robots" content="${robots}" />
   <link rel="canonical" href="${esc(canonicalUrl)}" />
   <meta property="og:title" content="${esc(title)}" />
   <meta property="og:description" content="${esc(description)}" />
   <meta property="og:url" content="${esc(canonicalUrl)}" />
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="${esc(site.name)}" />
+  ${ogImg ? `<meta property="og:image" content="${esc(ogImg)}" />` : ""}
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link rel="dns-prefetch" href="https://book.ariablackcarservice.com" />
@@ -193,7 +254,7 @@ function layout({ title, description, canonical, body, bc, schema, bodyClass = "
   <link rel="icon" href="/favicon.png?v=2" type="image/png" />
   <link rel="stylesheet" href="/css/styles.css" />
   <link rel="stylesheet" href="/css/pages.css" />
-  ${schema ? `<script type="application/ld+json">${schema}</script>` : ""}
+  ${schemaHtml}
   <script src="https://analytics.ahrefs.com/analytics.js" data-key="rUk2ZX0/7ijvQFYN+Kteaw" async></script>
 </head>
 <body class="inner-page${bodyClass ? ` ${bodyClass}` : ""}">
@@ -308,41 +369,55 @@ function cardGrid(items, basePath) {
     .join("")}</div>`;
 }
 
-function hubPage(title, desc, items, basePath, bc) {
+function hubPage(title, desc, items, basePath, bc, opts = {}) {
+  const h1 = opts.h1 || title;
+  const pageTitle = opts.pageTitle || `${title} | Aria`;
   const body = `
-    ${pageHero(title, desc, "Aria Black Car Service")}
+    ${pageHero(h1, desc, opts.label || "Aria Black Car Service")}
     <section class="page-section"><div class="container">
       ${cardGrid(items, basePath)}
     </div></section>
     ${ctaBlock()}`;
   return layout({
-    title: `${title} | ${site.name}`,
+    title: pageTitle,
     description: desc,
     canonical: basePath,
     bc: breadcrumbs(bc),
     body,
+    noindex: opts.noindex,
   });
 }
 
 function servicePage(s) {
+  const locked = LOCKED_SLUG_SET.has(s.slug);
+  const bcItems = [
+    { label: "Home", href: "/" },
+    { label: "Services", href: "/services" },
+    { label: s.title, href: `/services/${s.slug}` },
+  ];
+  const related = (s.related || [])
+    .map((slug) => moneyServices.find((x) => x.slug === slug))
+    .filter(Boolean)
+    .slice(0, 3);
+  const relatedFallback = moneyServices.filter((x) => x.slug !== s.slug).slice(0, 3);
+  const relatedItems = related.length ? related : relatedFallback;
+
+  let prose;
+  if (s.bodyHtml) {
+    prose = s.bodyHtml;
+  } else {
+    prose = `
+        ${s.intro ? s.intro : `<p class="lead">${esc(s.desc)}</p>`}
+        ${s.sections ? richBody(s.sections) : ""}`;
+  }
+
+  const faqs = s.faqs && s.faqs.length ? s.faqs : null;
+
   const body = `
     ${pageHero(s.h1, s.desc, "Service")}
     <section class="page-section"><div class="container prose-grid">
       <div class="prose">
-        ${s.intro ? s.intro : `<p class="lead">${esc(s.desc)} Aria Black Car Service provides flat-rate luxury transportation across NYC and the tri-state area with professional TLC-licensed chauffeurs — available 24 hours a day, 365 days a year.</p>`}
-        ${s.sections ? richBody(s.sections) : ""}
-        <h2>What's Included</h2>
-        ${includedFeatures()}
-        ${s.slug === "airport-transfer" || s.slug.includes("airport") ? `<h2>Airport Flat Rates — Manhattan</h2>${airportRatesTable()}` : ""}
-        ${s.slug === "hourly" ? `<h2>Hourly Rates</h2><table class="pricing-table"><thead><tr><th>Vehicle</th><th>Rate</th><th>Minimum</th></tr></thead><tbody>${site.hourlyRates.map((r) => `<tr><td>${esc(r.vehicle)}</td><td>$${r.rate}/hr</td><td>${esc(r.min)}</td></tr>`).join("")}</tbody></table>` : ""}
-        ${s.slug === "long-distance" ? `<h2>Popular Routes</h2><table class="pricing-table"><thead><tr><th>Route</th><th>Sedan</th><th>SUV</th></tr></thead><tbody>${site.longDistance.map((r) => `<tr><td>${esc(r.route)}</td><td>$${r.sedan}</td><td>$${r.suv}</td></tr>`).join("")}</tbody></table>` : ""}
-        <h2>How to Book</h2>
-        <ol class="steps-list">
-          <li><strong>Request a quote</strong> — ${bookLink("book online", "")} or call ${esc(site.phone)}</li>
-          <li><strong>Confirm your vehicle</strong> — sedan, SUV, or Sprinter based on passengers and luggage</li>
-          <li><strong>Receive confirmation</strong> — flat rate locked, chauffeur assigned</li>
-          <li><strong>Enjoy the ride</strong> — professional service door to door</li>
-        </ol>
+        ${prose}
       </div>
       <aside class="page-sidebar">
         <div class="sidebar-card">
@@ -353,33 +428,45 @@ function servicePage(s) {
         </div>
         <div class="sidebar-card">
           <h3>Related</h3>
-          ${services.filter((x) => x.slug !== s.slug).slice(0, 4).map((x) => `<a href="/services/${x.slug}" class="sidebar-link">${esc(x.title)}</a>`).join("")}
+          ${relatedItems.map((x) => `<a href="/services/${x.slug}" class="sidebar-link">${esc(x.title)}</a>`).join("")}
         </div>
       </aside>
     </div></section>
-    ${faqSection(s.faqs || [
-      { q: `How much does ${s.title.toLowerCase()} cost in NYC?`, a: `Rates vary by vehicle and distance. Airport sedans from $140, hourly from $90/hr. Request a flat quote at booking — no surge pricing.` },
-      { q: "How far in advance should I book?", a: "We recommend 24 hours for airport transfers; online booking requires 12 hours’ notice. Same-day pickups are phone-only — call (888) 402-8202, 24/7." },
-    ])}
+    ${faqs ? faqSection(faqs) : ""}
     ${ctaBlock()}`;
 
-  return layout({
-    title: `${s.metaTitle || s.h1} | ${site.name}`,
-    description: s.desc,
-    canonical: `/services/${s.slug}`,
-    bc: breadcrumbs([
-      { label: "Home", href: "/" },
-      { label: "Services", href: "/services" },
-      { label: s.title, href: `/services/${s.slug}` },
-    ]),
-    body,
-    schema: JSON.stringify({
+  const schemas = [];
+  if (locked) {
+    schemas.push({
       "@context": "https://schema.org",
       "@type": "Service",
       name: s.h1,
-      provider: { "@type": "LocalBusiness", name: site.name, telephone: site.phoneTel },
-      areaServed: "New York City",
-    }),
+      description: s.desc,
+      url: `${site.domain}/services/${s.slug}`,
+      provider: { "@type": "LocalBusiness", "@id": LOCAL_BUSINESS_ID, name: site.name, telephone: site.phoneTel },
+    });
+    schemas.push(breadcrumbSchema(bcItems));
+    if (faqs && faqs.length) {
+      schemas.push({
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        mainEntity: faqs.map((f) => ({
+          "@type": "Question",
+          name: f.q,
+          acceptedAnswer: { "@type": "Answer", text: f.a },
+        })),
+      });
+    }
+  }
+
+  return layout({
+    title: s.metaTitle || `${s.h1} | Aria`,
+    description: s.desc,
+    canonical: `/services/${s.slug}`,
+    bc: breadcrumbs(bcItems),
+    body,
+    schema: schemas.length ? JSON.stringify(schemas) : "",
+    noindex: !locked,
   });
 }
 
@@ -429,7 +516,7 @@ function airportPage(a) {
     ${ctaBlock()}`;
 
   return layout({
-    title: `${a.metaTitle || h1} | ${site.name}`,
+    title: `${a.metaTitle || h1} | Aria`,
     description: a.metaDesc || `Flat-rate ${a.name} car service. Sedan $${a.sedan}, SUV $${a.suv}. Meet-and-greet, flight tracking, 24/7.`,
     canonical: `/airports/${a.slug}`,
     bc: breadcrumbs([
@@ -495,7 +582,7 @@ function routePage(r) {
   ${ctaBlock()}`;
 
   return layout({
-    title: `${r.h1} | ${site.name}`,
+    title: `${r.h1} | Aria`,
     description: `Flat-rate private car from ${r.from} to ${r.to}. Sedan $${r.sedan}, SUV $${r.suv}. Book 24/7.`,
     canonical: `/routes/${r.slug}`,
     bc: breadcrumbs([
@@ -527,7 +614,7 @@ function locationPage(l) {
     ${ctaBlock()}`;
 
   return layout({
-    title: `${l.h1} | ${site.name}`,
+    title: `${l.h1} | Aria`,
     description: l.desc,
     canonical: `/locations/${l.slug}`,
     bc: breadcrumbs([
@@ -621,7 +708,7 @@ function fleetHubPage() {
     ${ctaBlock("Select your vehicle and book in minutes — flat rates, no surge pricing.")}`;
 
   return layout({
-    title: `The Collection | Luxury Fleet | ${site.name}`,
+    title: `The Collection | Luxury Fleet | Aria`,
     description: "Explore Aria's executive sedans, luxury SUVs, and Mercedes Sprinter vans. Late-model fleet for airport transfers, corporate travel, and special events in NYC.",
     canonical: "/fleet",
     bc: breadcrumbs([{ label: "Home", href: "/" }, { label: "Fleet", href: "/fleet" }]),
@@ -662,7 +749,7 @@ function fleetPage(f) {
     ${ctaBlock()}`;
 
   return layout({
-    title: `${f.h1} | ${site.name}`,
+    title: `${f.h1} | Aria`,
     description: `${f.tier} fleet — ${fleetVehicleNames(f).join(", ")}. Hourly from $${f.hourly}/hr.`,
     canonical: `/fleet/${f.slug}`,
     bc: breadcrumbs([
@@ -753,7 +840,7 @@ function guidePage(g) {
     ${ctaBlock()}`;
 
   return layout({
-    title: `${g.title} | ${site.name}`,
+    title: `${g.title} | Aria`,
     description: g.meta,
     canonical: `/guides/${g.slug}`,
     bc: breadcrumbs([
@@ -768,7 +855,7 @@ function guidePage(g) {
 function blogPage(b) {
   const paragraphs = [
     `When choosing ${b.title.toLowerCase().replace(/\(\d{4}\)/, "").trim()}, the most important factors are flat-rate pricing, TLC licensing, flight tracking for airport trips, and a guaranteed vehicle class.`,
-    `Aria Black Car Service has completed ${site.trips} trips with a ${site.rating}★ rating. We serve all five NYC boroughs, Long Island, Westchester, Connecticut, and Northern New Jersey — 24 hours a day.`,
+    `Aria Black Car Service serves all five NYC boroughs, Long Island, Westchester, Connecticut, and Northern New Jersey — 24 hours a day.`,
     `Unlike rideshare apps, Aria locks your rate at booking. No surge during rush hour, rain, holidays, or major events like Fashion Week or the UN General Assembly.`,
     `For airport transfers, every ride includes real-time FAA flight tracking, meet-and-greet at baggage claim with a name sign, and 60 minutes of complimentary wait time.`,
     `Corporate clients benefit from monthly net-30 billing, dedicated account managers, detailed trip reporting, and NDA-compliant chauffeurs upon request.`,
@@ -810,7 +897,7 @@ function blogPage(b) {
     ${ctaBlock()}`;
 
   return layout({
-    title: `${b.title} | ${site.name}`,
+    title: `${b.title} | Aria`,
     description: b.meta,
     canonical: `/blog/${b.slug}`,
     bc: breadcrumbs([
@@ -824,7 +911,7 @@ function blogPage(b) {
 
 function staticPage(id, title, h1, contentHtml) {
   return layout({
-    title: `${title} | ${site.name}`,
+    title: `${title} | Aria`,
     description: `${title} — ${site.name}. ${site.phone}.`,
     canonical: `/${id}`,
     bc: breadcrumbs([{ label: "Home", href: "/" }, { label: title, href: `/${id}` }]),
@@ -879,62 +966,19 @@ function sitemapLinkList(items, basePath, labelKey = "title") {
 
 function htmlSitemapPage() {
   const body = `
-    ${pageHero("Sitemap", "Browse every page on Aria Black Car Service.", "Site Map")}
+    ${pageHero("Sitemap", "Indexable pages on Aria Black Car Service.", "Site Map")}
     <section class="page-section"><div class="container sitemap-sections">
       <section class="sitemap-section">
         <h2>Services</h2>
-        ${sitemapLinkList(services, "/services", "title")}
+        ${sitemapLinkList(moneyServices, "/services", "title")}
         <p><a href="/services">All services →</a></p>
-      </section>
-      <section class="sitemap-section">
-        <h2>Airports</h2>
-        ${sitemapLinkList(
-          airports.map((a) => ({ slug: a.slug, title: `${a.code} — ${a.name}` })),
-          "/airports"
-        )}
-        <p><a href="/airports">Airport hub →</a></p>
-      </section>
-      <section class="sitemap-section">
-        <h2>Fleet</h2>
-        ${sitemapLinkList(
-          fleet.map((f) => ({ slug: f.slug, title: f.tier })),
-          "/fleet"
-        )}
-        <p><a href="/fleet">Fleet overview →</a></p>
-      </section>
-      <section class="sitemap-section">
-        <h2>Routes</h2>
-        ${sitemapLinkList(routes, "/routes", "h1")}
-        <p><a href="/routes">All routes →</a></p>
-      </section>
-      <section class="sitemap-section">
-        <h2>Locations</h2>
-        ${sitemapLinkList(locations, "/locations", "area")}
-      </section>
-      <section class="sitemap-section">
-        <h2>Guides</h2>
-        ${sitemapLinkList(guides, "/guides")}
-        <p><a href="/guides">All guides →</a></p>
-      </section>
-      <section class="sitemap-section">
-        <h2>Blog</h2>
-        ${sitemapLinkList(blog, "/blog")}
-        <p><a href="/blog">All articles →</a></p>
-      </section>
-      <section class="sitemap-section">
-        <h2>Corporate &amp; Events</h2>
-        <ul class="sitemap-links">
-          ${corporate.map((c) => `<li><a href="/corporate/${c.slug}">${esc(c.h1)}</a></li>`).join("")}
-          ${events.map((e) => `<li><a href="/events/${e.slug}">${esc(e.h1)}</a></li>`).join("")}
-        </ul>
       </section>
       <section class="sitemap-section">
         <h2>Company</h2>
         <ul class="sitemap-links">
           <li><a href="/">Home</a></li>
+          <li><a href="/fleet">Fleet</a></li>
           <li><a href="/pricing">Rates &amp; Pricing</a></li>
-          <li><a href="/book">Book Online</a></li>
-          <li><a href="/quote">Get a Quote</a></li>
           <li><a href="/about">About</a></li>
           <li><a href="/faq">FAQ</a></li>
           <li><a href="/contact">Contact</a></li>
@@ -945,27 +989,20 @@ function htmlSitemapPage() {
     </div></section>`;
 
   return layout({
-    title: `Sitemap | ${site.name}`,
-    description: "Complete sitemap of Aria Black Car Service — services, airports, routes, fleet, guides, and blog.",
+    title: "Sitemap | Aria",
+    description: "Sitemap of Aria Black Car Service — services, fleet, and company pages.",
     canonical: "/sitemap",
     bc: breadcrumbs([{ label: "Home", href: "/" }, { label: "Sitemap", href: "/sitemap" }]),
     body,
-    schema: JSON.stringify({
-      "@context": "https://schema.org",
-      "@type": "WebPage",
-      name: "Sitemap",
-      url: `${site.domain}/sitemap`,
-      isPartOf: { "@type": "WebSite", name: site.name, url: site.domain },
-    }),
+    noindex: true,
   });
 }
 
 function patchHomepage(html) {
   const newNav = `<nav class="nav-links" aria-label="Main navigation">
         <a href="/services">Services</a>
-        <a href="/airports">Airports</a>
+        <a href="/services/airport-transfer">Airports</a>
         <a href="/fleet">Fleet</a>
-        <a href="/routes">Routes</a>
         <a href="/guides">Guides</a>
         <a href="/blog">Blog</a>
         <a href="/pricing">Rates</a>
@@ -978,7 +1015,7 @@ function patchHomepage(html) {
     .replace(/href="#"/g, 'href="/"')
     .replace(/href="#services"/g, 'href="/services"')
     .replace(/href="#fleet"/g, 'href="/fleet"')
-    .replace(/href="#routes"/g, 'href="/airports"')
+    .replace(/href="#routes"/g, 'href="/services/airport-transfer"')
     .replace(/href="#pricing"/g, 'href="/pricing"')
     .replace(/href="#faq"/g, 'href="/faq"')
     .replace(/href="#contact"/g, 'href="/contact"')
@@ -994,41 +1031,16 @@ function patchHomepage(html) {
       '<link rel="stylesheet" href="/css/styles.css" />\n  <link rel="stylesheet" href="/css/pages.css" />'
     )
     .replace(
-      '<nav id="mobile-menu"',
-      `<nav id="mobile-menu"`
-    )
-    .replace(
       /<nav id="mobile-menu"[\s\S]*?<\/nav>\s*<main>/,
       `<nav id="mobile-menu" class="mobile-menu" aria-label="Mobile navigation">
-    <a href="/services">Services</a><a href="/airports">Airports</a><a href="/fleet">Fleet</a>
-    <a href="/routes">Routes</a><a href="/guides">Guides</a><a href="/blog">Blog</a>
+    <a href="/services">Services</a><a href="/services/airport-transfer">Airports</a><a href="/fleet">Fleet</a>
+    <a href="/guides">Guides</a><a href="/blog">Blog</a>
     <a href="/pricing">Rates</a>${bookLink("Book", "")}<a href="/contact">Contact</a>
     <a href="tel:${site.phoneTel}" style="color:var(--gold)">${site.phone}</a>
   </nav>
   <main>`
     )
-    .replace(
-      '<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />',
-      '<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />\n  <link rel="dns-prefetch" href="https://book.ariablackcarservice.com" />'
-    )
-    .replace(/<footer class="footer">[\s\S]*?<div class="floating-cta"[\s\S]*?<\/div>/, seoFooter().trim())
-    .replace(
-      /<script type="application\/ld\+json">\s*\{/,
-      '<script type="application/ld+json">\n  [{'
-    )
-    .replace(
-      '"slogan": "Where Every Mile Feels First Class"\n  }\n  <\/script>',
-      `"slogan": "Where Every Mile Feels First Class"
-  },
-  {
-    "@context": "https://schema.org",
-    "@type": "WebSite",
-    "name": "${site.name}",
-    "url": "${site.domain}",
-    "publisher": { "@id": "${site.domain}" }
-  }]
-  </script>`
-    );
+    .replace(/<footer class="footer">[\s\S]*?<div class="floating-cta"[\s\S]*?<\/div>/, seoFooter().trim());
 }
 
 // --- BUILD ---
@@ -1053,6 +1065,19 @@ if (fs.existsSync(indexNowKeyPath)) {
   if (indexNowKey) {
     fs.writeFileSync(path.join(OUT, `${indexNowKey}.txt`), indexNowKey);
   }
+}
+const assetsDir = path.join(ROOT, "assets");
+if (fs.existsSync(assetsDir)) {
+  const copyAssets = (src, dest) => {
+    fs.mkdirSync(dest, { recursive: true });
+    for (const entry of fs.readdirSync(src, { withFileTypes: true })) {
+      const srcPath = path.join(src, entry.name);
+      const destPath = path.join(dest, entry.name);
+      if (entry.isDirectory()) copyAssets(srcPath, destPath);
+      else fs.copyFileSync(srcPath, destPath);
+    }
+  };
+  copyAssets(assetsDir, path.join(OUT, "assets"));
 }
 const imagesDir = path.join(ROOT, "images");
 if (fs.existsSync(imagesDir)) {
@@ -1087,13 +1112,13 @@ home = patchHomepage(home);
 fs.writeFileSync(path.join(OUT, "index.html"), home);
 
 // Hubs
-writePage("/services", hubPage("NYC Black Car Services", "Premium chauffeured transportation for every occasion.", services, "/services", [{ label: "Home", href: "/" }, { label: "Services", href: "/services" }]));
+writePage("/services", hubPage("Our services", "Airport transfers, hourly chauffeur, executive and corporate travel, and more.", moneyServices, "/services", [{ label: "Home", href: "/" }, { label: "Services", href: "/services" }], { h1: "Our services", pageTitle: "Services | Aria", label: "Services" }));
 urls.push("/services");
-writePage("/airports", hubPage("NYC Airport Car Service", "Flat-rate transfers to all major NYC-area airports.", airports.map((a) => ({ slug: a.slug, h1: a.name, desc: `Sedan $${a.sedan} · SUV $${a.suv} · ${a.time}` })), "/airports", [{ label: "Home", href: "/" }, { label: "Airports", href: "/airports" }]));
+writePage("/airports", hubPage("NYC Airport Car Service", "Flat-rate transfers to all major NYC-area airports.", airports.map((a) => ({ slug: a.slug, h1: a.name, desc: `Sedan $${a.sedan} · SUV $${a.suv} · ${a.time}` })), "/airports", [{ label: "Home", href: "/" }, { label: "Airports", href: "/airports" }], { noindex: true }));
 urls.push("/airports");
 writePage("/fleet", fleetHubPage());
 urls.push("/fleet");
-writePage("/routes", hubPage("Popular Routes & Flat Rates", "Airport pairs, neighborhoods, and long-distance corridors.", routes.map((r) => ({ slug: r.slug, h1: r.h1, desc: r.note || `Sedan $${r.sedan} · SUV $${r.suv} · ${r.time}` })), "/routes", [{ label: "Home", href: "/" }, { label: "Routes", href: "/routes" }]));
+writePage("/routes", hubPage("Popular Routes & Flat Rates", "Airport pairs, neighborhoods, and long-distance corridors.", routes.map((r) => ({ slug: r.slug, h1: r.h1, desc: r.note || `Sedan $${r.sedan} · SUV $${r.suv} · ${r.time}` })), "/routes", [{ label: "Home", href: "/" }, { label: "Routes", href: "/routes" }], { noindex: true }));
 urls.push("/routes");
 writePage("/guides", hubPage("Transportation Guides", "Expert guides on NYC airports, pricing, and booking black car service.", guides, "/guides", [{ label: "Home", href: "/" }, { label: "Guides", href: "/guides" }]));
 urls.push("/guides");
@@ -1107,7 +1132,7 @@ routes.forEach((r) => { writePage(`/routes/${r.slug}`, routePage(r)); urls.push(
 locations.forEach((l) => { writePage(`/locations/${l.slug}`, locationPage(l)); urls.push(`/locations/${l.slug}`); });
 corporate.forEach((c) => {
   writePage(`/corporate/${c.slug}`, layout({
-    title: `${c.h1} | ${site.name}`, description: c.desc, canonical: `/corporate/${c.slug}`,
+    title: `${c.h1} | Aria`, description: c.desc, canonical: `/corporate/${c.slug}`,
     bc: breadcrumbs([{ label: "Home", href: "/" }, { label: "Corporate", href: "/corporate/accounts" }, { label: c.h1, href: `/corporate/${c.slug}` }]),
     body: `${pageHero(c.h1, c.desc, "Corporate")}<section class="page-section"><div class="container prose"><p class="lead">${esc(c.desc)}</p>${includedFeatures()}<h2>Corporate Account Benefits</h2><ul class="check-list"><li>Monthly net-30 consolidated billing</li><li>Dedicated account manager</li><li>Volume discounts</li><li>Detailed trip reporting</li><li>Priority dispatch</li><li>NDA-compliant chauffeurs on request</li></ul><p>${bookLink("Set up your account →", "")}</p></div></section>${defaultFaqs()}${ctaBlock("Set up your corporate account today.")}`,
   }));
@@ -1115,7 +1140,7 @@ corporate.forEach((c) => {
 });
 events.forEach((e) => {
   writePage(`/events/${e.slug}`, layout({
-    title: `${e.h1} | ${site.name}`, description: e.desc, canonical: `/events/${e.slug}`,
+    title: `${e.h1} | Aria`, description: e.desc, canonical: `/events/${e.slug}`,
     bc: breadcrumbs([{ label: "Home", href: "/" }, { label: "Events", href: "/events/sporting" }, { label: e.h1, href: `/events/${e.slug}` }]),
     body: `${pageHero(e.h1, e.desc, "Events")}<section class="page-section"><div class="container prose"><p class="lead">${esc(e.desc)}</p><p>Hourly chauffeur from $90/hr · Sprinter vans $200/hr (5-hour minimum) · Book 24–48 hours ahead for major events.</p></div></section>${ctaBlock()}`,
   }));
@@ -1126,8 +1151,8 @@ blog.forEach((b) => { writePage(`/blog/${b.slug}`, blogPage(b)); urls.push(`/blo
 
 // Static pages
 writePage("/about", staticPage("about", "About Us", "About Aria Black Car Service", `
-  <p class="lead">Founded in ${site.founded}, Aria Black Car Service is NYC's trusted luxury chauffeur company — ${site.rating}★ rated with ${site.trips} completed trips.</p>
-  <p>We provide flat-rate airport transfers, corporate travel, hourly hire, and special event transportation across all five boroughs and the tri-state area.</p>
+  <p class="lead">Founded in ${site.founded}, Aria Black Car Service is a NYC black car and chauffeur company serving the five boroughs, Long Island, New Jersey, and Connecticut.</p>
+  <p>We provide flat-rate airport transfers, corporate travel, hourly hire, and special event transportation. Book at <a href="${esc(site.bookingUrl)}">book.ariablackcarservice.com/book</a> or call <a href="tel:${site.phoneTel}">${esc(site.phone)}</a>.</p>
   <h2>Our Promise</h2><ul class="check-list"><li>Flat rates — never surge pricing</li><li>TLC-licensed, background-checked chauffeurs</li><li>Late-model luxury fleet</li><li>24/7/365 availability</li></ul>
 `));
 urls.push("/about");
@@ -1135,13 +1160,14 @@ urls.push("/about");
 writePage("/contact", staticPage("contact", "Contact", "Contact Aria", `
   <p><strong>Phone:</strong> <a href="tel:${site.phoneTel}">${esc(site.phone)}</a> (24/7)</p>
   <p><strong>Email:</strong> <a href="mailto:${site.email}">${esc(site.email)}</a></p>
+  <p><strong>Book:</strong> <a href="${esc(site.bookingUrl)}">${esc(site.bookingUrl)}</a></p>
   <p><strong>General:</strong> <a href="mailto:${site.infoEmail}">${esc(site.infoEmail)}</a></p>
-  <p><strong>Service area:</strong> NYC, Long Island, Westchester, CT, NJ</p>
+  <p><strong>Service area:</strong> NYC five boroughs, Long Island, New Jersey, Connecticut, Nassau County, Suffolk County.</p>
 `));
 urls.push("/contact");
 
 writePage("/faq", layout({
-  title: `FAQ | ${site.name}`,
+  title: `FAQ | Aria`,
   description: "Frequently asked questions about Aria Black Car Service — pricing, airports, booking, and corporate accounts.",
   canonical: "/faq",
   bc: breadcrumbs([{ label: "Home", href: "/" }, { label: "FAQ", href: "/faq" }]),
@@ -1158,7 +1184,7 @@ writePage("/faq", layout({
 urls.push("/faq");
 
 writePage("/pricing", layout({
-  title: `Rates & Pricing | ${site.name}`,
+  title: `Rates & Pricing | Aria`,
   description: "Transparent NYC black car pricing — airport flat rates, hourly chauffeur, long-distance routes. No surge.",
   canonical: "/pricing",
   bc: breadcrumbs([{ label: "Home", href: "/" }, { label: "Pricing", href: "/pricing" }]),
@@ -1177,7 +1203,7 @@ writePage("/pricing", layout({
 urls.push("/pricing");
 
 writePage("/book", layout({
-  title: `Book Your Ride | ${site.name}`,
+  title: `Book Your Ride | Aria`,
   description: "Book Aria Black Car Service online — instant flat-rate reservations for airport transfers and chauffeur hire.",
   canonical: "/book",
   bc: breadcrumbs([{ label: "Home", href: "/" }, { label: "Book", href: "/book" }]),
@@ -1188,7 +1214,7 @@ writePage("/book", layout({
   </div></section>`,
 }));
 urls.push("/book");
-writePage("/quote", layout({ title: `Get a Quote | ${site.name}`, description: "Request a flat-rate quote.", canonical: "/quote", body: `${pageHero("Get a Quote", "", "Quote")}<section class="page-section"><div class="container" style="text-align:center">${bookLink("Online Reservations", "btn btn-gold")}</div></section>${ctaBlock()}` }));
+writePage("/quote", layout({ title: `Get a Quote | Aria`, description: "Request a flat-rate quote.", canonical: "/quote", body: `${pageHero("Get a Quote", "", "Quote")}<section class="page-section"><div class="container" style="text-align:center">${bookLink("Online Reservations", "btn btn-gold")}</div></section>${ctaBlock()}` }));
 urls.push("/quote");
 
 writePage("/sitemap", htmlSitemapPage());
@@ -1199,6 +1225,18 @@ writePage("/privacy", staticPage("privacy", "Privacy Policy", "Privacy Policy", 
 urls.push("/terms", "/privacy");
 
 fs.writeFileSync(path.join(OUT, "robots.txt"), `User-agent: *\nAllow: /\n\nSitemap: ${site.domain}/sitemap.xml\n`);
-buildSitemap(urls);
+const sitemapUrls = [
+  "/",
+  "/services",
+  ...LOCKED_SLUGS.map((slug) => `/services/${slug}`),
+  "/about",
+  "/contact",
+  "/faq",
+  "/fleet",
+  "/pricing",
+  "/privacy",
+  "/terms",
+];
+buildSitemap(sitemapUrls);
 
-console.log(`Built ${urls.length} pages → public/`);
+console.log(`Built ${urls.length} pages; sitemap ${sitemapUrls.length} URLs → public/`);
