@@ -45,7 +45,7 @@ const pages = {
     bodyHtml: `
         <p class="lead">Need a car at JFK, LaGuardia, or Newark tonight? Book Aria's NYC airport transfer and lock a flat rate before you fly. No surge. Your chauffeur tracks the flight, meets you inside the terminal with a name sign, and waits 60 minutes complimentary.</p>
         <p>Aria Black Car Service runs airport transfers 24/7 to and from JFK, LaGuardia (LGA), Newark Liberty (EWR), Teterboro (TEB), Westchester (HPN), Long Island MacArthur (ISP), and Stewart (SWF). Pickup is door-to-door in Manhattan, Brooklyn, Queens, the Bronx, Staten Island, Long Island, Westchester, Fairfield County CT, and Northern NJ.</p>
-        <p><strong>Book now:</strong> <a href="${BOOK}">book.ariablackcarservice.com/book</a> · Call ${PHONE} · Email <a href="mailto:bookings@ariablackcarservice.com">bookings@ariablackcarservice.com</a></p>
+        <p><strong>Book now:</strong> <a href="${BOOK}">book.ariablackcarservice.com/book</a> · Call ${PHONE} · Email <a href="mailto:info@ariablackcarservice.com">info@ariablackcarservice.com</a></p>
         <h2>Airport flat rates — Manhattan</h2>
         <table class="pricing-table">
           <thead><tr><th>Route</th><th>Sedan</th><th>SUV</th></tr></thead>
@@ -110,7 +110,7 @@ const pages = {
     bodyHtml: `
         <p class="lead">Book hourly car service NYC when you need the same chauffeur for a stretch of the day, not a single drop. Aria's hourly chauffeur stays with you between meetings, fittings, site visits, and dinners. The clock starts at pickup. The rate does not surge.</p>
         <p>Use hourly for a Midtown roadshow, a shopping day, a photographer's itinerary, client dinners with unknown end times, or a full-day executive hire. If you only need one address to another, <a href="/services/point-to-point">point-to-point</a> is usually cheaper. If the day has three or more stops, or you want the car waiting, hourly is the booking.</p>
-        <p><strong>Book now:</strong> <a href="${BOOK}">book.ariablackcarservice.com/book</a> · ${PHONE} · <a href="mailto:bookings@ariablackcarservice.com">bookings@ariablackcarservice.com</a></p>
+        <p><strong>Book now:</strong> <a href="${BOOK}">book.ariablackcarservice.com/book</a> · ${PHONE} · <a href="mailto:info@ariablackcarservice.com">info@ariablackcarservice.com</a></p>
         <h2>Hourly chauffeur rates</h2>
         <table class="pricing-table">
           <thead><tr><th>Vehicle</th><th>Rate</th><th>Minimum</th></tr></thead>
@@ -169,7 +169,7 @@ const pages = {
         <p class="lead">Executive car service in NYC with Aria means a named TLC-licensed chauffeur, the vehicle class you reserved, and a rate that does not move after booking. Assistants and travel managers use this page for principals who need a discreet sedan or SUV, not a random black car.</p>
         <p>Book an E-Class or S-Class for one to three passengers. Book an Escalade when there are more people or bags. Every car is late-model, black, and detailed. Book an S-Class, get an S-Class.</p>
         <p>NDA-ready on request. Chauffeurs are TLC-licensed, background-checked, drug-tested, and trained in executive protocol.</p>
-        <p><strong>Book now:</strong> <a href="${BOOK}">book.ariablackcarservice.com/book</a> · ${PHONE} · <a href="mailto:bookings@ariablackcarservice.com">bookings@ariablackcarservice.com</a></p>
+        <p><strong>Book now:</strong> <a href="${BOOK}">book.ariablackcarservice.com/book</a> · ${PHONE} · <a href="mailto:info@ariablackcarservice.com">info@ariablackcarservice.com</a></p>
         <h2>How executives actually book</h2>
         <ul class="check-list">
           <li><strong>Airport:</strong> <a href="/services/airport-transfer">JFK, LaGuardia, and Newark</a> with flight tracking, inside-terminal meet-and-greet, and 60 minutes wait. Manhattan sedan from $140 (LGA) / $165 (JFK) / $180 (EWR).</li>
@@ -217,7 +217,7 @@ const pages = {
     bodyHtml: `
         <p class="lead">Open a corporate car service account with Aria if your office is still booking rideshare for clients, partners, and staff. You get consolidated monthly billing (net-30), a dedicated account manager, volume discounts, priority booking, and trip reporting for finance. Rates are flat. They do not surge.</p>
         <p>Use this for daily executive travel, standing shuttle routes, airport programs, and client transportation. Vehicles: executive sedans, Escalades, and Executive Sprinters (up to 12 passengers) for office-to-office or office-to-airport shuttles.</p>
-        <p><strong>Start an account or book a trip:</strong> <a href="${BOOK}">book.ariablackcarservice.com/book</a> · ${PHONE} · <a href="mailto:bookings@ariablackcarservice.com">bookings@ariablackcarservice.com</a></p>
+        <p><strong>Start an account or book a trip:</strong> <a href="${BOOK}">book.ariablackcarservice.com/book</a> · ${PHONE} · <a href="mailto:info@ariablackcarservice.com">info@ariablackcarservice.com</a></p>
         <h2>What the corporate account includes</h2>
         <ul class="check-list">
           <li>Monthly consolidated billing, net-30</li>
@@ -240,7 +240,7 @@ const pages = {
         <p>Pharma and investor roadshows with tight back-to-back schedules are already a published Aria service. Ask your account manager for multi-vehicle staging.</p>
         <h2>How to set it up</h2>
         <ol class="steps-list">
-          <li>Call ${PHONE} or email <a href="mailto:bookings@ariablackcarservice.com">bookings@ariablackcarservice.com</a> and ask for a corporate account.</li>
+          <li>Call ${PHONE} or email <a href="mailto:info@ariablackcarservice.com">info@ariablackcarservice.com</a> and ask for a corporate account.</li>
           <li>Send typical routes (airports, offices, hotels), vehicle mix, and billing contacts.</li>
           <li>Employees and assistants book against the account. Finance gets one monthly invoice and trip reports instead of a pile of rideshare receipts.</li>
         </ol>
@@ -263,7 +263,7 @@ const pages = {
     bodyHtml: `
         <p class="lead">Need a car from one address to another in New York? Book Aria's point-to-point car service and get a distance-based fare before the chauffeur is assigned. Instant quote online. The rate is locked at booking. No surge in rush hour, weather, or holidays.</p>
         <p>This is the page for a hotel-to-office drop, a dinner reservation, a Brooklyn-to-Midtown run, or any two pins that are not an airport, a cruise pier, or a full-day hourly hire.</p>
-        <p><strong>Book now:</strong> <a href="${BOOK}">book.ariablackcarservice.com/book</a> · ${PHONE} · <a href="mailto:bookings@ariablackcarservice.com">bookings@ariablackcarservice.com</a></p>
+        <p><strong>Book now:</strong> <a href="${BOOK}">book.ariablackcarservice.com/book</a> · ${PHONE} · <a href="mailto:info@ariablackcarservice.com">info@ariablackcarservice.com</a></p>
         <h2>When to book point-to-point vs something else</h2>
         <ul class="check-list">
           <li><strong>One pickup, one drop, no airport:</strong> this page. Quote is distance-based.</li>
@@ -300,7 +300,7 @@ const pages = {
     bodyHtml: `
         <p class="lead">Book long distance car service NYC when the destination is outside the five boroughs and you want a private car, not a train platform. Aria publishes sedan and SUV flats to Boston, Philadelphia, Washington DC, the Hamptons, Montauk, Atlantic City, Greenwich, Princeton, and New Haven. Rate is locked at booking. No surge.</p>
         <p>Chauffeur, fuel, and standard tolls are in the base rate. Gratuity (20%), NYS sales tax (8.87%), and card processing (3.5%) show as separate lines before you confirm.</p>
-        <p><strong>Book now:</strong> <a href="${BOOK}">book.ariablackcarservice.com/book</a> · ${PHONE} · <a href="mailto:bookings@ariablackcarservice.com">bookings@ariablackcarservice.com</a></p>
+        <p><strong>Book now:</strong> <a href="${BOOK}">book.ariablackcarservice.com/book</a> · ${PHONE} · <a href="mailto:info@ariablackcarservice.com">info@ariablackcarservice.com</a></p>
         <h2>Published long-distance flats</h2>
         <table class="pricing-table">
           <thead><tr><th>Route</th><th>Sedan</th><th>SUV</th></tr></thead>
@@ -345,7 +345,7 @@ const pages = {
     bodyHtml: `
         <p class="lead">Book wedding transportation NYC with Aria when the day has a timeline, not a single rideshare ping. Escalades and Sprinters, coordinated multi-vehicle pickups, and a dispatcher who holds the ceremony-to-cocktail-to-reception clock. TLC-licensed chauffeurs. Rate locked when you book. No surge because it is Saturday.</p>
         <p>Aria's live site flags 1–2 weeks' notice for weddings and special events. Online booking still needs 12 hours; inside 12 hours call ${PHONE}. Do not wait until the rehearsal dinner.</p>
-        <p><strong>Book now:</strong> <a href="${BOOK}">book.ariablackcarservice.com/book</a> · ${PHONE} · <a href="mailto:bookings@ariablackcarservice.com">bookings@ariablackcarservice.com</a></p>
+        <p><strong>Book now:</strong> <a href="${BOOK}">book.ariablackcarservice.com/book</a> · ${PHONE} · <a href="mailto:info@ariablackcarservice.com">info@ariablackcarservice.com</a></p>
         <h2>What gets booked for a wedding</h2>
         <ul class="check-list">
           <li><strong>Cadillac Escalade</strong> — 6 passengers, 6 bags. Couple, parents, small bridal party.</li>
@@ -385,7 +385,7 @@ const pages = {
     bodyHtml: `
         <p class="lead">Book Manhattan cruise terminal car service with Aria when you need a car at the pier, not a taxi line with six bags. Door-to-pier transfers for Manhattan and Brooklyn cruise terminals, luggage assistance, TLC-licensed chauffeur. Same company that does JFK: flight tracking if you are coming from the airport, then a second drop at the ship if that is the itinerary.</p>
         <p>Tell dispatch which terminal — Manhattan or Brooklyn — and whether the car is hotel → pier, home → pier, or airport → pier. Brooklyn and Manhattan are both on Aria's published cruise service. The primary booking on this page is the Manhattan cruise terminal; Brooklyn is the other pier we already run.</p>
-        <p><strong>Book now:</strong> <a href="${BOOK}">book.ariablackcarservice.com/book</a> · ${PHONE} · <a href="mailto:bookings@ariablackcarservice.com">bookings@ariablackcarservice.com</a></p>
+        <p><strong>Book now:</strong> <a href="${BOOK}">book.ariablackcarservice.com/book</a> · ${PHONE} · <a href="mailto:info@ariablackcarservice.com">info@ariablackcarservice.com</a></p>
         <h2>How the pier transfer works</h2>
         <ol class="steps-list">
           <li>Reserve 24 hours ahead when you can. Online minimum is 12 hours; same-day is ${PHONE}, 24/7.</li>
@@ -416,7 +416,7 @@ const pages = {
     bodyHtml: `
         <p class="lead">Book a private chauffeur tour with Aria when you want a car and a TLC-licensed driver for a set block of hours — not a hop-on bus. Aria already sells 4, 6, and 8-hour private itineraries with a local chauffeur. You choose the hours. The chauffeur stays with the car. No surge.</p>
         <p>Pricing is the published hourly table, not a separate tour menu.</p>
-        <p><strong>Book now:</strong> <a href="${BOOK}">book.ariablackcarservice.com/book</a> · ${PHONE} · <a href="mailto:bookings@ariablackcarservice.com">bookings@ariablackcarservice.com</a></p>
+        <p><strong>Book now:</strong> <a href="${BOOK}">book.ariablackcarservice.com/book</a> · ${PHONE} · <a href="mailto:info@ariablackcarservice.com">info@ariablackcarservice.com</a></p>
         <h2>How to price a chauffeur tour</h2>
         <p>Use <a href="/services/hourly">hourly rates</a>:</p>
         <table class="pricing-table">
@@ -456,7 +456,7 @@ const pages = {
           <li><strong>Drop-off only:</strong> <a href="/services/point-to-point">point-to-point</a> with an instant quote to the venue.</li>
           <li><strong>Car waits, or you want the same chauffeur at the final whistle:</strong> <a href="/services/hourly">hourly</a> from $90/hr, 3-hour minimum (Sprinter $200/hr, 5-hour minimum).</li>
         </ul>
-        <p><strong>Book now:</strong> <a href="${BOOK}">book.ariablackcarservice.com/book</a> · ${PHONE} · <a href="mailto:bookings@ariablackcarservice.com">bookings@ariablackcarservice.com</a></p>
+        <p><strong>Book now:</strong> <a href="${BOOK}">book.ariablackcarservice.com/book</a> · ${PHONE} · <a href="mailto:info@ariablackcarservice.com">info@ariablackcarservice.com</a></p>
         <h2>Venues on the live Aria page</h2>
         <p>Madison Square Garden · Yankee Stadium · MetLife Stadium · Barclays Center · US Open</p>
         <p>We are not adding arenas that are not on the site. If your event is elsewhere in the five boroughs, Westchester, or Northern NJ, it is still a normal point-to-point or hourly booking — call dispatch.</p>

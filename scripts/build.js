@@ -1161,7 +1161,6 @@ writePage("/contact", staticPage("contact", "Contact", "Contact Aria", `
   <p><strong>Phone:</strong> <a href="tel:${site.phoneTel}">${esc(site.phone)}</a> (24/7)</p>
   <p><strong>Email:</strong> <a href="mailto:${site.email}">${esc(site.email)}</a></p>
   <p><strong>Book:</strong> <a href="${esc(site.bookingUrl)}">${esc(site.bookingUrl)}</a></p>
-  <p><strong>General:</strong> <a href="mailto:${site.infoEmail}">${esc(site.infoEmail)}</a></p>
   <p><strong>Service area:</strong> NYC five boroughs, Long Island, New Jersey, Connecticut, Nassau County, Suffolk County.</p>
 `));
 urls.push("/contact");
@@ -1221,7 +1220,7 @@ writePage("/sitemap", htmlSitemapPage());
 urls.push("/sitemap");
 
 writePage("/terms", staticPage("terms", "Terms of Service", "Terms of Service", `<p>By booking with Aria Black Car Service you agree to our cancellation policy: 24+ hours notice for full refund. Quoted rates are base fares; a 20% standard gratuity, 8.87% NYS sales tax, and 3.5% card processing fee are itemized at checkout. Chauffeurs wait 60 minutes complimentary at airports.</p>`));
-writePage("/privacy", staticPage("privacy", "Privacy Policy", "Privacy Policy", `<p>We collect booking information to provide transportation services. We do not sell personal data. Contact ${site.infoEmail} for data requests.</p>`));
+writePage("/privacy", staticPage("privacy", "Privacy Policy", "Privacy Policy", `<p>We collect booking information to provide transportation services. We do not sell personal data. Contact ${site.email} for data requests.</p>`));
 urls.push("/terms", "/privacy");
 
 fs.writeFileSync(path.join(OUT, "robots.txt"), `User-agent: *\nDisallow: /\n`);
