@@ -48,7 +48,7 @@ npx vercel --prod
 | Item | Location |
 |------|----------|
 | Phone number | Search for `8889002742` / `(888) 900-2742` in `index.html` |
-| Email addresses | `bookings@` and `info@ariablackcarservice.com` |
+| Email addresses | `info@ariablackcarservice.com` |
 | Pricing | `#pricing` section in `index.html` |
 | Hero video | `<video>` source in hero section |
 | Fleet photos | Replace Unsplash URLs with your own vehicle images |

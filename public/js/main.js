@@ -246,6 +246,6 @@ function initBookingForm() {
       `Name: ${name}\nPhone: ${phone}\nService: ${service}\nDate/Time: ${date}\nPickup: ${pickup}\nDrop-off: ${dropoff}\n\nPlease send a flat-rate quote.`
     );
 
-    window.location.href = `mailto:bookings@ariablackcarservice.com?subject=${subject}&body=${body}`;
+    window.location.href = `mailto:info@ariablackcarservice.com?subject=${subject}&body=${body}`;
   });
 }
