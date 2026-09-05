@@ -1,5 +1,4 @@
 User-agent: *
-Disallow: /
+Allow: /
 
-# Aria is the experimental brand. Keep it out of the index so it
-# does not cannibalize nobleblackcarservice.com.
+Sitemap: https://ariablackcarservice.com/sitemap.xml
