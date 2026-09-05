@@ -226,7 +226,7 @@ function footer() {
 
 function layout({ title, description, canonical, body, bc, schema, bodyClass = "", noindex }) {
   const canonicalUrl = `${site.domain}${canonical}`;
-  const robots = "noindex, nofollow";
+  const robots = noindex ? "noindex, nofollow" : "index, follow";
   const ogImg = hasOgImage() ? `${site.domain}${OG_IMAGE_PATH}` : "";
   const schemaHtml = schema
     ? (schema.trim().startsWith("<script") ? schema : `<script type="application/ld+json">${schema}</script>`)
@@ -1011,6 +1011,7 @@ function patchHomepage(html) {
       </nav>`;
 
   return html
+    .replace(/<meta name="robots" content="noindex, nofollow" \/>/, '<meta name="robots" content="index, follow" />')
     .replace(/<nav class="nav-links"[\s\S]*?<\/nav>/, newNav)
     .replace(/href="#"/g, 'href="/"')
     .replace(/href="#services"/g, 'href="/services"')
@@ -1223,7 +1224,7 @@ writePage("/terms", staticPage("terms", "Terms of Service", "Terms of Service", 
 writePage("/privacy", staticPage("privacy", "Privacy Policy", "Privacy Policy", `<p>We collect booking information to provide transportation services. We do not sell personal data. Contact ${site.email} for data requests.</p>`));
 urls.push("/terms", "/privacy");
 
-fs.writeFileSync(path.join(OUT, "robots.txt"), `User-agent: *\nDisallow: /\n`);
+fs.writeFileSync(path.join(OUT, "robots.txt"), `User-agent: *\nAllow: /\n\nSitemap: https://ariablackcarservice.com/sitemap.xml\n`);
 const sitemapUrls = [
   "/",
   "/services",
